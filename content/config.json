@@ -1,11 +1,11 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Rick van Lieshout ~ Mastermindzh",
+  "url": "https://rickvanlieshout.com",
+  "subtitle": "The thoughts, discoveries and murmurings of a Software enthusiast",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "googleAnalyticsId": "",
   "disqusShortname": "",
-  "postsLimit": 4,
+  "postsLimit": 10,
   "pathPrefix": "/",
   "menu": [
     {
@@ -17,28 +17,36 @@
       "path": "/pages/about"
     },
     {
+      "label": "Resume",
+      "path": "/pages/resume"
+    },
+    {
+      "label": "Portfolio",
+      "path": "/pages/portfolio"
+    },
+    {
       "label": "Contact me",
       "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
-    "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "name": "Rick van Lieshout",
+    "photo": "/me.png",
+    "bio": "Passionate about minimalistic software, the Linux philosophy, doing things right and having fun. Currently working as the lead Software Architect @ INFORIT",
     "contacts": {
+      "email": "info@rickvanlieshout.com",
+      "github": "mastermindzh",
+      "facebook": "",
       "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
+      "twitter": "mastermindzh",
+      "linkedin": "rickvanlieshout",
+      "youtube": "RickvanLieshoutt",
+      "instagram": "",
       "line": "",
+      "telegram": "",
       "weibo": "",
       "gitlab": "",
       "medium": "",
-      "youtube": "",
       "codepen": "",
       "soundcloud": ""
     }

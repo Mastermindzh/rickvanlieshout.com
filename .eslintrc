@@ -1,23 +1,16 @@
 {
-  "env": {
-    "node": true,
-    "browser": true,
-    "jasmine": true,
-    "jest/globals": true
-  },
+
   "extends": [
     "plugin:import/typescript",
     "plugin:import/errors",
     "airbnb-typescript",
-    "@alxshelepenok/eslint-config",
-    "prettier"
+    "@mastermindzh/eslint-config"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "plugins": [
-    "import",
     "react",
     "jest",
     "@typescript-eslint",
@@ -34,15 +27,6 @@
         ]
       }
     ],
-    "import/order": ["off"],
-    "import/no-internal-modules": ["off"],
-    "import/no-named-as-default": ["off"],
-    "import/prefer-default-export": ["off"],
-    "sort-keys": ["off"],
-    "camelcase": ["off"],
-    "comma-dangle": ["error", "always-multiline"],
-    "sort-imports": ["off"],
-    "no-restricted-globals": ["off"],
     "@typescript-eslint/no-unused-vars": ["off"],
     "@typescript-eslint/no-use-before-define": ["off"],
     "@typescript-eslint/quotes": ["error", "double"],
@@ -52,21 +36,7 @@
       "selector": "parameter"
     }],
     "react/static-property-placement": ["off"],
-    "react/prop-types": ["off"],
-    "simple-import-sort/imports": [
-      "error",
-      {
-        "groups": [
-          ["^(react|path)"],
-          ["^\\u0000"],
-          ["^@?\\w"],
-          ["^[^. ]"],
-          ["^\\."],
-          ["^(images|!!raw-loader)"],
-          ["w*(w*.*css)"]
-        ]
-      }
-    ]
+    "react/prop-types": ["off"]
   },
   "settings": {
     "import/resolver": {
