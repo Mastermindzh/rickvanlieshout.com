@@ -12,12 +12,10 @@ exports[`CategoriesTemplate renders correctly 1`] = `
           <a
             href="/"
           >
-            John Doe
+            Rick van Lieshout
           </a>
         </h2>
-        <p>
-          Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
-        </p>
+        <p />
       </div>
       <nav>
         <ul>

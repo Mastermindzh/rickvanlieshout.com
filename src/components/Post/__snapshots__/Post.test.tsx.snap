@@ -31,16 +31,13 @@ exports[`Post renders correctly 1`] = `
     </div>
     <div>
       <p>
-        Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+        Written by: 
         <a
-          href="https://www.twitter.com/#"
-          rel="noopener noreferrer"
-          target="_blank"
+          href="/pages/about"
         >
           <strong>
-            John Doe
+            Rick van Lieshout
           </strong>
-           on Twitter
         </a>
       </p>
     </div>
