@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 
 import { useSiteMetadata } from "@/hooks";
 
+import { CookieBar } from "../Cookiebar/CookieBar";
 import * as styles from "./Layout.module.scss";
 
 interface Props {
@@ -35,6 +36,7 @@ const Layout: React.FC<Props> = ({
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
       </Helmet>
+      <CookieBar />
       {children}
     </div>
   );

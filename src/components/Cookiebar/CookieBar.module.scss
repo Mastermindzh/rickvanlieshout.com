@@ -1,0 +1,47 @@
+@import "../../assets/scss/variables";
+
+$shadow: 0px -1px 5px rgba(50, 50, 50, 0.75);
+
+.cookieBar {
+  align-items: baseline;
+  background: #fff;
+  border-top: 1px solid #808080;
+  bottom: 0px;
+
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.content {
+  flex: 1 0 300px;
+  margin: 15px;
+}
+
+.button {
+  background: #fff;
+  border: 1px solid $color-gray-border;
+  border-radius: $button-border-radius;
+  color: $color-base;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: $typographic-base-font-size;
+  font-weight: normal;
+  height: $button-height;
+  margin: 15px;
+  padding: 5px 10px;
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
+}
