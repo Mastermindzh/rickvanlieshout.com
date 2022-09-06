@@ -2,6 +2,44 @@
 
 exports[`CategoryTemplate renders correctly 1`] = `
 <div>
+  <div
+    className="CookieConsent"
+    style={
+      Object {
+        "bottom": "0",
+      }
+    }
+  >
+    <div
+      className=""
+      style={Object {}}
+    >
+      This website uses cookies to enhance the user experience.
+       
+      <small>
+        Click 
+        <a
+          href="/"
+        >
+          here
+        </a>
+         to learn more about cookies.
+      </small>
+    </div>
+    <div
+      className=""
+    >
+      <button
+        aria-label="Accept cookies"
+        className=""
+        id="rcc-confirm-button"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        I understand
+      </button>
+    </div>
+  </div>
   <div>
     <div>
       <div>
