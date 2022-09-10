@@ -5,10 +5,11 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 ## Todo
 
 - Add a dark mode
-- custom blog header
+
 - migrate resume
 - migrate projects
 - migrate some example blogs
+
 - release to sftp or gh-pages
 - "time to read"
 - Maybe improve the cookie page with actual cookie data?

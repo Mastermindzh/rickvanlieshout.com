@@ -2,12 +2,34 @@
 
 exports[`Post renders correctly 1`] = `
 <div>
-  <a
-    href="/"
-  >
-    All Articles
-  </a>
   <div>
+    <div>
+      <span>
+        <span>
+          <a
+            href="/"
+          >
+            Rick 
+            <span>
+              van Lieshout
+            </span>
+          </a>
+        </span>
+      </span>
+      <span>
+        <a
+          href="/"
+          style={
+            Object {
+              "lineHeight": "50px",
+              "marginRight": "10px",
+            }
+          }
+        >
+          ↩ All articles
+        </a>
+      </span>
+    </div>
     <div>
       <h1>
         Perfecting the Art of Perfection

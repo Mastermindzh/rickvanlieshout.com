@@ -23,9 +23,19 @@ include:
 Cookies like these are stored for pretty much every website you
 visit and they make the World Wide Web what it is today.
 
+## The EU cookie law
+
 Since mid 2015 every website which is either hosted in Europe or
 targets the European market is required to inform and get consent from
 users about using cookies. This is usually done with a bar at the
 bottom of the page which can be dismissed with a simple button. More
 information about the legislation around the cookie law can be found
 [here](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies).
+
+## Revoking cookie access
+
+All well known browser offer a way for you to revoke any cookie. Explore the links below to learn more.
+
+- [Deleting cookies in Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en)
+- [Deleting cookies in Firefox](https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored)
+- [Deleting cookies in Edge](https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy)
