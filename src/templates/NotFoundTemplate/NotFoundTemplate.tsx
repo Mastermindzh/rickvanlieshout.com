@@ -4,6 +4,7 @@ import { Layout } from "@/components/Layout";
 import { Page } from "@/components/Page";
 import { Sidebar } from "@/components/Sidebar";
 import { useSiteMetadata } from "@/hooks";
+import { Link } from "gatsby";
 
 const NotFoundTemplate: React.FC = () => {
   const { title, subtitle } = useSiteMetadata();
@@ -11,8 +12,12 @@ const NotFoundTemplate: React.FC = () => {
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="NOT FOUND">
-        <p>You just hit a route that doesn't exist... the sadness.</p>
+      <Page title="Oh no! page be lost">
+        <p>
+          You've stumbled upon a link that doesn't work anymore {":("}
+          <br />
+          Use the menu to navigate around or click <Link to="/">here</Link> to go to the main page.
+        </p>
       </Page>
     </Layout>
   );

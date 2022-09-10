@@ -141,6 +141,12 @@ exports[`Sidebar renders correctly 1`] = `
     <nav>
       <ul />
     </nav>
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      Switch to light mode
+    </a>
   </div>
 </div>
 `;

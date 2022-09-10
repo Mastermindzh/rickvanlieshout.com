@@ -7,6 +7,7 @@ import { Menu } from "./Menu";
 
 import * as styles from "./Sidebar.module.scss";
 import { useSiteMetadata } from "@/hooks";
+import ThemeSwitcher from "../DarkmodeSwitch/ThemeSwitcher";
 
 type Props = {
   isIndex?: boolean;
@@ -23,6 +24,7 @@ const Sidebar = ({ isIndex }: Props) => {
         <Contacts contacts={author.contacts} />
         <Copyright copyright={copyright} />
         <Menu menu={legalMenu} />
+        <ThemeSwitcher />
       </div>
     </div>
   );

@@ -4,10 +4,13 @@ template: "page"
 ---
 
 A cookie is a small text file that a website saves on the client
-computer (your computer) to make the website function better. Some
-examples of what cookies are used for:
+computer (your computer) to make the website function better.
+Note that these files can be stored as actual "cookies" or as "local/session storage".<br />
+I will be using Cookie to refer to both in the rest of this article
 
-- Remembering what language the website should be in
+Some examples of what cookies are used for:
+
+- Remembering what language/theme the website should be in
 - Storing your cart when shopping online
 - Keeping you logged in
 

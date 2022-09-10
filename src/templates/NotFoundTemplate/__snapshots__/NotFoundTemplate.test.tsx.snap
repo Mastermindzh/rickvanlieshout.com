@@ -142,16 +142,31 @@ exports[`NotFoundTemplate renders correctly 1`] = `
       <nav>
         <ul />
       </nav>
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Switch to light mode
+      </a>
     </div>
   </div>
   <div>
     <div>
       <h1>
-        NOT FOUND
+        Oh no! page be lost
       </h1>
       <div>
         <p>
-          You just hit a route that doesn't exist... the sadness.
+          You've stumbled upon a link that doesn't work anymore 
+          :(
+          <br />
+          Use the menu to navigate around or click 
+          <a
+            href="/"
+          >
+            here
+          </a>
+           to go to the main page.
         </p>
       </div>
     </div>

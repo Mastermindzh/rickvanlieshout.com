@@ -3,9 +3,9 @@
 
 .header {
   align-items: baseline;
-  background: #fff;
+  background: $color-bg;
   border-bottom: 1px solid #808080;
-  color: #000;
+  color: $color-base;
   display: flex;
   height: 50px;
   justify-content: space-between;
@@ -33,7 +33,7 @@
   }
 
   .name {
-    color: #000;
+    color: $color-base;
   }
 }
 

@@ -1,14 +1,33 @@
 @use "sass:math";
 @use "sass:color";
 
-$color-base: hsl(0, 0%, 13%);
-$color-primary: hsl(220, 100%, 68%);
-$color-secondary: hsl(220, 100%, 68%);
+:root {
+  --bg-color: #fff;
+  --base: hsl(0, 0%, 13%);
+  --primary: hsl(220, 100%, 68%);
+  --secondary: hsl(220, 100%, 68%);
+  --gray: hsl(230, 23%, 23%);
+  --gray-border: hsl(230, 77%, 13%);
+}
 
+[data-theme="dark"] {
+  --bg-color: hsl(210, 3.7%, 10.6%);
+  --base: hsl(219, 14%, 71%);
+  --primary: hsl(220, 100%, 68%);
+  --secondary: hsl(220, 100%, 68%);
+  --gray-border: hsl(220, 10%, 40%);
+  --gray: hsl(0, 0%, 100%);
+}
+
+$color-bg: var(--bg-color);
+$color-base: var(--base);
+$color-primary: var(--primary);
+$color-secondary: var(--secondary);
 $color-white: hsl(0, 0%, 100%);
-$color-gray: color.adjust($color-base, $lightness: 40%);
-$color-gray-border: color.adjust($color-base, $lightness: 77%);
-$color-gray-bg: color.adjust($color-base, $lightness: 79%);
+
+$color-gray: color.adjust(hsl(0, 0%, 13%), $lightness: 30%);
+$color-gray-border: var(--gray-border);
+$color-gray-bg: var(--gray-border);
 
 $typographic-font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
 
