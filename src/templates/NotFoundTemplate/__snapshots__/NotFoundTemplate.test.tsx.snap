@@ -177,6 +177,9 @@ exports[`NotFoundTemplate renders correctly 1`] = `
       <div>
         All rights reserved.
       </div>
+      <nav>
+        <ul />
+      </nav>
     </div>
   </div>
   <div>

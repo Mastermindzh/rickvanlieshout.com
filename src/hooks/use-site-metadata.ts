@@ -32,6 +32,10 @@ const useSiteMetadata = () => {
               path
               label
             }
+            legalMenu {
+              path
+              label
+            }
             url
             title
             subtitle
@@ -40,7 +44,7 @@ const useSiteMetadata = () => {
           }
         }
       }
-    `,
+    `
   );
 
   return site.siteMetadata;

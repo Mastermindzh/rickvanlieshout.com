@@ -8,6 +8,7 @@ export default {
   siteMetadata: {
     url: config.url,
     menu: config.menu,
+    legalMenu: config.legalMenu,
     title: config.title,
     author: config.author,
     subtitle: config.subtitle,
@@ -171,8 +172,7 @@ export default {
               handler: "StaleWhileRevalidate",
             },
             {
-              urlPattern:
-                /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
               handler: "StaleWhileRevalidate",
             },
             {

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
+import * as styles from "./Page.module.scss";
 import type { Nullable } from "@/types";
 
-import * as styles from "./Page.module.scss";
 
 interface Props {
   title?: string;

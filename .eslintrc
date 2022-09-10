@@ -15,7 +15,8 @@
     "react",
     "jest",
     "@typescript-eslint",
-    "simple-import-sort"
+    "simple-import-sort",
+    "prettier"
   ],
   "rules": {
     "import/no-extraneous-dependencies": [

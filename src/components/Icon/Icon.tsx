@@ -1,8 +1,8 @@
 import React from "react";
 
+import * as styles from "./Icon.module.scss";
 import { ICONS } from "@/constants";
 
-import * as styles from "./Icon.module.scss";
 
 interface Props {
   name: keyof typeof ICONS;

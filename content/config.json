@@ -5,7 +5,7 @@
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "",
   "disqusShortname": "",
-  "postsLimit": 10,
+  "postsLimit": 7,
   "pathPrefix": "/",
   "menu": [
     {
@@ -29,6 +29,16 @@
       "path": "/pages/contacts"
     }
   ],
+  "legalMenu": [
+    {
+      "label": "Cookies",
+      "path": "/pages/legal/cookies"
+    },
+    {
+      "label": "Disclaimer",
+      "path": "/pages/legal/disclaimer"
+    }
+  ],
   "author": {
     "name": "Rick van Lieshout",
     "photo": "/me.png",
@@ -36,7 +46,7 @@
     "contacts": {
       "email": "info@rickvanlieshout.com",
       "github": "mastermindzh",
-      "facebook": "",
+      "facebook": "mastermindzh",
       "rss": "",
       "twitter": "mastermindzh",
       "linkedin": "rickvanlieshout",

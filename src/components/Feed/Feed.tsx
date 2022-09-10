@@ -2,9 +2,9 @@ import React from "react";
 
 import { Link } from "gatsby";
 
+import * as styles from "./Feed.module.scss";
 import { Edge } from "@/types";
 
-import * as styles from "./Feed.module.scss";
 
 type Props = {
   edges: Array<Edge>;

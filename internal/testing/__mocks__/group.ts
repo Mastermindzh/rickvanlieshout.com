@@ -1,10 +1,10 @@
 export default [
   {
-    fieldValue: "typography",
+    fieldValue: "technology",
     totalCount: 1,
   },
   {
-    fieldValue: "design inspiration",
+    fieldValue: "coding",
     totalCount: 1,
   },
 ];

@@ -1,11 +1,11 @@
 import React from "react";
 
+import * as styles from "./Contacts.module.scss";
 import { Icon } from "@/components/Icon";
 import { ICONS } from "@/constants";
 import { Dictionary } from "@/types";
 import { getContactHref, getIcon } from "@/utils";
 
-import * as styles from "./Contacts.module.scss";
 
 type Props = {
   contacts: Dictionary<string>;

@@ -2,6 +2,7 @@
 title: "Hello, I am Rick van Lieshout!"
 template: "page"
 ---
+
 Some people are bookworms, I am a bitworm.
 I fell in love with computing a long time ago and the virus could, fortunately, never be cured.
 Little by little, I gained experience in Computer Technology, Programming and IT design.
@@ -17,4 +18,4 @@ I've made a habit of openly challenging assumptions / solutions (even though peo
 This mentality drives me to not only get the best out of myself but others too, I like to cooperate with fellow developers to work towards a common goal.
 
 Even though software development is my main area of interest I am also passionate about Linux and DevOps.
-Besides the two major interests I also love to dabble in hardware, hi-fi and home automation.
+Besides the two major interests I also love to dabble in hardware, Hi-Fi and home automation.

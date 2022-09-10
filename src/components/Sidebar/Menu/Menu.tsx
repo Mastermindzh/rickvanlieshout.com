@@ -14,13 +14,9 @@ type Props = {
 const Menu: React.FC<Props> = ({ menu }: Props) => (
   <nav className={styles.menu}>
     <ul className={styles.list}>
-      {menu.map((item) => (
+      {menu?.map((item) => (
         <li className={styles.item} key={item.path}>
-          <Link
-            to={item.path}
-            className={styles.link}
-            activeClassName={styles.active}
-          >
+          <Link to={item.path} className={styles.link} activeClassName={styles.active}>
             {item.label}
           </Link>
         </li>

@@ -2,9 +2,9 @@ import React from "react";
 
 import { Link } from "gatsby";
 
+import * as styles from "./Author.module.scss";
 import { Image } from "@/components/Image";
 
-import * as styles from "./Author.module.scss";
 
 type Props = {
   author: {

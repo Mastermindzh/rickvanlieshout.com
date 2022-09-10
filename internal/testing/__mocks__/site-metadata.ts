@@ -4,12 +4,11 @@ import menu from "./menu";
 export default {
   site: {
     siteMetadata: {
-      url: "https://www.lumen.local",
-      title: "Blog by John Doe",
-      subtitle:
-        "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      url: "https://rickvanlieshout.com",
+      title: "Rick van Lieshout ~ Mastermindzh",
+      subtitle: "The thoughts, discoveries and murmurings of a Software enthusiast",
       copyright: "All rights reserved.",
-      postsPerPage: 4,
+      postsPerPage: 7,
       author,
       menu,
     },

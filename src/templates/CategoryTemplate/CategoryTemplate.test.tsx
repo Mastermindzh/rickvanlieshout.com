@@ -3,9 +3,9 @@ import renderer from "react-test-renderer";
 
 import { StaticQuery, useStaticQuery } from "gatsby";
 
+import CategoryTemplate from "./CategoryTemplate";
 import * as mocks from "@/mocks";
 
-import CategoryTemplate from "./CategoryTemplate";
 
 const mockedStaticQuery = StaticQuery as jest.Mock;
 const mockedUseStaticQuery = useStaticQuery as jest.Mock;
