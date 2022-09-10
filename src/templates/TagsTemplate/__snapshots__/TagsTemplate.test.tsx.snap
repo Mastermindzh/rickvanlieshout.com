@@ -191,9 +191,9 @@ exports[`TagsTemplate renders correctly 1`] = `
         <ul>
           <li>
             <a
-              href="/tag/typography/"
+              href="/tag/technology/"
             >
-              typography
+              technology
                (
               1
               )
@@ -201,9 +201,9 @@ exports[`TagsTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="/tag/design-inspiration/"
+              href="/tag/coding/"
             >
-              design inspiration
+              coding
                (
               1
               )
