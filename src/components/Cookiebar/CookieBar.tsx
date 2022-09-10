@@ -13,7 +13,9 @@ export const CookieBar = () => {
       buttonClasses={styles.button}
     >
       This website uses cookies to enhance the user experience.{" "}
-      <small>Click <Link to="/">here</Link> to learn more about cookies.</small>
+      <small>
+        Click <Link to="/pages/legal/cookies">here</Link> to learn more about cookies.
+      </small>
     </CookieConsent>
   );
 };

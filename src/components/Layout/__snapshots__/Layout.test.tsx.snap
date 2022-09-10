@@ -2,6 +2,7 @@
 
 exports[`Layout renders correctly 1`] = `
 <div>
+  test
   <div
     className="CookieConsent"
     style={
@@ -19,7 +20,7 @@ exports[`Layout renders correctly 1`] = `
       <small>
         Click 
         <a
-          href="/"
+          href="/pages/legal/cookies"
         >
           here
         </a>
@@ -40,6 +41,5 @@ exports[`Layout renders correctly 1`] = `
       </button>
     </div>
   </div>
-  test
 </div>
 `;

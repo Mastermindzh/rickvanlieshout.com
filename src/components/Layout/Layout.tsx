@@ -1,7 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
 
-
 import { CookieBar } from "../Cookiebar/CookieBar";
 import * as styles from "./Layout.module.scss";
 import { useSiteMetadata } from "@/hooks";
@@ -13,12 +12,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const Layout: React.FC<Props> = ({
-  children,
-  title,
-  description,
-  socialImage = "",
-}: Props) => {
+const Layout: React.FC<Props> = ({ children, title, description, socialImage = "" }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
   const metaImageUrl = url + metaImage;
@@ -36,8 +30,8 @@ const Layout: React.FC<Props> = ({
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
       </Helmet>
-      <CookieBar />
       {children}
+      <CookieBar />
     </div>
   );
 };
