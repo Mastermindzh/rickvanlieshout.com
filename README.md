@@ -12,13 +12,15 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 
   - hide mode toggler
   - hide "all articles" link in posts
+  - hide menu
+  - hide social buttons
+  - change "header title"
 
-- Change theme of prism.js
 - "time to read" (https://www.gatsbyjs.com/plugins/gatsby-remark-reading-time/)
 <!-- migrations -->
 - migrate resume
 - migrate projects
-- migrate some example blogs
+- migrate blogs
 
 <!-- optional stuff -->
 
