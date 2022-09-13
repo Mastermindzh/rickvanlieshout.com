@@ -1,6 +1,7 @@
 import { Image } from "@/components/Image";
 import { Link } from "gatsby";
 import React, { FunctionComponent } from "react";
+import { ThemeSwitcher } from "../ThemeSwitcher/ThemeSwitcher";
 import * as styles from "./PostHeader.module.scss";
 
 type Props = { author: { name: string; photo: string } };
@@ -21,6 +22,7 @@ export const PostHeader: FunctionComponent<Props> = ({ author }) => {
         <Link to="/" style={{ lineHeight: "50px", marginRight: "10px" }}>
           ↩ All articles
         </Link>
+        <ThemeSwitcher showLabel={false} />
       </span>
     </div>
   );

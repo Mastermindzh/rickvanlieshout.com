@@ -2,8 +2,6 @@
 @import "../../../assets/scss/mixins";
 
 .menu {
-  @include margin-bottom(1);
-
   .list {
     list-style: none;
     @include margin-equal(0);

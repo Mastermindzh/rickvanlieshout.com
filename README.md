@@ -4,10 +4,6 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 
 ## Todo
 
-- Add a better dark mode toggle
-
-  - show in posts view
-
 - print view
 
   - hide mode toggler
