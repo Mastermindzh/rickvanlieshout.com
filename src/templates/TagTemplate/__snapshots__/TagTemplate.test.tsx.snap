@@ -336,7 +336,7 @@ exports[`TagTemplate renders correctly 1`] = `
               href="/typography/page/3"
               rel="next"
             >
-              → NEXT
+              NEXT →
             </a>
           </div>
         </div>

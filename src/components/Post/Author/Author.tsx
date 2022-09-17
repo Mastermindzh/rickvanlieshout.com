@@ -12,7 +12,11 @@ const Author = () => {
         <a href="/pages/about">
           <strong>{author.name}</strong>
         </a>
-        <span className="showInPrintView"> {`@ ${window.location}`}</span>
+        {typeof window !== "undefined" ? (
+          <span className="showInPrintView"> {window ? `@ ${window.location}` : ""}</span>
+        ) : (
+          ""
+        )}
       </p>
     </div>
   );

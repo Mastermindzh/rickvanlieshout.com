@@ -4,14 +4,14 @@ $shadow: 0px -1px 5px rgba(50, 50, 50, 0.75);
 
 .cookieBar {
   align-items: baseline;
-  background: #fff;
-  border-top: 1px solid #808080;
+  background: $color-bg;
+  border-top: 1px solid $color-gray-border;
   bottom: 0px;
 
   -webkit-box-shadow: $shadow;
   -moz-box-shadow: $shadow;
   box-shadow: $shadow;
-  color: #000;
+  color: $color-base;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -27,7 +27,7 @@ $shadow: 0px -1px 5px rgba(50, 50, 50, 0.75);
 }
 
 .button {
-  background: #fff;
+  background: $color-bg;
   border: 1px solid $color-gray-border;
   border-radius: $button-border-radius;
   color: $color-base;

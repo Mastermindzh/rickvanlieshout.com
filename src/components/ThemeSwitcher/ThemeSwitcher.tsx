@@ -9,6 +9,9 @@ import { Themes } from "./Themes";
 type Props = { showLabel: boolean };
 
 export const ThemeSwitcher: FunctionComponent<Props> = ({ showLabel }) => {
+  if (typeof document === "undefined") {
+    return null;
+  }
   const initTheme = document.documentElement.dataset.theme;
   const [theme, setTheme] = useState(initTheme);
 
