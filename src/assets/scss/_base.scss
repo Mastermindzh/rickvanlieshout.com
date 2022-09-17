@@ -1,3 +1,17 @@
 @charset "UTF-8";
 
 @import "base/generic";
+
+.showInPrintView {
+  display: none;
+}
+
+@media print {
+  .hideInPrintView {
+    display:none;
+  }
+
+  .showInPrintView {
+    display: initial;
+  }
+}

@@ -3,7 +3,8 @@
 exports[`Author renders correctly 1`] = `
 <div>
   <p>
-    Written by: 
+    Written by:
+     
     <a
       href="/pages/about"
     >
@@ -11,6 +12,12 @@ exports[`Author renders correctly 1`] = `
         Rick van Lieshout
       </strong>
     </a>
+    <span
+      className="showInPrintView"
+    >
+       
+      @ http://localhost/
+    </span>
   </p>
 </div>
 `;

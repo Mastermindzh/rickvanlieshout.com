@@ -28,7 +28,7 @@ const Post: React.FC<Props> = ({ post }: Props) => {
         <Author />
       </div>
 
-      <div className={styles.comments}>
+      <div className={`${styles.comments} hideInPrintView`}>
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
     </div>

@@ -1,7 +1,5 @@
-import React from "react";
-
 import { Link } from "gatsby";
-
+import React from "react";
 import * as styles from "./Menu.module.scss";
 
 type Props = {
@@ -12,7 +10,7 @@ type Props = {
 };
 
 const Menu: React.FC<Props> = ({ menu }: Props) => (
-  <nav className={styles.menu}>
+  <nav className={`${styles.menu} hideInPrintView`}>
     <ul className={styles.list}>
       {menu?.map((item) => (
         <li className={styles.item} key={item.path}>

@@ -1,10 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Pagination renders correctly 1`] = `
-<div>
+<div
+  className="undefined"
+>
   <div>
     <a
-      className=""
+      className=" hideInPrintView"
       href="/typography/page/1"
       rel="prev"
     >
@@ -13,7 +15,7 @@ exports[`Pagination renders correctly 1`] = `
   </div>
   <div>
     <a
-      className=""
+      className=" hideInPrintView"
       href="/typography/page/3"
       rel="next"
     >

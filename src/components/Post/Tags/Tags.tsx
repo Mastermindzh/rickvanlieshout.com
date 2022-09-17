@@ -1,7 +1,5 @@
-import React from "react";
-
 import { Link } from "gatsby";
-
+import React from "react";
 import * as styles from "./Tags.module.scss";
 
 type Props = {
@@ -10,7 +8,7 @@ type Props = {
 };
 
 const Tags = ({ tags, tagSlugs }: Props) => (
-  <div className={styles.tags}>
+  <div className={`${styles.tags} hideInPrintView`}>
     <ul className={styles.list}>
       {tagSlugs
         ? tagSlugs.map((slug, i) => (

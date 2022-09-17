@@ -9,7 +9,6 @@ tags:
   - "Development"
   - "slsw"
 description: "The last day of my journey with Scala is said to be a challenge"
-# socialImage: "/media/42-line-bible.jpg"
 ---
 
 The book doesn't offer a day 4, my school, however, does. Or rather, it wants us to "create" a day 4. The main objective of day 4 is to "create a [smart](https://en.wikipedia.org/wiki/SMART_criteria) goal which fits the language and challenges you". For this purpose I came up with the following goal:

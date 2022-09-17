@@ -23,7 +23,7 @@ export const ThemeSwitcher: FunctionComponent<Props> = ({ showLabel }) => {
   }
 
   return (
-    <>
+    <span className="hideInPrintView">
       {showLabel && "Switch color mode:"}
       {showLabel && <br />}
       <Toggle
@@ -34,6 +34,6 @@ export const ThemeSwitcher: FunctionComponent<Props> = ({ showLabel }) => {
         }}
         onChange={toggleTheme}
       />
-    </>
+    </span>
   );
 };

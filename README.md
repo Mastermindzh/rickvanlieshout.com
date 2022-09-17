@@ -4,16 +4,11 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 
 ## Todo
 
-- print view
-
-  - hide mode toggler
-  - hide "all articles" link in posts
-  - hide menu
-  - hide social buttons
-  - change "header title"
-
 - "time to read" (https://www.gatsbyjs.com/plugins/gatsby-remark-reading-time/)
+- quote needs a visual indicator (like a line or quote mark) in front to show it's a quote
+
 <!-- migrations -->
+
 - migrate resume
 - migrate projects
 - migrate blogs
@@ -22,3 +17,4 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 
 - release to sftp or gh-pages
 - lighthouse doesn't like the blue... :)
+- url, id, title disqus

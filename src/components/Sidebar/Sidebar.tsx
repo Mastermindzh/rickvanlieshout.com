@@ -1,7 +1,6 @@
 import { useSiteMetadata } from "@/hooks";
 import React from "react";
 import { ThemeSwitcher } from "../ThemeSwitcher/ThemeSwitcher";
-
 import { Author } from "./Author";
 import { Contacts } from "./Contacts";
 import { Copyright } from "./Copyright";
@@ -19,11 +18,13 @@ const Sidebar = ({ isIndex }: Props) => {
     <div className={styles.sidebar}>
       <div className={styles.inner}>
         <Author author={author} isIndex={isIndex} />
-        <Menu menu={menu} />
-        <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
-        <Menu menu={legalMenu} />
-        <ThemeSwitcher showLabel />
+        <span className="hideInPrintView">
+          <Menu menu={menu} />
+          <Contacts contacts={author.contacts} />
+          <Copyright copyright={copyright} />
+          <Menu menu={legalMenu} />
+          <ThemeSwitcher showLabel />
+        </span>
       </div>
     </div>
   );
