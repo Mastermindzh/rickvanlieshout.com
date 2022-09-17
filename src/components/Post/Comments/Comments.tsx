@@ -7,9 +7,10 @@ import { useSiteMetadata } from "@/hooks";
 interface Props {
   postTitle: string;
   postSlug: string;
+  disqusId?: string;
 }
 
-const Comments: React.FC<Props> = ({ postTitle, postSlug }: Props) => {
+const Comments: React.FC<Props> = ({ postTitle, postSlug, disqusId }: Props) => {
   const { url, disqusShortname } = useSiteMetadata();
 
   if (!disqusShortname) {
@@ -21,7 +22,7 @@ const Comments: React.FC<Props> = ({ postTitle, postSlug }: Props) => {
       shortname={disqusShortname}
       config={{
         url: url + postSlug,
-        identifier: postTitle,
+        identifier: disqusId ?? postTitle,
         title: postTitle,
       }}
     />

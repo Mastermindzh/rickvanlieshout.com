@@ -6,6 +6,7 @@ interface Frontmatter {
   description?: string;
   tags?: Array<string>;
   socialImage?: string;
+  disqusId?: string;
 }
 
 export default Frontmatter;
