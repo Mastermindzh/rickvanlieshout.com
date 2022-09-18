@@ -3,7 +3,7 @@ title: Scala Day 4 - A challenge!
 date: "2017-04-05"
 template: "post"
 draft: false
-category: "Development"
+category: "Development/slsw"
 tags:
   - "Development"
   - "slsw"

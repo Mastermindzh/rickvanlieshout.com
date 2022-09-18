@@ -168,6 +168,33 @@ figcaption {
   text-align: center;
 }
 
+ol,
+ul {
+  padding-left: 5rem;
+}
+
+table {
+
+  // border: 1px solid $color-base;
+  border-collapse: collapse;
+  width: 70%;
+
+  th {
+    border-bottom: 1px solid $color-base;
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  tr,
+  th {
+    td {
+      padding: 0.3rem;
+      padding-left: 1rem;
+    }
+  }
+}
+
 @include breakpoint-sm {
 
   figure.float-left,
