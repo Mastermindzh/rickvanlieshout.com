@@ -26,7 +26,7 @@ After replacing the "failed" drive and letting the machine run for a while I got
 
 Something was up... and after countless hours of fighting with my server I finally figured it out. The SATA port on the controller was faulty. It didn't error, it didn't smoke, it looked fine. It even held on to the cable just fine (cause of those tiny little lips on SATA cables) so it was kinda hard to find out that the SATA port was faulty.
 
-![picture of a random yellow sata cable](./images/sata.jpg)
+![picture of a random yellow sata cable](./media/sata.jpg "a random yellow SATA cable")
 
 So, with a way to reproducibly "fail" known good drives it was just a matter of plugging the SATA cable into another port and go on with my day.... or so I thought....
 

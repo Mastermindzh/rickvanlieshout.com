@@ -3,7 +3,7 @@ title: Scala Day 1 - The Basics
 date: "2017-04-02"
 template: "post"
 draft: false
-category: "Development/slsw"
+category: "Development"
 tags:
   - "Development"
   - "slsw"

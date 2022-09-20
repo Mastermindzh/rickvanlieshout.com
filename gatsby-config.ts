@@ -98,11 +98,17 @@ export default {
             options: {
               maxWidth: 960,
               withWebp: true,
+              linkImagesToOriginal: false,
+              showCaptions: ["title"],
             },
           },
           {
             resolve: "gatsby-remark-responsive-iframe",
             options: { wrapperStyle: "margin-bottom: 1.0725rem" },
+          },
+          {
+            resolve: "gatsby-remark-images-medium-zoom",
+            options: { background: "rgb(0, 0, 0,50%)" },
           },
           "gatsby-remark-autolink-headers",
           "gatsby-remark-prismjs",

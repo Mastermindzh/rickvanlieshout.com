@@ -8,13 +8,21 @@ tags:
   - "architecture"
   - "writing"
 description: "Good software design practices and a few perfectionistic tendencies lead to almost 5 years without any writing. This blog is a deep dive into a few of the struggles of the past 5 years"
-# draft: false
 ---
 
 Wanting to perfect a site ...
 lots of theming issues
 
-## The posts query bug
+## Things I've changed
+
+- Darkmode + switch
+- Header on blogs
+- prism.js darkmode + themes
+- tables
+- quotes
+- image zoom
+
+### The posts query bug
 
 My website has a lot more pages than the official example on Github.
 Their postsQuery retrieves everything with a slug

@@ -3,7 +3,7 @@ title: Scala Day 3 - Concurrency is key!
 date: "2017-04-04"
 template: "post"
 draft: false
-category: "Development/slsw"
+category: "Development"
 tags:
   - "Development"
   - "slsw"

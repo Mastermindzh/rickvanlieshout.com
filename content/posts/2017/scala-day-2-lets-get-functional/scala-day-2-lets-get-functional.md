@@ -3,7 +3,7 @@ title: Scala Day 2 - Let's get functional
 date: "2017-04-03"
 template: "post"
 draft: false
-category: "Development/slsw"
+category: "Development"
 tags:
   - "Development"
   - "slsw"
