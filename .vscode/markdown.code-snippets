@@ -1,0 +1,15 @@
+{
+  "table": {
+    "prefix": ["table"],
+    "body": [
+      "<!-- prettier-ignore -->",
+      "|     |     |",
+      "| --- | --- |",
+      "|     |     |",
+      "|     |     |",
+      ""
+    ],
+    "description": "simple table"
+  },
+
+}
