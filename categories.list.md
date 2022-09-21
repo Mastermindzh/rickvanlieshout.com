@@ -9,3 +9,4 @@ A list of categories used in the blog
 | IOT          | anything to do with IOT                                  |
 | Homelab      | anything to do with my homelab (including smart home...) |
 | Development  | anything to do with regular development                  |
+| exploits     | blogs about exploits and bugs in open-source software    |
