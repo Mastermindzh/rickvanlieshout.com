@@ -125,6 +125,15 @@ p {
   @include margin-bottom(1);
 }
 
+ol,
+ul {
+  padding-left: 5rem;
+
+  p {
+    margin: 0 !important;
+  }
+}
+
 blockquote {
   border-color: #d9d9d9;
   border-style: solid;
@@ -166,11 +175,6 @@ figcaption {
   font-style: italic;
   margin-bottom: 0;
   text-align: center;
-}
-
-ol,
-ul {
-  padding-left: 5rem;
 }
 
 table {

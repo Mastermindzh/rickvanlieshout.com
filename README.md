@@ -10,7 +10,6 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 
 - migrate resume
 - migrate projects
-- migrate blogs
 
 <!-- optional stuff -->
 
