@@ -18,6 +18,9 @@ const postsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
           node {
             fields {
               slug
+              readingTime {
+                text
+              }
             }
           }
         }

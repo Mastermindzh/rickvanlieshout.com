@@ -19,6 +19,9 @@ const pagesQuery = async (graphql: CreatePagesArgs["graphql"]) => {
             }
             fields {
               slug
+              readingTime {
+                text
+              }
             }
           }
         }

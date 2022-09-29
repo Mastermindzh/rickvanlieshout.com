@@ -139,6 +139,9 @@ exports[`Post renders correctly 1`] = `
       <h1>
         Perfecting the Art of Perfection
       </h1>
+      <h2>
+        - 
+      </h2>
       <div
         dangerouslySetInnerHTML={
           {

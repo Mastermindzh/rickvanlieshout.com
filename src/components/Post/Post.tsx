@@ -13,13 +13,13 @@ interface Props {
 
 const Post: React.FC<Props> = ({ post }: Props) => {
   const { html } = post;
-  const { tagSlugs, slug } = post.fields;
+  const { tagSlugs, slug, readingTime } = post.fields;
   const { tags, title, date, disqusId } = post.frontmatter;
 
   return (
     <div className={styles.post}>
       <div className={styles.content}>
-        <Content body={html} title={title} />
+        <Content body={html} title={title} subTitle={readingTime?.text} />
       </div>
 
       <div className={styles.footer}>

@@ -258,7 +258,7 @@ exports[`TagTemplate renders correctly 1`] = `
               <time
                 dateTime="September 1, 2016"
               >
-                September 2016
+                September 1, 2016
               </time>
               <span />
               <span>
@@ -282,7 +282,8 @@ exports[`TagTemplate renders correctly 1`] = `
             <a
               href="/posts/perfecting-the-art-of-perfection"
             >
-              Read
+              Read (
+              )
             </a>
           </div>
           <div>
@@ -290,7 +291,7 @@ exports[`TagTemplate renders correctly 1`] = `
               <time
                 dateTime="September 1, 2016"
               >
-                September 2016
+                September 1, 2016
               </time>
               <span />
               <span>
@@ -314,7 +315,8 @@ exports[`TagTemplate renders correctly 1`] = `
             <a
               href="/posts/the-birth-of-movable-type"
             >
-              Read
+              Read (
+              )
             </a>
           </div>
         </div>

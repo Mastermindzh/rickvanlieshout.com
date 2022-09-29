@@ -13,6 +13,9 @@ interface Fields {
   slug?: string;
   categorySlug?: string;
   tagSlugs?: Array<string>;
+  readingTime?: {
+    text: string;
+  };
 }
 
 interface Node extends GatsbyNode {

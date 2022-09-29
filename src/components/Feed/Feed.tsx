@@ -5,7 +5,6 @@ import { Link } from "gatsby";
 import * as styles from "./Feed.module.scss";
 import { Edge } from "@/types";
 
-
 type Props = {
   edges: Array<Edge>;
 };
@@ -17,12 +16,14 @@ const Feed: React.FC<Props> = ({ edges }: Props) => (
         <div className={styles.meta}>
           <time
             className={styles.time}
-            dateTime={new Date(edge.node.frontmatter.date).toLocaleDateString(
-              "en-US",
-              { year: "numeric", month: "long", day: "numeric" },
-            )}
+            dateTime={new Date(edge.node.frontmatter.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
           >
-            {new Date(edge.node.frontmatter.date).toLocaleDateString("en-US", {
+            {new Date(edge.node.frontmatter.date).toLocaleDateString("en-Us", {
+              day: "numeric",
               year: "numeric",
               month: "long",
             })}
@@ -39,11 +40,9 @@ const Feed: React.FC<Props> = ({ edges }: Props) => (
             {edge.node.frontmatter.title}
           </Link>
         </h2>
-        <p className={styles.description}>
-          {edge.node.frontmatter.description}
-        </p>
+        <p className={styles.description}>{edge.node.frontmatter.description}</p>
         <Link className={styles.more} to={edge.node.fields.slug}>
-          Read
+          Read ({edge.node.fields.readingTime?.text})
         </Link>
       </div>
     ))}

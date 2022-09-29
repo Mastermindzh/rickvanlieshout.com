@@ -1,15 +1,12 @@
 import { GatsbyNode } from "gatsby";
 import { createFilePath } from "gatsby-source-filesystem";
+import readingTime from "reading-time";
 
 import * as constants from "./constants";
 import * as types from "./types";
 import * as utils from "./utils";
 
-const onCreateNode: GatsbyNode["onCreateNode"] = ({
-  node,
-  actions,
-  getNode,
-}) => {
+const onCreateNode: GatsbyNode["onCreateNode"] = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === "MarkdownRemark") {
@@ -31,12 +28,7 @@ const onCreateNode: GatsbyNode["onCreateNode"] = ({
 
     if (tags) {
       const value = tags.map((tag) =>
-        utils.concat(
-          constants.routes.tagRoute,
-          "/",
-          utils.toKebabCase(tag),
-          "/",
-        ),
+        utils.concat(constants.routes.tagRoute, "/", utils.toKebabCase(tag), "/")
       );
 
       createNodeField({ node, name: "tagSlugs", value });
@@ -47,11 +39,17 @@ const onCreateNode: GatsbyNode["onCreateNode"] = ({
         constants.routes.categoryRoute,
         "/",
         utils.toKebabCase(category),
-        "/",
+        "/"
       );
 
       createNodeField({ node, name: "categorySlug", value });
     }
+
+    createNodeField({
+      node,
+      name: "readingTime",
+      value: readingTime(node.rawMarkdownBody as string),
+    });
   }
 };
 
