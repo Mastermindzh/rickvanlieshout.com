@@ -4,6 +4,12 @@
 .post {
   .content {
     @include margin-auto();
+
+    &:after {
+      clear: both;
+      content: "";
+      display: block;
+    }
   }
 
   .footer {
