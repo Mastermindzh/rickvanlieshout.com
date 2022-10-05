@@ -78,7 +78,7 @@ Now that Eddy has left me completely I will just have to see where life takes me
 ## Farewell
 
 In the end though, I don't think anything can truly replace Eddy.
-I got Eddy an urn so I can have him in my life for the rest of mine.
+I got Eddy an [urn](https://www.urnwinkel.nl/fotolijst-dierenurn-zwart.html) so I can have him in my life for the rest of mine.
 Sleep well friend.
 
 ![Eddy lying on a blue towel at the veterinarian after receiving the lethal injection. He looks peaceful](./media/eddy-post-mortem.jpg 'Eddy peacefully "sleeping" post mortem')
