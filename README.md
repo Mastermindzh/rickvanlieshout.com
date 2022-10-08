@@ -4,6 +4,8 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 
 ## Todo
 
+- add phone number
+
 <!-- migrations -->
 
 - migrate resume
@@ -11,4 +13,4 @@ This is the repository for my personal blog/website [rickvanlieshout.com](https:
 
 <!-- optional stuff -->
 
-- release to sftp or gh-pages
+- release to cloudflare pages?
