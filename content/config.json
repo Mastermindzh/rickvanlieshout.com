@@ -46,7 +46,7 @@
       "email": "info@rickvanlieshout.com",
       "github": "mastermindzh",
       "facebook": "mastermindzh",
-      "rss": "",
+      "rss": "rss.xml",
       "twitter": "mastermindzh",
       "linkedin": "rickvanlieshout",
       "youtube": "RickvanLieshoutt",
@@ -57,7 +57,8 @@
       "gitlab": "",
       "medium": "",
       "codepen": "",
-      "soundcloud": ""
+      "soundcloud": "",
+      "phone": "+31614436562"
     }
   }
 }
