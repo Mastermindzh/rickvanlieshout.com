@@ -278,10 +278,7 @@ exports[`IndexTemplate renders correctly 1`] = `
             </p>
             <a
               href="/posts/perfecting-the-art-of-perfection"
-            >
-              Read (
-              )
-            </a>
+            />
           </div>
           <div>
             <div>
@@ -311,10 +308,7 @@ exports[`IndexTemplate renders correctly 1`] = `
             </p>
             <a
               href="/posts/the-birth-of-movable-type"
-            >
-              Read (
-              )
-            </a>
+            />
           </div>
         </div>
         <div

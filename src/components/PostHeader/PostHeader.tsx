@@ -1,5 +1,5 @@
 import { Image } from "@/components/Image";
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
 import React, { FunctionComponent } from "react";
 import { ThemeSwitcher } from "../ThemeSwitcher/ThemeSwitcher";
 import * as styles from "./PostHeader.module.scss";
@@ -24,9 +24,9 @@ export const PostHeader: FunctionComponent<Props> = ({ author }) => {
       </span>
 
       <span className="hideInPrintView">
-        <Link to="/" style={{ lineHeight: "50px", marginRight: "10px" }}>
-          ↩ All articles
-        </Link>
+        <a onClick={() => navigate(-1)} style={{ lineHeight: "50px", marginRight: "10px" }}>
+          ↩ Back to articles
+        </a>
         <ThemeSwitcher showLabel={false} />
       </span>
     </div>

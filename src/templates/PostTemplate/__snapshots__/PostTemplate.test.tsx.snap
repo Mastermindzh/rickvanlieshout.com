@@ -32,7 +32,7 @@ exports[`PostTemplate renders correctly 1`] = `
           className="hideInPrintView"
         >
           <a
-            href="/"
+            onClick={[Function]}
             style={
               {
                 "lineHeight": "50px",
@@ -40,7 +40,7 @@ exports[`PostTemplate renders correctly 1`] = `
               }
             }
           >
-            ↩ All articles
+            ↩ Back to articles
           </a>
           <span
             className="hideInPrintView"

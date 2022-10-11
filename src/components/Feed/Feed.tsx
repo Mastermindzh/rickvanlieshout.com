@@ -42,7 +42,7 @@ const Feed: React.FC<Props> = ({ edges }: Props) => (
         </h2>
         <p className={styles.description}>{edge.node.frontmatter.description}</p>
         <Link className={styles.more} to={edge.node.fields.slug}>
-          Read ({edge.node.fields.readingTime?.text})
+          {edge.node.fields.readingTime?.text && <>Read ({edge.node.fields.readingTime?.text})</>}
         </Link>
       </div>
     ))}
