@@ -16,4 +16,5 @@ test("getContactHref", () => {
   expect(getContactHref("soundcloud", "#")).toBe("https://soundcloud.com/#");
   expect(getContactHref("instagram", "#")).toBe("https://www.instagram.com/#");
   expect(getContactHref("linkedin", "#")).toBe("https://www.linkedin.com/in/#");
+  expect(getContactHref("phone", "+123")).toBe("tel:+123");
 });
