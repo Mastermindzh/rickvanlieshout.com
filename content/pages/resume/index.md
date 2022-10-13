@@ -2,11 +2,6 @@
 title: "Resume"
 template: "page"
 ---
-
-I'm a passionate software architect that bifurcates his love between great software development and leading teams to learn and adopt new things.
-
-## Personal info
-
 <!-- prettier-ignore -->
 |     |     |
 | --- | --- |
@@ -16,7 +11,7 @@ I'm a passionate software architect that bifurcates his love between great softw
 | website    | [rickvanlieshout.com](https://www.rickvanlieshout.com)    |
 | phone    |  [06 - 144 36 56 2](tel:+31614436562)   |
 | email    |  [info@rickvanlieshout.com](mailto:info@rickvanlieshout.com)   |
-| Hobbies    |  Technology & BBQ   |
+| Hobbies    |  Technology & cooking (especially BBQ)   |
 
 ## Work experience
 
