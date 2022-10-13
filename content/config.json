@@ -20,10 +20,6 @@
       "path": "/pages/resume"
     },
     {
-      "label": "Portfolio",
-      "path": "/pages/portfolio"
-    },
-    {
       "label": "Contact me",
       "path": "/pages/contacts"
     }

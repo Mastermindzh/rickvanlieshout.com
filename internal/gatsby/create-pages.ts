@@ -47,7 +47,6 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     if (node?.fields?.slug) {
       switch (node?.frontmatter?.template) {
         case "page":
-        case "portfolioItem":
           createPage({
             path: node.fields.slug,
             component: pageTemplate,
