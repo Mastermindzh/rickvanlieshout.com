@@ -189,6 +189,18 @@ export default {
         },
       },
     },
+    {
+      resolve: "gatsby-plugin-htaccess",
+      options: {
+        www: true,
+        host: "www.rickvanlieshout.com",
+        https: true,
+        redirect: [
+          "RewriteRule ^/?home/(.*)$ //$1 [L,R=301]",
+          "RewriteRule ^/?old/(.*)$ /new/$1 [L,R=301]",
+        ],
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
