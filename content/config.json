@@ -3,6 +3,7 @@
   "url": "https://rickvanlieshout.com",
   "subtitle": "The thoughts, discoveries and murmurings of a Software enthusiast",
   "copyright": "© All rights reserved.",
+  "googleAnalyticsId": "337306469",
   "disqusShortname": "rickvanlieshoutcom",
   "postsLimit": 5,
   "pathPrefix": "/",

@@ -20,6 +20,7 @@ projects which have been made by other people. Some of these
 include:
 
 - Disqus - A comment system for your website
+- Google analytics - To track info about the website (i.e how many times each page has been seen)
 - Social media (twitter, facebook, etc) - To add in those shiny "like" or "tweet" buttons.
 
 Cookies like these are stored for pretty much every website you
