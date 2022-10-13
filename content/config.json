@@ -20,10 +20,6 @@
       "path": "/pages/resume"
     },
     {
-      "label": "Portfolio",
-      "path": "/pages/portfolio"
-    },
-    {
       "label": "Contact me",
       "path": "/pages/contacts"
     }
@@ -41,7 +37,7 @@
   "author": {
     "name": "Rick van Lieshout",
     "photo": "/me.png",
-    "bio": "Passionate about minimalistic software, the Linux philosophy, doing things right and having fun. Currently working as the lead Software Architect @ INFORIT",
+    "bio": "I'm a passionate software architect that bifurcates his love between great software development and leading others to learn and adopt new things.",
     "contacts": {
       "email": "info@rickvanlieshout.com",
       "github": "mastermindzh",
