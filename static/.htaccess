@@ -1,6 +1,9 @@
 # Enable rewriting.
 RewriteEngine on
 
+# Error docs
+ErrorDocument 404 /404.html
+
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/rss+xml
@@ -65,11 +68,7 @@ RewriteRule ^(.*)$ http://www.mastermindzh.com/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
-# Redirect everything else to index.html.
-# Add QSA to ensure that querystring variables are registered as such.
-RewriteRule . index.html [L,QSA]
-
-
+# redirect old blog pages
 Redirect /home /
 Redirect /cookies /pages/legal/cookies
 Redirect /disclaimer /pages/legal/disclaimer
