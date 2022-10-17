@@ -1,6 +1,6 @@
 ---
 title: "Me, my blog, and projects."
-date: "2014-11-16"
+date: "2014-10-21"
 template: "post"
 category: "blog"
 tags:

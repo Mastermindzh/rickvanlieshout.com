@@ -11,6 +11,8 @@ description: "My final assignment for a school course is to learn a new language
 disqusId: "20"
 ---
 
+!["Logo of the scala programming language"](./scala.png)
+
 One of the final assignments for a school course called "APP" (Algorithms Programming language & Paradigms) was/is to learn a new programming language using the book "[Seven languages in Seven weeks](https://pragprog.com/book/btlang/seven-languages-in-seven-weeks)".
 
 The idea of this book is that you can get comfortable with a programming language in just a week. As you can probably guess from the title the book covers 7 languages in total and I will be covering at least 1 (Scala).

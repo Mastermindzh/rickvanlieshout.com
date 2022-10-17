@@ -1,6 +1,6 @@
 ---
 title: "Shellshock and why you shouldn't get your panties in a bunch."
-date: "2014-09-27:23:00"
+date: "2014-09-27 23:00"
 template: "post"
 category: "exploits"
 tags:

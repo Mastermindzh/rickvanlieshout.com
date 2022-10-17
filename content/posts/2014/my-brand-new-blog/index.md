@@ -1,6 +1,6 @@
 ---
 title: "My brand new blog"
-date: "2014-09-05"
+date: "2014-09-05 22:00"
 template: "post"
 category: "blog"
 tags:
