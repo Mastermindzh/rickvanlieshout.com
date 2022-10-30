@@ -26,6 +26,6 @@ That is why the team behind Numix has requested the package to be removed from t
 
 ## Arduino sneak peak.
 
-I acquired some new toys for the arduino, two of them being the "Adafruit mini 8x8 LED matrix". To use them I had to install 2 libraries, and with those came "Example sketches". One of those example sketches was a "Robotic eye", naturally with me having 2 new toys I decided to create a little "face" (just eyes) with the prebuilt sketches. Anyways I thought that looked cool so I made a video of it which you can watch below:
+I acquired some new toys for the arduino, two of them being the "Adafruit mini 8x8 LED matrix". To use them I had to install 2 libraries, and with those came "Example sketches". One of those example sketches was a "Robotic eye", naturally with me having 2 new toys I decided to create a little "face" (just eyes) with the prebuilt sketches. Anyways I thought that looked cool so I made a photo which you can view below:
 
-<iframe src="//www.youtube.com/embed/7WeG88fOVbA" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+!["two led matrices with green lights illustrating eyes"](./media/face.png "Google eyes... but matrix style")

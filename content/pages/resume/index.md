@@ -2,6 +2,7 @@
 title: "Resume"
 template: "page"
 ---
+
 <!-- prettier-ignore -->
 |     |     |
 | --- | --- |
@@ -14,6 +15,10 @@ template: "page"
 | Hobbies    |  Technology & cooking (especially BBQ)   |
 
 ## Work experience
+
+**Open-source aficionado**<br />
+_Always_<br />
+A fair share of my private work is done through open-source media. I don't have a portfolio but I have a [Github](https://github.com/mastermindzh) where I share most things.
 
 **Software architect at INFORIT**<br />
 _2018 - Now_<br />

@@ -1,0 +1,102 @@
+# Enable rewriting.
+RewriteEngine on
+
+# Error docs
+ErrorDocument 404 /404.html
+
+# Compress HTML, CSS, JavaScript, Text, XML and fonts
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/json
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/json
+AddOutputFilterByType DEFLATE text/xml
+
+# Remove browser bugs (only needed for really old browsers)
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+# Optional: do not allow perusal of directories.
+Options -Indexes
+
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301]
+
+RewriteCond %{HTTP_HOST} ^rickvanlieshout.com [NC]
+RewriteRule ^(.*)$ http://www.rickvanlieshout.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^mastermindzh.com [NC]
+RewriteRule ^(.*)$ http://www.mastermindzh.com/$1 [L,R=301]
+
+# Optional: explicitly enable per-directory rewrites in the .htaccess context.
+
+# To be able to access existing directories and files (standalone scripts).
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# redirect old blog pages
+Redirect /home /
+Redirect /cookies /pages/legal/cookies
+Redirect /disclaimer /pages/legal/disclaimer
+Redirect /contact /pages/contacts
+Redirect /resume /pages/resume
+Redirect /about /pages/about
+Redirect /blog/My_brand_new_blog /posts/2014/my-brand-new-blog/
+Redirect /blog/Raspberry_pi_cluster_the_parts /posts/2014/pi-cluster-1-shopping/
+Redirect /blog/Raspberry_pi_cluster_the_build /posts/2014/pi-cluster-2-the-build/
+Redirect /blog/Raspberry_pi_cluster_installing_the_os /posts/2014/pi-cluster-3-installing-the-os/
+Redirect /blog/Raspberry_pi_cluster_setting_up_the_master_node /posts/2014/pi-cluster-4-setting-up-the-master-node/
+Redirect /blog/Raspberry_pi_cluster_expanding_the_cluster /posts/2014/pi-cluster-5-expanding-the-cluster/
+Redirect /blog/Using_the_cluster_for_home_automation /posts/2014/using-the-cluster-for-home-automation/
+Redirect /blog/Shellshock_dont_get_your_panties_in_a_bunch /posts/2014/shellshock-why-you-shouldnt-get-your-panties-in-a-bunch/
+Redirect /blog/Me_my_blog_and_projects /posts/2014/me-my-blog-and-projects/
+Redirect /blog/status_update /posts/2014/a-status-update/
+Redirect /blog/new_look_new_comments_new_everything /posts/2015/new-look-new-comments-new-everything/
+Redirect /blog/what_ive_been_doing /posts/2015/what-ive-been-doing/
+Redirect /blog/raspberry_pi_screen /posts/2015/raspberry-pi-screen/
+Redirect /blog/making_things /posts/2015/making-things/
+Redirect /blog/TekTree-part-1 /posts/2015/tektree-part-1-a-christmas-surprise/
+Redirect /blog/TekTree-part-2 /posts/2015/tektree-part-2-lasercutting/
+Redirect /blog/TekTree-part-3 /posts/2015/tektree-part-3-wiring/
+Redirect /blog/TekTree-part-4 /posts/2015/tektree-part-4-programming/
+Redirect /blog/my-extended-leave /posts/2016/extended-leave-status-updates-and-other-stuff/
+Redirect /blog/slsw-day0 /posts/2017/scala-day-0-what-is-scala/
+Redirect /blog/slsw-day1 /posts/2017/scala-day-1-the-basics/
+Redirect /blog/slsw-day2 /posts/2017/scala-day-2-lets-get-functional/
+Redirect /blog/slsw-day3 /posts/2017/scala-day-3-concurrency-is-key/
+Redirect /blog/slsw-day4 /posts/2017/scala-day-4-a-challenge/
+Redirect /blog/keep-a-sata-port-available /posts/2017/keep-a-sata-port-available/

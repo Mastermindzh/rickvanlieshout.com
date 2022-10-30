@@ -5,7 +5,9 @@ import * as types from "./internal/gatsby/types";
 
 export default {
   pathPrefix: config.pathPrefix,
+  trailingSlash: "always",
   siteMetadata: {
+    siteUrl: config.url,
     url: config.url,
     menu: config.menu,
     legalMenu: config.legalMenu,
@@ -121,6 +123,15 @@ export default {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: [config.googleAnalyticsId],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
+    {
       resolve: "gatsby-plugin-sitemap",
       options: {
         query: `
@@ -185,5 +196,6 @@ export default {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-sass",
+    "gatsby-plugin-robots-txt",
   ],
 };
