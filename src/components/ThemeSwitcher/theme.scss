@@ -1,13 +1,14 @@
 .react-toggle {
   background-color: transparent;
   border: 0;
+  bottom: -5px;
   cursor: pointer;
 
   display: inline-block;
   padding: 0;
   position: relative;
 
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   touch-action: pan-x;
 
