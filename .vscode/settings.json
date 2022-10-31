@@ -2,5 +2,11 @@
     "cSpell.words": [
         "frontmatter",
         "slsw"
+    ],
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file"
+        }
     ]
 }
