@@ -10,7 +10,7 @@ tags:
   - "INFORIT"
   - "Standard releases"
 
-description: "A dive into conventional commits and their benefit whilst releasing with standard versions.1"
+description: "A dive into conventional commits and their benefit whilst releasing with standard versions."
 ---
 
 At my place of work, [INFORIT](http://inforit.nl/), we are talking about adopting conventional commits as a company standard.
