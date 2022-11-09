@@ -24,7 +24,7 @@ export const PostHeader: FunctionComponent<Props> = ({ author }) => {
       </span>
 
       <span className="hideInPrintView">
-        <a onClick={() => navigate(-1)} style={{ lineHeight: "50px", marginRight: "10px" }}>
+        <a onClick={() => navigate("/")} style={{ lineHeight: "50px", marginRight: "10px" }}>
           ↩ Back to articles
         </a>
         <ThemeSwitcher showLabel={false} />
