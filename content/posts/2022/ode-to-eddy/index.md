@@ -9,6 +9,7 @@ tags:
   - "dog"
 
 description: "Today we had to give a lethal injection to my furry friend Eddy. He will be honored appropriately and this post is one of the tools to do that."
+socialImage: "./media/eddy-2011.jpg"
 ---
 
 ![headshot of Eddy in his early years, jack-russel and fox mix](./media/eddy-2011.jpg "This is Eddy, January 30, 2011")
@@ -30,8 +31,8 @@ I love you Eddy. Always have. Always will. Rest in peace my friend.
 ## Why Eddy had to be put down
 
 <figure class="float-right" style="width: 240px">
-	<img src="/media/eddy-ribbon.jpg" alt="Eddy with a ribbon penetrating his body so the wounds won't close">
-	<figcaption>Such a cute boy with his ribbon, July 2016</figcaption>
+ <img src="/media/eddy-ribbon.jpg" alt="Eddy with a ribbon penetrating his body so the wounds won't close">
+ <figcaption>Such a cute boy with his ribbon, July 2016</figcaption>
 </figure>
 
 Of course this isn't the first time Eddy has had some issues with his health.
@@ -58,8 +59,8 @@ Though, after some thought I realized something that I'd realized before:
 > \- from the poem `thoughts` by Rick van Lieshout
 
 <figure class="float-left" style="width: 240px">
-	<img src="/media/eddy-hat.jpg" alt="Eddy with a beige hat on">
-	<figcaption>Very professional doggy. Early 2022</figcaption>
+ <img src="/media/eddy-hat.jpg" alt="Eddy with a beige hat on">
+ <figcaption>Very professional doggy. Early 2022</figcaption>
 </figure>
 
 And though those feelings are true. I also can't help but shake the sorrow I feel.

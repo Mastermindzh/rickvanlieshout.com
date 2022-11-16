@@ -9,6 +9,7 @@ tags:
   - "pi"
 description: "Assembling all the parts and creating a cute little cluster"
 disqusId: "3"
+socialImage: "./media/improvising.jpg"
 ---
 
 So today I finally received the required parts to finish up my Raspberry pi cluster and I was **extremely** excited! To share this excitement with you lot here's a picture of all the parts I'll be using:

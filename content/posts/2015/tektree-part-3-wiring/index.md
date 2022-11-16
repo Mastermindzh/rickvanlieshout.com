@@ -8,6 +8,7 @@ tags:
   - "christmas"
 description: "Read about me being tangled with wires and generally just making a mess of things"
 disqusId: "17"
+socialImage: "./media/wiring1.jpg"
 ---
 
 In the 3rd part of my TekTree project I'll show you guys how to wire everything. This time I even used separate colours for the power,ground and signal wires. So no more complaining ! ^\_^ All in all I think the result looks absolutely wicked. Even without the arduino case which has yet to come in the mail. (and probably won't fit)
@@ -24,7 +25,7 @@ The arduino will get power from a regular adaptor. The only modification I did t
 
 I want the project to be "manageable" for everyone. To do this I kept the wiring as simple as possible. Every LED has 2 prongs, 1 goes to ground 1 goes to the arduino. Simple. Same goes for the potentiometers, 3 legs, 1 power 1 ground 1 signal. The only led's I did bundle together (in terms of wiring) is the star. I did this to create a single star instead of multiple led's.
 
-## Well you could've made it way prettier... and....
+## Well you could've made it way prettier... and
 
 Well yes, as all of us know I'm perfectly capable of designing a [refined build](/images/blogs/han4pi/Front_thumb.png). I didn't want to go with a pcb this time however because that would make the barrier to entry way higher on this project. And that is something I definitely **don't** want.
 

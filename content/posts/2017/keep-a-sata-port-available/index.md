@@ -8,6 +8,7 @@ tags:
   - "homelab"
 description: "What was meant to be a simple hard drive migration turned into a long night due to a rogue sata cable"
 disqusId: "25"
+socialImage: "./media/sata.jpg"
 ---
 
 Servers.... Both a joy and a pain. This week my server has just been a pain though.... What should've been a relaxing night with some easy peasy hard drive replacements quickly turned into hours of downtime and lots of yelling and screaming :(
@@ -16,7 +17,7 @@ During my holiday stay (at [Tropical Islands](https://www.tropical-islands.de) i
 
 So, the drives arrived, I ran a quick benchmark followed by a quick drive test and all seemed fine with the first drive. At this point, I decide to open up the server and replace the first 500 GB hard drive. After a lot of gymnastics (trying to read drive labels while the drives are in the drive bays) I finally figured out which drive I should replace and I went to work on that drive. I was careful not to touch any of the other cables to avoid accidentally unplugging them and I thought I had done a good job. I remember thinking: "Drive replaced, cables still connected, not much hassle so far. Let's turn it on". And so I did.
 
-## Prepare for trouble...
+## Prepare for trouble
 
 My good mood was rudely interrupted by a loud beep followed by three, rapid, beeps. At first, I thought it was the regular old "fan not spinning" error (I use several ways to limit fan speed) but on further inspection, I realised that the fan was spinning just fine. Things were about to turn bad....
 

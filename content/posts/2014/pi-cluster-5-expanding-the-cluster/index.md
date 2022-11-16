@@ -9,6 +9,7 @@ tags:
   - "pi"
 description: "Today's blog post will be about expanding the cluster with more nodes."
 disqusId: "6"
+socialImage: "./media/pidark_full.JPG"
 ---
 
 In today's post we'll have a look at expanding the cluster with more nodes! We will have a look at how to clone them and how we can set up a universal login using ssh keys.
@@ -65,7 +66,7 @@ nano mpi_scripts/machinefile
 
 Simply add all the other pi's ip addresses to the file (each on a new line).
 
-## Testing!
+## Testing
 
 Now that we've added the pi's ip's to the machinefile we can use them from our master node. To test this we can run the following command:
 

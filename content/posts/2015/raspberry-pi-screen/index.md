@@ -11,6 +11,7 @@ tags:
   - "touchscreen"
 description: "A look at the new official raspberry pi touchscreen"
 disqusId: "13"
+socialImage: "./media/box.jpg"
 ---
 
 Hey guys, as some of you know I was really, and I mean **really**, excited when they announced the official raspberry pi screen. Now why is that might you ask? Everything the raspberry pi people have released so far has been really solid. The boards, the sd cards, the wifi-dongle, all of them work absolutely fantastic! So as soon as I saw that the official screen was available for pre-order in the UK I ordered myself one and started waiting.
@@ -66,7 +67,7 @@ The red and black cables provide power (and ground) to the pi from the logic boa
 
 The moment had arrived, I plugged the pi into a battery pack (creating a makeshift tablet-like device) and waited. First boot wasn't all that promising... Touch didn't work and I had an annoying little square in the top right. This was however not my first rodeo with a pi and I quickly worked out that the little square indicates insufficient input power. I did a quick update and after rebooting touch worked wonders! The only thing my makeshift tablet test was missing was some sort of input method for the keyboard. For this I used a program called "matchbox", which was available in the default repository. After playing around with touch for a bit I switched to a solid 2 amp power supply and the little, coloured square disappeared, as suspected.
 
-## That's nice and all... But we want a video...
+## That's nice and all... But we want a video
 
 Of course I prepared a little video, wouldn't be a showcase if I hadn't now would it. So here goes:
 

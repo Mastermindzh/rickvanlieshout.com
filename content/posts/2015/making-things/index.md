@@ -10,6 +10,7 @@ tags:
   - "raspberry"
 description: 'The creation process of a Raspberry PI based "game console" and its controllers'
 disqusId: "14"
+socialImage: "./media/fritzing_example.png"
 ---
 
 Even though this week has been extremely busy I wanted to bring you guys a little blog because the things I've been doing are truly wicked.
@@ -22,7 +23,7 @@ As some of you know, next semester I will be working on a (school issued) projec
 
 We do not yet know what this special assignment will entail but one thing we know for sure. WE ARE EXCITED ABOUT IT !
 
-## Maker thingies !
+## Maker thingies
 
 Even though I love software development, deep down I am also still a maker. And a maker likes to "make" things (go figure...), so when I got asked to do a project involving a Raspberry Pi I couldn't refuse. Even though I had no idea what exactly the project was going to entail I enlisted anyways.
 
@@ -34,7 +35,7 @@ So we came up with "pong". We are going to create simple controllers (based on p
 
 Throughout the entire project we will be using a [github repo](https://github.com/Mastermindzh/han4pi) to sync changes. One of the benefits of a github repo, apart from the actual git stuff, is that we automatically share all our code / designs. This means that anyone who is interested can either reproduce or follow along with us.
 
-## Enough talking, show us something!
+## Enough talking, show us something
 
 Well alright then, we've got a couple of things "ready" to show others. The first of which are the design schematics of our controllers and our "hubs".
 

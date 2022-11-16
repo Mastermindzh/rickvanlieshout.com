@@ -9,6 +9,7 @@ tags:
   - "pi"
 description: "Installing the raspberry pi OS (Raspbian) and prepping for a cluster"
 disqusId: "4"
+socialImage: "./media/windows.jpg"
 ---
 
 Installing an OS for a Raspberry pi is quite different from installing an OS on any other computer. We will have to write an "image" to the SD card rather than actually "installing" anything. Don't worry if you're confused just now, even I don't know what I'm rambling on about at times!

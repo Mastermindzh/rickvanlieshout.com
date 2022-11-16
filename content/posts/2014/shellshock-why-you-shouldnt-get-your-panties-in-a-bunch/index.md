@@ -10,12 +10,13 @@ tags:
   - "bug"
 description: "In today's blog I share my opinion on shellshock and why I think you shouldn't get your panties in a bunch! hah!"
 disqusId: "8"
+socialImage: "./media/hackzors.png"
 ---
 
 On September 24 2014, A Bash vulnerability, known as "Shellshock" was disclosed. This "bug" allows an attacker to run code on your machine, which is bad, very bad.
 
 <figure class="float-right" style="width: 420px">
-	<img src="/media/hackzors.png" alt="terminal with shellshock exploit">
+ <img src="/media/hackzors.png" alt="terminal with shellshock exploit">
 </figure>
 
 Now then, what exactly is "Shellshock". Shellshock is a "bug" (or vulnerability) that can be used to remotely run code on someone's machine by altering an environment variable. The real danger however lies in programs that can alter these variables without requiring root. Thus enabling anyone with access to your computer to run commands.

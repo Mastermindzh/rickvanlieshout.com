@@ -8,6 +8,7 @@ tags:
   - "school"
 description: ""
 disqusId: "10"
+socialImage: "./media/face.png"
 ---
 
 ## School
@@ -24,7 +25,7 @@ Last night a friend of mine tried installing the Numix square theme, something t
 
 That is why the team behind Numix has requested the package to be removed from the aur. And their request was granted. (as it should have been). Last night however we didn't have the tools handy to be able to make a purchase of the Icon theme, so I sent him my version and he installed that instead. I will however buy a license from them today, since I use the icon theme on pretty much all my machines.
 
-## Arduino sneak peak.
+## Arduino sneak peak
 
 I acquired some new toys for the arduino, two of them being the "Adafruit mini 8x8 LED matrix". To use them I had to install 2 libraries, and with those came "Example sketches". One of those example sketches was a "Robotic eye", naturally with me having 2 new toys I decided to create a little "face" (just eyes) with the prebuilt sketches. Anyways I thought that looked cool so I made a photo which you can view below:
 

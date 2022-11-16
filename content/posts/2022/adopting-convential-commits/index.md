@@ -11,6 +11,7 @@ tags:
   - "Standard releases"
 
 description: "A dive into conventional commits and their benefit whilst releasing with standard versions."
+socialImage: "./media/husky-error.png"
 ---
 
 At my place of work, [INFORIT](http://inforit.nl/), we are talking about adopting conventional commits as a company standard.

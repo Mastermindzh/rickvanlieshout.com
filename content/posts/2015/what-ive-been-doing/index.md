@@ -7,9 +7,10 @@ tags:
   - life
 description: "A brief update of what I've been up to lately "
 disqusId: "12"
+socialImage: "./media/mic1.jpg"
 ---
 
-## My goals....
+## My goals
 
 Last blog we talked about a couple of goals I set for myself. As usual, not all of these have been completed. But instead of focusing on the ones I didn't complete I'll focus on the ones I did.
 
@@ -31,7 +32,7 @@ I kinda made this goal.... kinda. Hear me out on this one ! When I wrote my last
 
 Only a few of the goals I had set I haven't reached. I have given up on losing weight and because of the extra portfolio work I didn't really start LSR either. 5 new tutorials is a detable goal. I haven't exactly written 5 tutorials but I have done some work on mi-soft.nl (and still wrote 2 tutorials). And 1 blogpost.... well I'm trying !
 
-## Losing some of my stuff!
+## Losing some of my stuff
 
 As I mentioned before I have lost some of my hardware to a lightning strike. I didn't just lose my motherboard however. I also lost my microphone (blue snowball), my keyboard (razer blackwidow), my xbox controller receiver, 8gb's of ram and some random usb peripherals. Some of the stuff was insured and thus I have gotten some money for it. However I did not simply want to replace the lost stuff, I wanted to upgrade too.
 

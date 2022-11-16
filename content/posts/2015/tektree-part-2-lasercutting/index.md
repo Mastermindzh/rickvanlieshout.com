@@ -8,6 +8,7 @@ tags:
   - "christmas"
 description: "Dangerous things involving lasers and christmassy figures. Fun!"
 disqusId: "16"
+socialImage: "./media/plate.jpg"
 ---
 
 Last friday I actually got to cut the parts for my TekTree! So excited! This is by far the biggest "piece" I have ever laser cut but luckily everything went well. This in part is thanks to my brilliant friend [Ron](http://www.ronnabuurs.nl) who helped me create the sketches for the laser cutter. Thanks again [Ron](http://www.ronnabuurs.nl)!

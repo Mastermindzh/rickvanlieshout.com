@@ -9,6 +9,7 @@ tags:
   - "pi"
 description: "We're going to set up the master node. The master node will be the one that gives work orders to the slaves."
 disqusId: "5"
+socialImage: "./media/pi1-prev.jpg"
 ---
 
 After installing raspbian to the sd card it's time to plug in that SD card and fire up the Raspberry pi. If everything went well you should end up with a screen similar to mine:

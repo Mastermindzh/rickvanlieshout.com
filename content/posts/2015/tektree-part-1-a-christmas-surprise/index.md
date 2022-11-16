@@ -8,6 +8,7 @@ tags:
   - "christmas"
 description: "A new maker project based on a big piece of lumber that my parents erected 🤔"
 disqusId: "15"
+socialImage: "./media/new.jpg"
 ---
 
 I'm very excited to announce a new maker project to you guys ! It will be simple, and thus reproducible, yet fun and quite possibly even useful. (oh, and a tad crazy)
@@ -24,7 +25,7 @@ I got the idea after my parents put up their christmas tree. My mom opted for a 
 
 Of course! All code will be open source! All other stuff (drawings etc.) will also be opened up to the public. Everything can be found on [Github](https://github.com/Mastermindzh/TekTree) once again.
 
-## Step 1 - Design!
+## Step 1 - Design
 
 I've thought long and hard about what kind of "controller" I wanted to use. And of course I immediately wanted to use a Raspberry pi. But I asked myself, why a pi? Why not use something simpler (like an arduino) to control the lights and switches. After some serious brainstorming I decided to go with an arduino in the end. I figured the Raspberry pi zero would be too cumbersome to work with for a simple christmas tree. Besides, I have a lot more uses for a pi zero than I have for an arduino, and I got more arduino's laying around than pi zero's at the moment.
 
