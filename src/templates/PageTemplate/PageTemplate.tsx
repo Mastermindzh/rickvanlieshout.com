@@ -25,7 +25,7 @@ const PageTemplate: React.FC<Props> = ({ data }: Props) => {
     <Layout
       title={`${title} - ${siteTitle}`}
       description={metaDescription}
-      socialImage={socialImage}
+      socialImage={socialImage?.publicURL}
     >
       <Sidebar />
       <Page title={title}>
@@ -44,7 +44,9 @@ export const query = graphql`
         title
         date
         description
-        socialImage
+        socialImage {
+          publicURL
+        }
       }
     }
   }

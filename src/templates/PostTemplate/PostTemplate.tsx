@@ -23,7 +23,7 @@ const PostTemplate: React.FC<Props> = ({ data }: Props) => {
     <Layout
       title={`${title} - ${siteTitle}`}
       description={metaDescription}
-      socialImage={socialImage}
+      socialImage={socialImage?.publicURL}
     >
       <Post post={data.markdownRemark} />
     </Layout>
@@ -47,7 +47,9 @@ export const query = graphql`
         description
         tags
         title
-        socialImage
+        socialImage {
+          publicURL
+        }
         disqusId
       }
     }
