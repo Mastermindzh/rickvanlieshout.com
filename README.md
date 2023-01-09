@@ -2,8 +2,8 @@
 
 This is the repository for my personal blog/website [rickvanlieshout.com](https://rickvanlieshout.com).
 
+[![Build Status](https://ci.mastermindzh.tech/api/badges/mastermindzh/rickvanlieshout.com/status.svg)](https://ci.mastermindzh.tech/mastermindzh/rickvanlieshout.com)
+
 ## todos
 
 - Links on printed pages need to display
-- Combine cookies/disclaimer in menu to make it shorter
-- Improve/replace menu on mobile (on old phones pages need a few scrolls)

@@ -11,7 +11,7 @@ steps:
   - name: test
     image: node:19.4.0
     commands:
-      - npm test:coverage
+      - npm run test:coverage
 
   - name: build
     image: node:19.4.0
