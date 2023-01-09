@@ -1,0 +1,19 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: install
+    image: node:19.4.0
+    commands:
+      - npm install
+
+  - name: test
+    image: node:19.4.0
+    commands:
+      - npm test:coverage
+
+  - name: build
+    image: node:19.4.0
+    commands:
+      - npm run build
