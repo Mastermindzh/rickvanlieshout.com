@@ -14,7 +14,7 @@ socialImage: "./media/eddy-2011.jpg"
 
 ![headshot of Eddy in his early years, jack-russel and fox mix](./media/eddy-2011.jpg "This is Eddy, January 30, 2011")
 
-Unfortunately I've had to put my dog Eddy down today.
+Unfortunately, I've had to put my dog Eddy down today.
 Eddy was my best friend. Not just my best furry friend, but my best friend period.
 He never failed to bring me joy, he was always there when I needed him and he helped me overcome some of life's biggest obstacles just by existing.
 
@@ -78,8 +78,14 @@ Now that Eddy has left me completely I will just have to see where life takes me
 
 ## Farewell
 
-In the end though, I don't think anything can truly replace Eddy.
+In the end, though, I don't think anything can truly replace Eddy.
 I got Eddy an [urn](https://www.urnwinkel.nl/fotolijst-dierenurn-zwart.html) so I can have him in my life for the rest of mine.
-Sleep well friend.
+Sleep well, friend.
 
 ![Eddy lying on a blue towel at the veterinarian after receiving the lethal injection. He looks peaceful](./media/eddy-post-mortem.jpg 'Eddy peacefully "sleeping" post mortem')
+
+## The urn
+
+It took way too long for the urn to be filled with pictures but in the end, I've gotten it done and I hung Eddy's urn in my bedroom.
+
+![A black picture frame with 4 pictures of Eddy ranging from young to old](./media/eddy-urn.jpg "A lovely memory of Eddy")

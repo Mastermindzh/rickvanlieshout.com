@@ -20,20 +20,20 @@ template: "page"
 _Always_<br />
 A fair share of my private work is done through open-source media. I don't have a portfolio but I have a [Github](https://github.com/mastermindzh) where I share most things.
 
-**Software architect at INFORIT**<br />
+**Tech lead at INFORIT**<br />
 _2018 - Now_<br />
-At INFORIT I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event based microservice architecture on a Kubernetes based SaaS cloud solution and migrating to modern programming languages such as dotnetcore and React.
+At INFORIT I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages such as dotnetcore and React.
 
-The other main responsibility I have is creating and maintaining a coherent team of lead-developers by sharing knowledge, making decisions, and empowering leads to explore technologies outside of their comfort zone.
+The other main responsibility I have is creating and maintaining a coherent team of lead developers by sharing knowledge, making decisions, and empowering leads to explore technologies outside of their comfort zone.
 
-At INFORIT I also help with recruitment of new employees, setting up and maintaining agile strategies including proper test-management, and general software development.
-During my time at INFORIT we've grown from 5-7 in-house developers to 10, full-sized, SCRUM teams.
+At INFORIT I also help with the recruitment of new employees, setting up and maintaining agile strategies including proper test management, and general software development.
+During my time at INFORIT, we've grown from 5-7 in-house developers to 10, full-sized, SCRUM teams.
 
 Most relevant technologies used: dotnetcore, React, Angular, Kafka, RabbitMQ, Mongo, PostgreSQL, Growthbook, Docker & Kubernetes
 
 **Hanflex employee**<br />
 _September 2015 - July 2018_<br />
-I started working for the HAN (hogeschool van Arnhem en Nijmegen) in 2015. The HAN offers us different jobs (teaching others, open door days, etc) and we are free to reply and take those. I primarily respond to the open door days and the teaching jobs. On the open door days I usually work with 3d printers and a lasercutter.
+I started working for the HAN (hogeschool van Arnhem en Nijmegen) in 2015. The HAN offers us different jobs (teaching others, open door days, etc) and we are free to reply and take those. I primarily respond to the open-door days and the teaching jobs. On the open-door days, I usually work with 3d printers and a laser cutter.
 
 **mi-soft.nl**<br />
 _2006 - January 2019_<br />
@@ -50,7 +50,7 @@ _2005 - 2010_
 
 **HBO ICT / software engineering HAN - Nijmegen**<br />
 _2014 - 2018_<br />
-After a few rocky years I enrolled into college and I'm now trying to get a software engineering degree. I finished my first year with an average of 8.3/10 and will graduate in mid 2018.
+After a few rocky years I enrolled in college and I'm now trying to get a software engineering degree. I finished my first year with an average of 8.3/10 and will graduate in mid-2018.
 
 **Bilingual Senior General Secondary Education - Maaslandcollege Oss**<br />
 _2005 - 2010_
@@ -65,7 +65,7 @@ I'll list some of the training courses I've had whilst working.
 Some of these have (official) certificates, some don't, but all have brought value and knowledge.
 
 - Hiring & interview training ([icm.nl](https://www.icm.nl/opleidingen-en-trainingen/hrm/selectiegesprekken-voeren/))
-- Conversation techniques & deescalation ([TIJDwinst.com](https://gesprekstechnieken.com/cursus-gesprekstechnieken/)).
+- Conversation techniques & de-escalation ([TIJDwinst.com](https://gesprekstechnieken.com/cursus-gesprekstechnieken/)](<https://gesprekstechnieken.com/cursus-gesprekstechnieken/>)).
 - Kubernetes
 - SEEBURGER b2b integration
 
@@ -82,7 +82,7 @@ All of the code is available on [Github](https://github.com/mastermindzh/han4pi.
 
 **Solidwinds developer**<br />
 _2015 - 2016_<br />
-Set up an architecture and start of an implementation for a scalable metrics collection system for windmills.
+Set up an architecture and started implementation for a scalable metrics collection system for windmills.
 
 **Quintor bulk-mail**<br />
 _April 2016 - June 2016_<br />
@@ -96,7 +96,7 @@ The list below is far from complete and unordered but focuses on the skills & te
 - Teaching, coaching & presenting
 - Agile development
 - Docker, Kubernetes & CI/CD
-- Event based architecture
+Event-based architecture
 - Reactive architecture
 - Typescript (Javascript)
 - dotnetcore
