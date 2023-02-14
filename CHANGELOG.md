@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.1.0...v1.2.0) (2023-02-14)
+
+
+### Bug Fixes
+
+* added social images to the frontmatter of most blogs ([6f0fb54](https://github.com/mastermindzh/rickvanlieshout.com/commits/6f0fb545dfcbb59f677b2408622cdbc4de19325f))
+* navigate link now always returns to all articles beacuse history can be empty ([80c31d7](https://github.com/mastermindzh/rickvanlieshout.com/commits/80c31d70f43b6d4e41105a7ede5b2ed032e67eb7))
+* removed the estranged '1' from the description of the latest blogpost ([b963241](https://github.com/mastermindzh/rickvanlieshout.com/commits/b9632410d2369e09300231e7152941d850a4f421))
+* socialImage code doesnt properly use publicURL ([561faa3](https://github.com/mastermindzh/rickvanlieshout.com/commits/561faa3a4585a73f0dc8aba63d72146dd670b544))
+
+
+### New content
+
+* added a picture of Eddy's completed urn. Also changed my function title to Tech Lead ([c50c6fb](https://github.com/mastermindzh/rickvanlieshout.com/commits/c50c6fb9273ddd3fb180609fd977cf6d0dbbdb74))
+* **blog:** A blog post about my new hobby: Legos ([ab47ca8](https://github.com/mastermindzh/rickvanlieshout.com/commits/ab47ca863779167069030f152569cbfe8cab0e65))
+
 ## [1.1.0](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.0.0...v1.1.0) (2022-11-07)
 
 
