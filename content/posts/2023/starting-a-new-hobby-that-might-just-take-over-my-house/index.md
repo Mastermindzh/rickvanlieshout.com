@@ -54,7 +54,7 @@ The result of a few days of work and the Christmas village has been completed:
 
 !["A bookcase shelf filled with Lego Christmas builds"](/media/christmas.jpg "Happy little Christmas village")
 
-## A new room to build lego
+## A new room to build Lego
 
 Now that the Lego virus has taken hold of me I am quickly growing tired of needing to move stuff off my dining table just to build some Legos.
 Likewise, I dislike having to move half-finished Lego builds just to use my dining table.
@@ -94,4 +94,4 @@ I'd like to round off this blog post by showing some of the other builds I've si
 ![Saturn V from lego](/media/rocket.jpeg "Saturn V")
 !["Harry Potter's owl Hedwig perched on some books"](/media/owl.jpeg "Shout out to Hedwig! (and Ravenclaw)")
 !["A flower bouquet in a clear vase"](/media/bouquet.jpg "The desk felt a bit empty so I added some flowers to spice things up")
-![Two of the succulents in decorative pots with some shelves](/media/flower-pots.jpg "Two of the succulents in decorative pots with some shelves")
+![Two of the succulents in decorative pots with some shelves](/media/flower-pots.jpg "Two of the succulents in decorative pots with some shells")
