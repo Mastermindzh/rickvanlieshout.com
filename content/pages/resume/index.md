@@ -66,7 +66,7 @@ Some of these have (official) certificates, some don't, but all have brought val
 
 - Hiring & interview training ([icm.nl](https://www.icm.nl/opleidingen-en-trainingen/hrm/selectiegesprekken-voeren/))
 - Conversation techniques & de-escalation ([TIJDwinst.com](https://gesprekstechnieken.com/cursus-gesprekstechnieken/)](<https://gesprekstechnieken.com/cursus-gesprekstechnieken/>)).
-- Kubernetes
+- Kubernetes (NobleProg Certification Kubernetes on Azure (AKS), 26 August 2019 - 27 August 2019)
 - SEEBURGER b2b integration
 
 ## Projects

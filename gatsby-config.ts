@@ -62,29 +62,27 @@ export default {
                 guid: site.siteMetadata.url + node?.fields?.slug,
                 custom_elements: [{ "content:encoded": node.html }],
               })),
-            query: `
-              {
-                allMarkdownRemark(
-                  limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
-                ) {
-                  edges {
-                    node {
-                      html
-                      fields {
-                        slug
-                      }
-                      frontmatter {
-                        date
-                        title
-                        description
-                      }
+            query: `{
+              allMarkdownRemark(
+                limit: 1000
+                sort: {frontmatter: {date: DESC}}
+                filter: {frontmatter: {template: {eq: "post"}, draft: {ne: true}}}
+              ) {
+                edges {
+                  node {
+                    html
+                    fields {
+                      slug
+                    }
+                    frontmatter {
+                      date
+                      title
+                      description
                     }
                   }
                 }
               }
-            `,
+            }`,
             output: "/rss.xml",
             title: config.title,
           },
@@ -189,6 +187,13 @@ export default {
             },
           ],
         },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-helmet-canonical-urls",
+      options: {
+        siteUrl: config.url,
+        stripQueryString: true,
       },
     },
     "gatsby-plugin-image",
