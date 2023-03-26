@@ -21,14 +21,11 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const { group, pagination } = pageContext;
-  const { currentPage, prevPagePath, nextPagePath, hasPrevPage, hasNextPage } =
-    pagination;
+  const { currentPage, prevPagePath, nextPagePath, hasPrevPage, hasNextPage } = pagination;
 
   const { edges } = data.allMarkdownRemark;
   const pageTitle =
-    currentPage > 0
-      ? `${group} - Page ${currentPage} - ${siteTitle}`
-      : `${group} - ${siteTitle}`;
+    currentPage > 0 ? `${group} - Page ${currentPage} - ${siteTitle}` : `${group} - ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
@@ -58,13 +55,9 @@ export const query = graphql`
       limit: $limit
       skip: $offset
       filter: {
-        frontmatter: {
-          tags: { in: [$group] }
-          template: { eq: "post" }
-          draft: { ne: true }
-        }
+        frontmatter: { tags: { in: [$group] }, template: { eq: "post" }, draft: { ne: true } }
       }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {
