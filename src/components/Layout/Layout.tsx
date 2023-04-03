@@ -10,9 +10,16 @@ interface Props {
   description?: string;
   socialImage?: string;
   children: React.ReactNode;
+  noIndex?: boolean;
 }
 
-const Layout: React.FC<Props> = ({ children, title, description, socialImage = "" }: Props) => {
+const Layout: React.FC<Props> = ({
+  children,
+  title,
+  description,
+  socialImage = "",
+  noIndex = false,
+}: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
   const metaImageUrl = url + metaImage;
@@ -29,6 +36,7 @@ const Layout: React.FC<Props> = ({ children, title, description, socialImage = "
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        {noIndex && <meta name="robots" content="noindex" />}
       </Helmet>
       {children}
       <CookieBar />
