@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.1...v1.2.2) (2023-04-12)
+
+
+### Bug Fixes
+
+* .language-text not breaking on mobile ([5fe2d8e](https://github.com/mastermindzh/rickvanlieshout.com/commits/5fe2d8e834a4d7588f04e4a3b1608618253f6d52))
+
+
+### New content
+
+* blogpost about flashing lsi 9211 cards ([ebca5f9](https://github.com/mastermindzh/rickvanlieshout.com/commits/ebca5f980d8e1a109494c5db15d2728bcfbc964b))
+
 ### [1.2.1](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.0...v1.2.1) (2023-03-26)
 
 ## [1.2.0](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.1.0...v1.2.0) (2023-02-14)
