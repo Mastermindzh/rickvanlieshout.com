@@ -108,7 +108,7 @@ export default {
           },
           {
             resolve: "gatsby-remark-images-medium-zoom",
-            options: { background: "rgb(0, 0, 0,50%)" },
+            options: { background: "rgb(0, 0, 0,70%)" },
           },
           "gatsby-remark-autolink-headers",
           "gatsby-remark-prismjs",
