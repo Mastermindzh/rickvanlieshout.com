@@ -6,6 +6,10 @@
   display: none;
 }
 
+.language-text {
+  overflow-wrap: break-word;
+}
+
 @media print {
   .hideInPrintView {
     display: none;
