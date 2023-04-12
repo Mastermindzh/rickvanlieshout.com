@@ -66,6 +66,14 @@ RewriteRule ^(.*)$ http://www.mastermindzh.com/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
+<Files *.html>
+FileETag None
+Header unset ETag
+Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Thu, 1 Jan 1970 00:00:00 UTC"
+</Files>
+
 # redirect old blog pages
 Redirect /home /
 Redirect /cookies /pages/legal/cookies
