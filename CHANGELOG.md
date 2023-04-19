@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.2...v1.2.3) (2023-04-19)
+
+
+### Bug Fixes
+
+* dependency updates and the removal of hatsby-plugin-offline ([302c6d0](https://github.com/mastermindzh/rickvanlieshout.com/commits/302c6d00e2555475a7fec6a63b78146d1d502a8b))
+
 ### [1.2.2](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.1...v1.2.2) (2023-04-12)
 
 
