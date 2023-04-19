@@ -165,37 +165,14 @@ export default {
       },
     },
     {
-      resolve: "gatsby-plugin-offline",
-      options: {
-        workboxConfig: {
-          runtimeCaching: [
-            {
-              urlPattern: /(\.js$|\.css$|[^:]static\/)/,
-              handler: "CacheFirst",
-            },
-            {
-              urlPattern: /^https?:.*\/page-data\/.*\.json/,
-              handler: "StaleWhileRevalidate",
-            },
-            {
-              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-              handler: "StaleWhileRevalidate",
-            },
-            {
-              urlPattern: /^https?:\/\/fonts\.googleapis\.com\/css/,
-              handler: "StaleWhileRevalidate",
-            },
-          ],
-        },
-      },
-    },
-    {
       resolve: "gatsby-plugin-react-helmet-canonical-urls",
       options: {
         siteUrl: config.url,
         stripQueryString: true,
       },
     },
+    // remove the old serviceworker if it is available.
+    "gatsby-plugin-remove-serviceworker",
     "gatsby-plugin-image",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-react-helmet",
