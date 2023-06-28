@@ -43,7 +43,7 @@ Well alright then, we've got a couple of things "ready" to show others. The firs
 
 We quickly decided upon changing the hub design to a more elegant "hat" (hat being a board you can attach to the Raspberry Pi, not the fedora kind). A render of one such hats can be found below.
 
-![rendering of the raspberry pi hat](./media/Front_thumb.png "render of the raspberry pi hat")
+![rendering of the raspberry pi hat](./media/front-thumb.png "render of the raspberry pi hat")
 
 We also started working on the controllers. The final design will be compromised of a few "boxes" between which telephone wires run to connect them together. My fantastic soldering / glueing job on the inner workings of a controller and the laser cutted wooden box can be found below.
 
