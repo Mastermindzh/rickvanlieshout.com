@@ -133,7 +133,7 @@ Finally! We get to do something with concurrency, now Scala can really show me w
 
 The book starts off by telling me about Actors, which have pools of threads and queues, and message passing. When you send a message (using the ! operator) you place an object on its queue. The actor then reads the message and takes action. Usually, the actor uses a pattern matcher to detect what it has to do before it starts doing something.
 
-The book provides a sample application but that plain doesn't work. Upon investigating the issue I discovered that Scala's built-in concurrency feature is deprecated in favour of [Akka](http://akka.io/). This saddens me beyond belief. I have already worked with Akka and had expected Scala to offer me something else. This also means that the rest of the book is not going to be useful anymore.
+The book provides a sample application but that plain doesn't work. Upon investigating the issue I discovered that Scala's built-in concurrency feature is deprecated in favour of [Akka](https://akka.io/). This saddens me beyond belief. I have already worked with Akka and had expected Scala to offer me something else. This also means that the rest of the book is not going to be useful anymore.
 
 Stubborn as I am, even with a closing deadline, I decided I wasn't going to let a stupid book stop me and decided to update the code to work with Akka. All of which can be found at [Github](https://github.com/Mastermindzh/Seven-Languages-in-Seven-Weeks/tree/master/Scala/Day%203/src/Concurrency).
 

@@ -194,8 +194,8 @@ The theoretical questions for day 2 are:
 
 Once again these questions are trivial if you've actually paid attention while reading the book. Anyway, here are the answers:
 
-1. [http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html](http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
-2. [http://stackoverflow.com/questions/1812401/exactly-what-is-the-difference-between-a-closure-and-a-block](http://stackoverflow.com/questions/1812401/exactly-what-is-the-difference-between-a-closure-and-a-block)
+1. [https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
+2. [https://stackoverflow.com/questions/1812401/exactly-what-is-the-difference-between-a-closure-and-a-block](https://stackoverflow.com/questions/1812401/exactly-what-is-the-difference-between-a-closure-and-a-block)
 
 The results of the second day's practical assignments can found on [Github](https://github.com/Mastermindzh/Seven-Languages-in-Seven-Weeks/tree/master/Scala/Day%202/src/myApp) or below:
 

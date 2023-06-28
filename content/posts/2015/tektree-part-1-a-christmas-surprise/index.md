@@ -35,7 +35,7 @@ After deciding to use an arduino I had another big decision to make. Should I fo
 
 After that came my struggle with the drawing software. I tried creating a drawing in Coreldraw Pro.... that was... a painful experience to say the least. Then I tried drawing with a program called InkScape, while better it still didn't yield any results. Finally I decided to give up and ask for help from a friend.
 
-Luckily my friend [Ron Nabuurs](http://www.ronnabuurs.nl) is brilliant when it comes to designing a drawing which can be lasercut. So after explaining my idea to [Ron](http://www.ronnabuurs.nl) he decided to help me out. A picture of what we ended up with can be found below. The source file we used can be found on git.
+Luckily my friend [Ron Nabuurs](https://www.ronnabuurs.nl) is brilliant when it comes to designing a drawing which can be lasercut. So after explaining my idea to [Ron](https://www.ronnabuurs.nl) he decided to help me out. A picture of what we ended up with can be found below. The source file we used can be found on git.
 
 ![Designs for the laser cutter, from left to right: a circular base plate with snow characters. A foldable box cutout and a tree shape](./media/new.jpg "Designs for the laser cutter")
 

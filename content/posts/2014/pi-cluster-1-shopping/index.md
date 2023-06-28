@@ -19,7 +19,7 @@ A cluster is basically a group of computers that work together to run a very int
 
 ## What software are you going to use?
 
-I am going to use [raspbian](http://www.raspbian.org/) for the OS and I will be using python (and [mpi4py](http://mpi4py.scipy.org/)) to program the cluster.
+I am going to use [raspbian](https://www.raspbian.org/) for the OS and I will be using python (and [mpi4py](https://mpi4py.scipy.org/)) to program the cluster.
 
 ## What did you need and how much did it cost
 
@@ -35,9 +35,9 @@ Below you will find a list of items you would need if you were to build a 4 pi c
 
 This all adds up to ( €180.43 which is $233.76 according to [google](https://www.google.nl/search?site=&source=hp&q=180.43+euro+to+dollar&oq=180.43+euro+to+dollar&gs_l=hp.3..33i21l2.879.5191.0.5287.28.24.3.1.1.0.157.1273.22j1.23.0....0...1c.1.53.hp..9.19.917.0.jex09uDmbow))
 
-I ordered **some** of the stuff from a shop in china called "[banggood](http://banggood.com)". Since they deliver all around the world I will add the links to those items below.
+I ordered **some** of the stuff from a shop in china called "[banggood](https://banggood.com)". Since they deliver all around the world I will add the links to those items below.
 
-- The raspberry pi cases can be found [here](http://www.banggood.com/Transparent-Box-Case-Shell-For-Raspberry-Pi-512MB-Version-p-923015.html)
-- The 8gb SD cards can be found [here](http://www.banggood.com/8GB-SD-HC-SDHC-Flash-Secure-Digital-Memory-Card-Camera-p-938458.html)
-- The USB hub can be found [here](http://www.banggood.com/Wholesale-Laptop-PC-New-Black-4-Port-Tap-USB-2_0-High-Speed-Hub-ON-Or-OFF-Sharing-Switch-p-45306.html)
-- The USB power cables can be found [here](http://www.banggood.com/Retractable-Micro-USB-Data-Sync-Charger-Cable-For-Cellphones-p-90245.html)
+- The raspberry pi cases can be found [here](https://www.banggood.com/Transparent-Box-Case-Shell-For-Raspberry-Pi-512MB-Version-p-923015.html)
+- The 8gb SD cards can be found [here](https://www.banggood.com/8GB-SD-HC-SDHC-Flash-Secure-Digital-Memory-Card-Camera-p-938458.html)
+- The USB hub can be found [here](https://www.banggood.com/Wholesale-Laptop-PC-New-Black-4-Port-Tap-USB-2_0-High-Speed-Hub-ON-Or-OFF-Sharing-Switch-p-45306.html)
+- The USB power cables can be found [here](https://www.banggood.com/Retractable-Micro-USB-Data-Sync-Charger-Cable-For-Cellphones-p-90245.html)
