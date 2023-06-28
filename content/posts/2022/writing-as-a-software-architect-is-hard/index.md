@@ -10,7 +10,7 @@ tags:
 description: "Good software design practices and a few perfectionistic tendencies lead to almost 5 years without any writing. This post is a deep dive into a few of the struggles of the past 5 years"
 ---
 
-I've been rebuilding the old "[rickvanlieshout.com](https://rickvanlieshout.com)" for over 5 years now...
+I've been rebuilding the old "[rickvanlieshout.com](https://www.rickvanlieshout.com)" for over 5 years now...
 But the website isn't that big. It could be done way faster and it has been done way faster.
 The thing is, I rewrote it several times, each time with a different design and updated packages.
 
