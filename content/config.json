@@ -33,6 +33,14 @@
     {
       "label": "Disclaimer",
       "path": "/pages/legal/disclaimer"
+    },
+    {
+      "label": "Categories",
+      "path": "/categories"
+    },
+    {
+      "label": "Tags",
+      "path": "/tags"
     }
   ],
   "author": {
