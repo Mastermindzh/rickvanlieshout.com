@@ -1,5 +1,7 @@
 import type { Node } from "@/types";
 import React from "react";
+import { Helmet } from "react-helmet";
+import { useSiteMetadata } from "../../hooks";
 import { Author } from "./Author";
 import { Comments } from "./Comments";
 import { Content } from "./Content";
@@ -14,24 +16,34 @@ interface Props {
 const Post: React.FC<Props> = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug, readingTime } = post.fields;
-  const { tags, title, date, disqusId } = post.frontmatter;
+  const { tags, title, date, disqusId, category } = post.frontmatter;
+  const { url } = useSiteMetadata();
 
   return (
-    <div className={styles.post}>
-      <div className={styles.content}>
-        <Content body={html} title={title} subTitle={readingTime?.text} />
-      </div>
+    <>
+      <Helmet>
+        <meta property="og:type" content="article" />
+        <meta property="article:publisher" content={url} />
+        <meta property="article:section" content={category} />
+        <meta property="article:tag" content={tags ? tags[0] : ""} />
+      </Helmet>
 
-      <div className={styles.footer}>
-        <Meta date={date} />
-        {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
-        <Author />
-      </div>
+      <div className={styles.post}>
+        <div className={styles.content}>
+          <Content body={html} title={title} subTitle={readingTime?.text} />
+        </div>
 
-      <div className={`${styles.comments} hideInPrintView`}>
-        <Comments disqusId={disqusId} postSlug={slug} postTitle={post.frontmatter.title} />
+        <div className={styles.footer}>
+          <Meta date={date} />
+          {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+          <Author />
+        </div>
+
+        <div className={`${styles.comments} hideInPrintView`}>
+          <Comments disqusId={disqusId} postSlug={slug} postTitle={post.frontmatter.title} />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
