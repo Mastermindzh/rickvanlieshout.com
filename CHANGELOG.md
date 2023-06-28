@@ -4,18 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.2.3](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.2...v1.2.3) (2023-04-19)
 
-
 ### Bug Fixes
 
-* dependency updates and the removal of hatsby-plugin-offline ([302c6d0](https://github.com/mastermindzh/rickvanlieshout.com/commits/302c6d00e2555475a7fec6a63b78146d1d502a8b))
+* dependency updates and the removal of gatsby-plugin-offline ([302c6d0](https://github.com/mastermindzh/rickvanlieshout.com/commits/302c6d00e2555475a7fec6a63b78146d1d502a8b))
 
 ### [1.2.2](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.1...v1.2.2) (2023-04-12)
-
 
 ### Bug Fixes
 
 * .language-text not breaking on mobile ([5fe2d8e](https://github.com/mastermindzh/rickvanlieshout.com/commits/5fe2d8e834a4d7588f04e4a3b1608618253f6d52))
-
 
 ### New content
 
@@ -25,14 +22,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.2.0](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.1.0...v1.2.0) (2023-02-14)
 
-
 ### Bug Fixes
 
 * added social images to the frontmatter of most blogs ([6f0fb54](https://github.com/mastermindzh/rickvanlieshout.com/commits/6f0fb545dfcbb59f677b2408622cdbc4de19325f))
 * navigate link now always returns to all articles beacuse history can be empty ([80c31d7](https://github.com/mastermindzh/rickvanlieshout.com/commits/80c31d70f43b6d4e41105a7ede5b2ed032e67eb7))
 * removed the estranged '1' from the description of the latest blogpost ([b963241](https://github.com/mastermindzh/rickvanlieshout.com/commits/b9632410d2369e09300231e7152941d850a4f421))
 * socialImage code doesnt properly use publicURL ([561faa3](https://github.com/mastermindzh/rickvanlieshout.com/commits/561faa3a4585a73f0dc8aba63d72146dd670b544))
-
 
 ### New content
 
@@ -41,13 +36,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.1.0](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.0.0...v1.1.0) (2022-11-07)
 
-
 ### New content
 
 * Added a new post about adopting conventional commits ([b710c24](https://github.com/mastermindzh/rickvanlieshout.com/commits/b710c243aca703040716af52df4405a05eddd458))
 
 ## 1.0.0 (2022-11-05)
-
 
 ### Features
 
@@ -60,11 +53,10 @@ All notable changes to this project will be documented in this file. See [standa
 * up version ([1c175ab](https://github.com/mastermindzh/rickvanlieshout.com/commits/1c175abff92bcf56d8809dd9caf8e16de0f4a849))
 * **workflows:** add release workflow ([25cf13a](https://github.com/mastermindzh/rickvanlieshout.com/commits/25cf13ae57084be63d8f42581b7c6b5c976930ed))
 
-
 ### Bug Fixes
 
 * [#955](https://git.mastermindzh.tech/mastermindzh/rickvanlieshout.com/issues/955) ([6686a6c](https://github.com/mastermindzh/rickvanlieshout.com/commits/6686a6c1edc109152a80e92d684c114be9a287ab))
-* add __BASE_PATH__ to jest config ([5e00151](https://github.com/mastermindzh/rickvanlieshout.com/commits/5e00151d0b153863324194a1f1a92c88b2d8937f))
+* add **BASE_PATH** to jest config ([5e00151](https://github.com/mastermindzh/rickvanlieshout.com/commits/5e00151d0b153863324194a1f1a92c88b2d8937f))
 * add flow-typed ([b9aaa81](https://github.com/mastermindzh/rickvanlieshout.com/commits/b9aaa81ec257f48f30f1984f63b6204fc2d92b5e))
 * align the headers ([01fe350](https://github.com/mastermindzh/rickvanlieshout.com/commits/01fe35095c11b94eae34a17c64ea626d4d3cf665))
 * cannot build gatsby sitemap [#199](https://git.mastermindzh.tech/mastermindzh/rickvanlieshout.com/issues/199) ([d12a922](https://github.com/mastermindzh/rickvanlieshout.com/commits/d12a9220ddd71ebbfeadcca4736d2453f9fa17ab))
@@ -495,7 +487,6 @@ All notable changes to this project will be documented in this file. See [standa
 * update path ([89192b7](https://github.com/mastermindzh/rickvanlieshout.com/commits/89192b70aeedd33c6851c40aa11f5607b9b454c1))
 * update yarn.lock ([5f23174](https://github.com/mastermindzh/rickvanlieshout.com/commits/5f231740a9472f2e5545b1611ce9af8eec40246d))
 * use aliase [#199](https://git.mastermindzh.tech/mastermindzh/rickvanlieshout.com/issues/199) ([46743e9](https://github.com/mastermindzh/rickvanlieshout.com/commits/46743e9e1ab569934bc04e9d0d4816b1c3de668f))
-
 
 ### New content
 
