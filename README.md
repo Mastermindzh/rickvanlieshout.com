@@ -2,7 +2,7 @@
 
 This is the repository for my personal blog/website [rickvanlieshout.com](https://rickvanlieshout.com).
 
-[![Build Status](https://ci.mastermindzh.tech/api/badges/mastermindzh/rickvanlieshout.com/status.svg)](https://ci.mastermindzh.tech/mastermindzh/rickvanlieshout.com)
+[![Build Status](https://ci.mastermindzh.tech/api/badges/Mastermindzh/rickvanlieshout.com/status.svg)](https://ci.mastermindzh.tech/Mastermindzh/rickvanlieshout.com)
 
 ## todos
 
