@@ -76,7 +76,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo pacman -Syu
 ```
 
-If however you're using a mac you'll have to do it by hand. Since Apple hasn't yet released an update nor commented on the matter. Instructions for a mac can be found [here](http://mac-how-to.wonderhowto.com/how-to/every-mac-is-vulnerable-shellshock-bash-exploit-heres-patch-os-x-0157606/).
+If however you're using a mac you'll have to do it by hand. Since Apple hasn't yet released an update nor commented on the matter. Instructions for a mac can be found [here](https://mac-how-to.wonderhowto.com/how-to/every-mac-is-vulnerable-shellshock-bash-exploit-heres-patch-os-x-0157606/).
 
 ## In summary
 
@@ -84,7 +84,7 @@ So should you worry? Yes and no. If your computer (/server) is exposed to an out
 
 ## Documentation
 
-For those of you who like to research this "Shellshock" vulnerability some more, here are 2 entries in the NVD: [CVE-2014-6271](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271) & [CVE-2014-7169](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169).
+For those of you who like to research this "Shellshock" vulnerability some more, here are 2 entries in the NVD: [CVE-2014-6271](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271) & [CVE-2014-7169](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169).
 
 If you want to see Shellshock in action I recommend watching the following video from Quidsup:
 

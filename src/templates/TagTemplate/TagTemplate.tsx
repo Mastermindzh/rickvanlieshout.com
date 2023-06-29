@@ -28,7 +28,7 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
     currentPage > 0 ? `${group} - Page ${currentPage} - ${siteTitle}` : `${group} - ${siteTitle}`;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle} noIndex>
+    <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={group}>
         <Feed edges={edges} />

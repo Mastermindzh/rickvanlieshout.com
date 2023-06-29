@@ -47,8 +47,8 @@ I emptied a shelf, picked up some [white base plates](https://www.lego.com/en-us
 - [Holiday main street](https://www.lego.com/en-us/product/holiday-main-street-10308)
 - [Santa's sleigh](https://www.lego.com/en-nl/product/santa-s-sleigh-40499)
 - [Santa's visit](https://www.lego.com/en-nl/product/santa-s-visit-10293)
-- [Winter elve's scene](https://www.lego.com/en-nl/product/winter-elves-scene-40564)
-- [Winter polar bears](https://www.lego.com/en-us/product/wintertime-polar-bears-40571)
+- [Winter elves scene](https://www.lego.com/en-nl/product/winter-elves-scene-40564)
+- [Winter polar bears](https://web.archive.org/web/20221106002040/https://www.lego.com/en-us/product/wintertime-polar-bears-40571)
 - [Santa's workshop](https://www.lego.com/en-nl/product/santa-s-workshop-40565?CMP=AFC-AffiliateUK-lFWN%2FyX1zOg-3425491-124738-1)
 
 The result of a few days of work and the Christmas village has been completed:

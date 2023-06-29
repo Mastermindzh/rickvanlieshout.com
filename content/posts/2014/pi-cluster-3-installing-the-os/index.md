@@ -18,7 +18,7 @@ Installing an OS for a Raspberry pi is quite different from installing an OS on 
 
 First off, if you want to use Windows, skip this bit by clicking [here.](#windows)
 
-First we will have to download the .img from the Raspbian website, we can do so by clicking [here](http://downloads.raspberrypi.org/raspbian_latest). After downloading the image we can use a kernel application known as "dd" to write the file to our SD card. We will first need to find out which /dev/ the SD card is currently using. To do this we can use the following command:
+First we will have to download the .img from the Raspbian website, we can do so by clicking [here](https://downloads.raspberrypi.org/raspbian_latest). After downloading the image we can use a kernel application known as "dd" to write the file to our SD card. We will first need to find out which /dev/ the SD card is currently using. To do this we can use the following command:
 
 ```bash
 lsblk
@@ -59,7 +59,7 @@ sudo kill -USR1 `pidof dd`
 
 If you ended up here you have chosen to use the much inferior Windows to get Linux on your Raspberry pi's. Don't worry though, you can still install the, much superior, Linux images to your SD cards.
 
-The very first thing we have to do is download the Raspbian image, which we can do by clicking [here](http://downloads.raspberrypi.org/raspbian_latest). After downloading the image we will have to download some software to write the image to the SD card. The tool we are going to use is called win32DiskImager, and can be downloaded free of charge [right here.](http://downloads.sourceforge.net/project/win32diskimager/Archive/Win32DiskImager-0.9.5-install.exe?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fwin32diskimager%2F&ts=1410459796&use_mirror=cznic)
+The very first thing we have to do is download the Raspbian image, which we can do by clicking [here](https://downloads.raspberrypi.org/raspbian_latest). After downloading the image we will have to download some software to write the image to the SD card. The tool we are going to use is called win32DiskImager, and can be downloaded free of charge [right here.](https://downloads.sourceforge.net/project/win32diskimager/Archive/Win32DiskImager-0.9.5-install.exe?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fwin32diskimager%2F&ts=1410459796&use_mirror=cznic)
 
 After the tool has been downloaded (and installed) we have to start it by double clicking on the .exe file, which will leave us staring at the following tool:
 

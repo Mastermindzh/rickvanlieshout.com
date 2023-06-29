@@ -56,7 +56,7 @@ After installing some of the required software we still have to install "mpich3"
 ```bash
 mkdir /home/pi/mpich3
 cd mpich3
-wget http://www.mpich.org/static/downloads/3.0.4/mpich-3.0.4.tar.gz
+wget https://www.mpich.org/static/downloads/3.0.4/mpich-3.0.4.tar.gz
 tar xzf mpich-3.0.4.tar.gz
 sudo mkdir -p /home/rpimpi/mpich3-install
 sudo mkdir -p /home/pi/mpich_build

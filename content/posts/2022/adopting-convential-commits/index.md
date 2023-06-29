@@ -14,7 +14,7 @@ description: "A dive into conventional commits and their benefit whilst releasin
 socialImage: "./media/husky-error.png"
 ---
 
-At my place of work, [INFORIT](http://inforit.nl/), we are talking about adopting conventional commits as a company standard.
+At my place of work, [INFORIT](https://inforit.nl/), we are talking about adopting conventional commits as a company standard.
 However... debating commits is a tricky endeavor, everyone seems to have their own opinion about it and pretty much no one is following even the basic git rules (e.g title + body). It is precisely because of all of this that an earlier proposal about standardizing commit messages brought us nothing.
 
 Now though, a solid 2 years later, our company has grown tremendously!

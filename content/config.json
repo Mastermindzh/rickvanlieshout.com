@@ -14,25 +14,33 @@
     },
     {
       "label": "About me",
-      "path": "/pages/about"
+      "path": "/pages/about/"
     },
     {
       "label": "Resume",
-      "path": "/pages/resume"
+      "path": "/pages/resume/"
     },
     {
       "label": "Contact me",
-      "path": "/pages/contacts"
+      "path": "/pages/contacts/"
     }
   ],
   "legalMenu": [
     {
       "label": "Cookies",
-      "path": "/pages/legal/cookies"
+      "path": "/pages/legal/cookies/"
     },
     {
       "label": "Disclaimer",
-      "path": "/pages/legal/disclaimer"
+      "path": "/pages/legal/disclaimer/"
+    },
+    {
+      "label": "Categories",
+      "path": "/categories/"
+    },
+    {
+      "label": "Tags",
+      "path": "/tags/"
     }
   ],
   "author": {

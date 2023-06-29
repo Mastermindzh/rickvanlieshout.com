@@ -41,4 +41,4 @@ All well known browser offer a way for you to revoke any cookie. Explore the lin
 
 - [Deleting cookies in Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en)
 - [Deleting cookies in Firefox](https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored)
-- [Deleting cookies in Edge](https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy)
+- [Deleting cookies in Edge](https://support.microsoft.com/en-us/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd)

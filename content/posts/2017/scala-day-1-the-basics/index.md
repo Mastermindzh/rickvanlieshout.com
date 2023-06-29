@@ -21,7 +21,7 @@ While Pacman started collecting all the little dots, I took a quick look at the 
 
 The next message on this page tells me about a popular build tool called `sbt` so I went ahead and installed that as well.
 
-The final step on this page recommends me to install "[The Scala IDE](http://scala-ide.org/?_ga=1.153666491.264179122.1490891096)" or use the IntelliJ plugin. Seeing as I adore the JetBrains product line I've opted to choose the latter.
+The final step on this page recommends me to install "[The Scala IDE](https://scala-ide.org/?_ga=1.153666491.264179122.1490891096)" or use the IntelliJ plugin. Seeing as I adore the JetBrains product line I've opted to choose the latter.
 
 While browsing the downloads page I noticed Pacman had beat his level. (a.k.a collected all the dots. a.k.a the install has finished) Which means it's high time for me to continue on with the assignments.
 
@@ -130,9 +130,9 @@ Day 1's theoretical questions are:
 
 My answers to these are:
 
-1. [http://www.scala-lang.org/api/current/](http://www.scala-lang.org/api/current/)
+1. [https://www.scala-lang.org/api/current/](https://www.scala-lang.org/api/current/)
 2. [https://www.toptal.com/scala/why-should-i-learn-scala](https://www.toptal.com/scala/why-should-i-learn-scala)
-3. [http://www.scala-lang.org/old/node/5367](http://www.scala-lang.org/old/node/5367)
+3. [https://www.scala-lang.org/old/node/5367](https://www.scala-lang.org/old/node/5367)
 
 Finally, we get to move on to the practical assignment for the week. For the assignment, I have to create a "Tic-tac-toe" game for 2 players.
 

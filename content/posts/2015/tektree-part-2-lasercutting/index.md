@@ -11,7 +11,7 @@ disqusId: "16"
 socialImage: "./media/plate.jpg"
 ---
 
-Last friday I actually got to cut the parts for my TekTree! So excited! This is by far the biggest "piece" I have ever laser cut but luckily everything went well. This in part is thanks to my brilliant friend [Ron](http://www.ronnabuurs.nl) who helped me create the sketches for the laser cutter. Thanks again [Ron](http://www.ronnabuurs.nl)!
+Last friday I actually got to cut the parts for my TekTree! So excited! This is by far the biggest "piece" I have ever laser cut but luckily everything went well. This in part is thanks to my brilliant friend [Ron](https://www.ronnabuurs.nl) who helped me create the sketches for the laser cutter. Thanks again [Ron](https://www.ronnabuurs.nl)!
 
 **Top tip!** You don't have to laser cut the designs. Just print the designs with a regular printer and stick it on some wood. Then just use something like a bandsaw to cut the pieces!
 

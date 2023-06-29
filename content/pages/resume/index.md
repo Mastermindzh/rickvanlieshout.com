@@ -20,7 +20,7 @@ template: "page"
 _Always_<br />
 A fair share of my private work is done through open-source media. I don't have a portfolio but I have a [Github](https://github.com/mastermindzh) where I share most things.
 
-**Tech lead at INFORIT**<br />
+**Tech lead / CTO at INFORIT**<br />
 _2018 - Now_<br />
 At INFORIT I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages such as dotnetcore and React.
 
@@ -96,7 +96,7 @@ The list below is far from complete and unordered but focuses on the skills & te
 - Teaching, coaching & presenting
 - Agile development
 - Docker, Kubernetes & CI/CD
-Event-based architecture
+- Event-based architecture
 - Reactive architecture
 - Typescript (Javascript)
 - dotnetcore
@@ -105,4 +105,4 @@ Event-based architecture
 - NoSQL (Mongo, Postgre)
 - SQL (MSSQL, Postgre, sqlite, mariadb)
 - Elasticsearch & Kibana
-- Kafka
+- Kafka / RabbitMQ
