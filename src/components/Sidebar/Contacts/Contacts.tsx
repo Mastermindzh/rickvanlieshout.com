@@ -6,7 +6,6 @@ import { ICONS } from "@/constants";
 import { Dictionary } from "@/types";
 import { getContactHref, getIcon } from "@/utils";
 
-
 type Props = {
   contacts: Dictionary<string>;
 };
@@ -26,8 +25,13 @@ const Contacts: React.FC<Props> = ({ contacts }: Props) => (
               <Icon name={name} icon={getIcon(name)} />
             </a>
           </li>
-        ) : null,
+        ) : null
       )}
+      <li className={styles.item} key="keys">
+        <a className={styles.link} href="/keys.json" rel="noopener noreferrer" target="_blank">
+          <Icon name="keys" icon={getIcon("keys")} />
+        </a>
+      </li>
     </ul>
   </div>
 );
