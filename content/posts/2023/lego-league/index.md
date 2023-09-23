@@ -8,19 +8,20 @@ tags:
   - "spike"
   - "programming"
   - "team"
+  - "work"
 description: "At INFORIT we love to play! Be it DND, board games or in this case... Legos. Read on to find out what we've been up to this past summer vacation"
 socialImage: ./media/lego-spike-set.png
 ---
 
 ![The 2023 LegoLeague play-mat laid out on an improvised table](./media/board.jpg "The 2023 LegoLeague battle board")
 
-A little before the start of the summer period my colleague Jan-Kees came up to me and proposed the idea of an internal LegoLeague. After a little bit of back-and-forth about what LegoLeague exactly was I agreed it would be a great idea to bring the colleagues together and have a little fun during work hours.
+A little before the start of the summer period my colleague Jan-Kees came up to me and proposed the idea of an internal LegoLeague. After a little bit of back-and-forth about what LegoLeague exactly was I agreed it would be a great idea to bring some colleagues together and have a little fun during work hours.
 Pretty much right away excitement got the better of us and we started drafting a plan... when? where? how? prizes? teams!?? A lot.
 But First...
 
 ## What is LegoLeague?
 
-LegoLeague is an event where teams come together to build, program and test a [Lego Spike robot](https://www.lego.com/en-nl/product/lego-education-spike-prime-set-45678) to perform autonomous tasks. The tasks range from collecting "power cores", pushing or pulling levers to dropping Lego blocks in a hopper to get some bonus points.
+LegoLeague is an event where teams come together to build, program and test a [Lego Spike robot](https://www.lego.com/en-nl/product/lego-education-spike-prime-set-45678) to perform autonomous tasks. The tasks range from collecting "power cores", pushing or pulling levers, to dropping Lego blocks in a hopper to get some bonus points.
 
 All of this is accompanied by a theme, in our case energy production, which adds a layer of fun to solving these challenges.
 The video below shows a teaser of 2022-2023's "SuperPowered" event, the very thing we based our LegoLeague on:
@@ -62,9 +63,9 @@ Spoiler alert: all teams chose scratch, it's much more accessible for non-develo
 ## The competition at INFORIT
 
 So yeah, we now know what a LegoLeague is and we have the approval to host the competition at [INFORIT](https://inforit.nl), now what?
-Well, Jan-Kees got to work building the arena and setting it up and I set out to gather team members. Given that it is the summer break I had to hustle to get teams together.
+Well, Jan-Kees got to work building the arena and setting it up and I set out to gather team members. Given that it was the summer break I had to hustle to get teams together but eventually we managed to create some beautiful teams.
 
-Fortunately, [INFORIT](https://inforit.nl) values employee happiness, autonomy and continuous improvement. As such I was able to offer the 2 Friday afternoons free of day-to-day work, to work on the robot whilst providing catering, music, and the like to the teams whilst working!
+Fortunately, [INFORIT](https://inforit.nl) values employee happiness, autonomy and continuous improvement. As such I was able to offer the 2 Friday afternoons free of day-to-day work, to work on the robot whilst providing catering, music, and the like to the teams whilst they are participating!
 
 In the end, we were successful in creating 4 teams of at least 3 people who were all mixed with developers and non-developers to keep the balance fair. Meanwhile, Jan-Kees also finished building the arena which you can see in the header of this blog or the pictures in the picture section.
 
@@ -87,7 +88,7 @@ Congratulations guys!
 
 ## Nah, we are all winners in the end
 
-Having 4 teams gave us the unique opportunity to reward them all with something nice. The 3 teams that got podium places all got their medals and their rewards and the losing team got their consolation prize.
+Having 4 teams gave us the unique opportunity to reward them all with something nice. The 3 teams that got podium places all got their medals and their rewards and the team in fourth place got their consolation prize.
 
 Luckily though, we're all winners, even the Jury members and the organizers.
 This event has brought us all closer together and improved the connection between our colleagues.
