@@ -11,6 +11,7 @@ interface Props {
   socialImage?: string;
   children: React.ReactNode;
   noIndex?: boolean;
+  slug?: string;
 }
 
 const Layout: React.FC<Props> = ({
@@ -19,6 +20,7 @@ const Layout: React.FC<Props> = ({
   description,
   socialImage = "",
   noIndex = false,
+  slug,
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
@@ -33,6 +35,7 @@ const Layout: React.FC<Props> = ({
         <meta property="og:description" content={description} />
         <meta property="og:site_name" content={title} />
         <meta property="og:image" content={metaImageUrl} />
+        {slug && <meta property="og:url" content={`${url}${slug}`} />}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />

@@ -24,6 +24,7 @@ const PostTemplate: React.FC<Props> = ({ data }: Props) => {
       title={`${title} - ${siteTitle}`}
       description={metaDescription}
       socialImage={socialImage?.publicURL}
+      slug={data.markdownRemark.fields.slug}
     >
       <Post post={data.markdownRemark} />
     </Layout>

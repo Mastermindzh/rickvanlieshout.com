@@ -50,7 +50,7 @@ We also started working on the controllers. The final design will be compromised
 ![back](./media/back.jpg "Back of the controller")
 ![bottom](./media/bottom.jpg "bottom of the controller")
 ![controller_pot](./media/controller_pot.jpg "potentiometer used inside the controller")
-![front](./media/Front_thumb.png "The front of the controller with the logo")
+![front](./media/front-thumb.png "The front of the controller with the logo")
 ![inside](./media/inside.jpg "the inside of an assembled controller")
 ![left_side](./media/left_side.jpg "The left side of the controller")
 ![right_side](./media/right_side.jpg "The right side of the controller")

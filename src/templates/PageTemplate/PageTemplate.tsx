@@ -26,6 +26,7 @@ const PageTemplate: React.FC<Props> = ({ data }: Props) => {
       title={`${title} - ${siteTitle}`}
       description={metaDescription}
       socialImage={socialImage?.publicURL}
+      slug={data.markdownRemark.fields.slug}
     >
       <Sidebar />
       <Page title={title}>
@@ -40,6 +41,9 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date

@@ -28,7 +28,7 @@ const CategoryTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
     currentPage > 0 ? `${group} - Page ${currentPage} - ${siteTitle}` : `${group} - ${siteTitle}`;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
+    <Layout title={pageTitle} description={siteSubtitle} slug={`/category/${group}/`}>
       <Sidebar />
       <Page title={group}>
         <Feed edges={edges} />
