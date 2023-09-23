@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.3...v1.3.0) (2023-09-23)
+
+
+### Features
+
+* added my public keys to a keys.json file in the root of the website ([8a2f19e](https://github.com/mastermindzh/rickvanlieshout.com/commits/8a2f19e8a9abec4a3529c08cd06cf7e042e67725))
+
+
+### Bug Fixes
+
+* 404 on lego.com page of removed product ([0dc9773](https://github.com/mastermindzh/rickvanlieshout.com/commits/0dc97732e81458b39cccc6c100516e05f245697f))
+* added links to orphaned categories and tags pages ([0e9946c](https://github.com/mastermindzh/rickvanlieshout.com/commits/0e9946c92eb5022961a9f457ce82636a60e0e9ee))
+* added opengraph tags ([e6ebd5b](https://github.com/mastermindzh/rickvanlieshout.com/commits/e6ebd5b79f17ac41e4e1954857da8cd8ab50224a))
+* **opengraph:** added mandatory opengraph tags to all pages. Also fixed some other minor bugs ([98a3eb7](https://github.com/mastermindzh/rickvanlieshout.com/commits/98a3eb71f55c17da7964d6c5014e599a459329e1))
+* package.json & package-lock.json to reduce vulnerabilities ([9dc1f62](https://github.com/mastermindzh/rickvanlieshout.com/commits/9dc1f6275fdd1f6fe5fd9485f554345a1df268ec))
+* remove noindex and noindex follow tags ([d72e301](https://github.com/mastermindzh/rickvanlieshout.com/commits/d72e30196df5ca6944ae6dde7b4417c9efeb38d3))
+* removed nofollow links to my own website ([bebfe16](https://github.com/mastermindzh/rickvanlieshout.com/commits/bebfe1638e9ef1dc35b0b0fd6e8907edd344951f))
+* several pages linked to redirected urls. This replaces those links with the destination instead ([b5126bf](https://github.com/mastermindzh/rickvanlieshout.com/commits/b5126bf051dcdfe7159d24eb2cddeb3f8e1ceee8))
+* solve 404 on front-thumb image ([5344b98](https://github.com/mastermindzh/rickvanlieshout.com/commits/5344b98f8e37fb661a1ec70aaba1c5ef92cfa370))
+* updated npm packages and pinned unist-util-find to 1.0.2 to fix build errors ([5ea6e0a](https://github.com/mastermindzh/rickvanlieshout.com/commits/5ea6e0a20f9c8aff33a9ae18143e6f8fd3634127))
+* upgrade gatsby-plugin-image from 3.11.0 to 3.12.0 ([05662d2](https://github.com/mastermindzh/rickvanlieshout.com/commits/05662d2c492ae70575947b9327d64fa642a63698))
+* upgrade multiple dependencies with Snyk ([cbaca6f](https://github.com/mastermindzh/rickvanlieshout.com/commits/cbaca6f4cd9ba9ff290fcb2ede5a81d8c0e3f285))
+* upgrade multiple dependencies with Snyk ([10cbe94](https://github.com/mastermindzh/rickvanlieshout.com/commits/10cbe94397c43f80ff28cb5c81126fc3af632547))
+* upgrade multiple dependencies with Snyk ([3ef5ca5](https://github.com/mastermindzh/rickvanlieshout.com/commits/3ef5ca570b05e0cbc6c670eb9df179b1be1dba9c))
+* upgrade multiple dependencies with Snyk ([46c12f8](https://github.com/mastermindzh/rickvanlieshout.com/commits/46c12f8c98ab8beb7b6be040fa73761eb73b2dd9))
+
+
+### New content
+
+* A new blog about the LegoLeague event held at INFORIT ([4e6b042](https://github.com/mastermindzh/rickvanlieshout.com/commits/4e6b042a44d9a9f5d68dba653c1472be80d21ce9))
+* **legoleague:** fixed some writing ([92245be](https://github.com/mastermindzh/rickvanlieshout.com/commits/92245be1883f7e136dae7888a64a472cf6597180))
+
 ### [1.2.3](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.2...v1.2.3) (2023-04-19)
 
 ### Bug Fixes
