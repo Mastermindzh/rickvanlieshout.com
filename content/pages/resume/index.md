@@ -64,6 +64,7 @@ Building an interactive and fully customizable dashboard on top of VAA's existin
 I'll list some of the training courses I've had whilst working.
 Some of these have (official) certificates, some don't, but all have brought value and knowledge.
 
+- Young Executive Program (YEP) - [De Baak](https://debaak.nl/trainingen/young-executives-program)
 - Hiring & interview training ([icm.nl](https://www.icm.nl/opleidingen-en-trainingen/hrm/selectiegesprekken-voeren/))
 - Conversation techniques & de-escalation ([TIJDwinst.com](https://gesprekstechnieken.com/cursus-gesprekstechnieken/)](<https://gesprekstechnieken.com/cursus-gesprekstechnieken/>)).
 - Kubernetes (NobleProg Certification Kubernetes on Azure (AKS), 26 August 2019 - 27 August 2019)

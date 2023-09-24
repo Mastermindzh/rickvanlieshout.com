@@ -13,7 +13,7 @@ const TagsTemplate: React.FC = () => {
   const tags = useTagsList();
 
   return (
-    <Layout title={`Tags - ${title}`} description={subtitle}>
+    <Layout title={`Tags - ${title}`} description={subtitle} slug="/tags/">
       <Sidebar />
       <Page title="Tags">
         <ul>

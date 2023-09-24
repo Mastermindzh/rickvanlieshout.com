@@ -26,7 +26,7 @@ const IndexTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
+    <Layout title={pageTitle} description={siteSubtitle} slug="">
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />

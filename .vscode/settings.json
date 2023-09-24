@@ -11,5 +11,9 @@
             "language": "markdown",
             "scheme": "file"
         }
-    ]
+    ],
+    "sonarlint.connectedMode.project": {
+      "connectionId": "public-sonarcloud",
+      "projectKey": "Mastermindzh_rickvanlieshout.com"
+    }
 }

@@ -13,7 +13,7 @@ const CategoriesTemplate: React.FC = () => {
   const categories = useCategoriesList();
 
   return (
-    <Layout title={`Categories - ${title}`} description={subtitle}>
+    <Layout title={`Categories - ${title}`} description={subtitle} slug="/categories/">
       <Sidebar />
       <Page title="Categories">
         <ul>

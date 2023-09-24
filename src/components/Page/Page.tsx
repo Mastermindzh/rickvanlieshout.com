@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
-import * as styles from "./Page.module.scss";
 import type { Nullable } from "@/types";
-
+import { Helmet } from "react-helmet";
+import * as styles from "./Page.module.scss";
 
 interface Props {
   title?: string;
@@ -19,12 +19,17 @@ const Page: React.FC<Props> = ({ title, children }: Props) => {
   }, []);
 
   return (
-    <div ref={pageRef} className={styles.page}>
-      <div className={styles.inner}>
-        {title && <h1 className={styles.title}>{title}</h1>}
-        <div className={styles.body}>{children}</div>
+    <>
+      <Helmet>
+        <meta property="og:type" content="website" />
+      </Helmet>
+      <div ref={pageRef} className={styles.page}>
+        <div className={styles.inner}>
+          {title && <h1 className={styles.title}>{title}</h1>}
+          <div className={styles.body}>{children}</div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

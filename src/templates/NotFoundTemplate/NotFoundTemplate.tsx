@@ -10,7 +10,7 @@ const NotFoundTemplate: React.FC = () => {
   const { title, subtitle } = useSiteMetadata();
 
   return (
-    <Layout title={`Not Found - ${title}`} description={subtitle}>
+    <Layout title={`Not Found - ${title}`} description={subtitle} slug="/404.html">
       <Sidebar />
       <Page title="Oh no! page be lost">
         <p>

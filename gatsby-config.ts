@@ -171,7 +171,7 @@ export default {
         stripQueryString: true,
       },
     },
-    // remove the old serviceworker if it is available.
+    // remove the old service worker if it is available.
     "gatsby-plugin-remove-serviceworker",
     "gatsby-plugin-image",
     "gatsby-plugin-catch-links",
