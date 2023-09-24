@@ -2,12 +2,12 @@
 title: "The pi cluster, home automation & kickstarter monitoring"
 date: "2014-09-27"
 template: "post"
-category: "Homelab"
+category: "homelab"
 tags:
   - "python"
   - "raspberry"
   - "pi"
-  - "home automation"
+  - "home-automation"
 description: "Today's blog is about home automation."
 disqusId: "7"
 ---

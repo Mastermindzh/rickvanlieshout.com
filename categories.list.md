@@ -7,8 +7,8 @@ A list of categories used in the blog
 | ----------- | -------------------------------------------------------- |
 | blog        | random blog stuff                                        |
 | IOT         | anything to do with IOT                                  |
-| Homelab     | anything to do with my homelab (including smart home...) |
-| Development | anything to do with regular development                  |
+| homelab     | anything to do with my homelab (including smart home...) |
+| development | anything to do with regular development                  |
 | exploits    | blogs about exploits and bugs in open-source software    |
-| Lego        | blogs about Lego                                         |
+| lego        | blogs about Lego                                         |
 | house       | Content about the place I live                           |

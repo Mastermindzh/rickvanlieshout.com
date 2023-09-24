@@ -3,9 +3,9 @@ title: Scala Day 0 - What is Scala?
 date: "2017-03-30"
 template: "post"
 draft: false
-category: "Development"
+category: "development"
 tags:
-  - "Development"
+  - "development"
   - "slsw"
 description: "My final assignment for a school course is to learn a new language from a book (uh-oh). I picked Scala and here's why"
 disqusId: "20"

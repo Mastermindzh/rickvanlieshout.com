@@ -2,7 +2,7 @@
 title: "Raspberry pi cluster Step 4: Setting up the master node"
 date: "2014-09-17"
 template: "post"
-category: "Homelab"
+category: "homelab"
 tags:
   - "raspberry"
   - "cluster"

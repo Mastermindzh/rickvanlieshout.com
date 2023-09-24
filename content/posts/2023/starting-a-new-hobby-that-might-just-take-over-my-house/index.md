@@ -4,7 +4,7 @@ date: "2023-02-14"
 template: "post"
 category: "blog"
 tags:
-  - "Lego"
+  - "lego"
   - "house"
 description: "What started as a simple decoration piece to fill some empty space in my home quickly grew into a new hobby of which the remnants can be found throughout my house"
 socialImage: ./media/building-the-owl.jpg
