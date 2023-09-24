@@ -3,9 +3,9 @@ title: Scala Day 4 - A challenge!
 date: "2017-04-05"
 template: "post"
 draft: false
-category: "Development"
+category: "development"
 tags:
-  - "Development"
+  - "development"
   - "slsw"
 description: "The last day of my journey with Scala is said to be a challenge"
 disqusId: "24"

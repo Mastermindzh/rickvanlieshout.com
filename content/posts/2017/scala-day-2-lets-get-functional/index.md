@@ -3,9 +3,9 @@ title: Scala Day 2 - Let's get functional
 date: "2017-04-03"
 template: "post"
 draft: false
-category: "Development"
+category: "development"
 tags:
-  - "Development"
+  - "development"
   - "slsw"
 description: "Today we'll focus on the functional aspects of Scala"
 disqusId: "22"

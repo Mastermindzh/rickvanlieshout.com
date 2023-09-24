@@ -2,7 +2,7 @@
 title: "Raspberry pi cluster step 5: Expanding the cluster"
 date: "2014-09-19"
 template: "post"
-category: "Homelab"
+category: "homelab"
 tags:
   - "raspberry"
   - "cluster"

@@ -3,9 +3,9 @@ title: Scala Day 1 - The Basics
 date: "2017-04-02"
 template: "post"
 draft: false
-category: "Development"
+category: "development"
 tags:
-  - "Development"
+  - "development"
   - "slsw"
 description: "Let's take a deep dive into a programming book and Scala!"
 disqusId: "21"

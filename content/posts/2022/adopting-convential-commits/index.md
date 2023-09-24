@@ -2,13 +2,13 @@
 title: Adopting conventional commits and standard versions in a git and npm codebase
 date: "2022-11-07"
 template: "post"
-category: "Development"
+category: "development"
 tags:
   - "git"
-  - "conventional commits"
-  - "semantic commits"
-  - "INFORIT"
-  - "Standard releases"
+  - "conventional-commits"
+  - "semantic-commits"
+  - "inforit"
+  - "standard-releases"
 
 description: "A dive into conventional commits and their benefit whilst releasing with standard versions."
 socialImage: "./media/husky-error.png"

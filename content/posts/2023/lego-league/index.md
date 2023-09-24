@@ -9,6 +9,7 @@ tags:
   - "programming"
   - "team"
   - "work"
+  - "inforit"
 description: "At INFORIT we love to play! Be it DND, board games or in this case... Legos. Read on to find out what we've been up to this past summer vacation"
 socialImage: ./media/lego-spike-set.png
 ---

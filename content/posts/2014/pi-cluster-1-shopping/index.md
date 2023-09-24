@@ -2,7 +2,7 @@
 title: "Raspberry pi cluster Step 1: Shopping"
 date: "2014-09-05 23:00"
 template: "post"
-category: "Homelab"
+category: "homelab"
 tags:
   - "raspberry"
   - "cluster"

@@ -3,9 +3,9 @@ title: Scala Day 3 - Concurrency is key!
 date: "2017-04-04"
 template: "post"
 draft: false
-category: "Development"
+category: "development"
 tags:
-  - "Development"
+  - "development"
   - "slsw"
 description: "A day full of functional joy and concurrency "
 disqusId: "23"

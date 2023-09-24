@@ -2,7 +2,7 @@
 title: "Raspberry pi cluster Step 2: Assembling the hardware"
 date: "2014-09-10"
 template: "post"
-category: "Homelab"
+category: "homelab"
 tags:
   - "raspberry"
   - "cluster"

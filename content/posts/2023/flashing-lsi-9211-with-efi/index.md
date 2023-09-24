@@ -2,14 +2,14 @@
 title: Flashing the LSI-9211 to IT mode using an EFI shell
 date: "2023-04-12"
 template: "post"
-category: "Homelab"
+category: "homelab"
 tags:
   - "lsi"
   - "lsi9211"
   - "raid card"
   - "storage"
-  - "SAS2000"
-  - "it mode"
+  - "sas2000"
+  - "it-mode"
 description: "Flashing the LSI-9211 used to be way more difficult, luckily the EFI shell makes this task a lot simpler!"
 socialImage: ./media/flash-result.jpg
 ---

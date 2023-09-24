@@ -2,7 +2,7 @@
 title: "Raspberry pi cluster Step 3: Installing the OS"
 date: "2014-09-14"
 template: "post"
-category: "Homelab"
+category: "homelab"
 tags:
   - "raspberry"
   - "cluster"
