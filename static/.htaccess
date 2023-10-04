@@ -55,10 +55,10 @@ RewriteCond %{SERVER_PORT} ^80$
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301]
 
 RewriteCond %{HTTP_HOST} ^rickvanlieshout.com [NC]
-RewriteRule ^(.*)$ http://www.rickvanlieshout.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://www.rickvanlieshout.com/$1 [L,R=301]
 
 RewriteCond %{HTTP_HOST} ^mastermindzh.com [NC]
-RewriteRule ^(.*)$ http://www.mastermindzh.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://www.mastermindzh.com/$1 [L,R=301]
 
 # Optional: explicitly enable per-directory rewrites in the .htaccess context.
 

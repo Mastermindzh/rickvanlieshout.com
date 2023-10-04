@@ -8,7 +8,7 @@ tags:
   - "lsi9211"
   - "raid card"
   - "storage"
-  - "sas2000"
+  - "SAS2000"
   - "it-mode"
 description: "Flashing the LSI-9211 used to be way more difficult, luckily the EFI shell makes this task a lot simpler!"
 socialImage: ./media/flash-result.jpg

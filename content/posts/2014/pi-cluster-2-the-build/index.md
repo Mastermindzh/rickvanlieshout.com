@@ -14,7 +14,7 @@ socialImage: "./media/improvising.jpg"
 
 So today I finally received the required parts to finish up my Raspberry pi cluster and I was **extremely** excited! To share this excitement with you lot here's a picture of all the parts I'll be using:
 
-![picture of all the parts spread on the mat](./media/pi_overview_full.JPG "all the bits!")
+![picture of all the parts spread on the mat](./media/pi_overview_full.jpg "all the bits!")
 
 I began by building the Raspberry pi "tower", sadly I forgot to take a picture with the DSLR so I only have this one cell image to show you guys:
 
