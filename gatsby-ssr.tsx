@@ -18,7 +18,19 @@ const setColorTheme = `
   }
 })();
 `;
-export const onRenderBody = ({ setPreBodyComponents }: RenderBodyArgs) => {
+export const onRenderBody = ({
+  setPreBodyComponents,
+  setHeadComponents,
+  pathname,
+}: RenderBodyArgs) => {
+  const currentUrl = `https://rickvanlieshout.com${pathname}`;
+
+  setHeadComponents([
+    <meta key="og:url" property="og:url" content={currentUrl} />,
+    <link key="canonical" rel="canonical" href={currentUrl} />,
+    <meta property="test:rick" key="test:rick" content={currentUrl} />,
+  ]);
+
   setPreBodyComponents([
     React.createElement("script", {
       key: "theme",

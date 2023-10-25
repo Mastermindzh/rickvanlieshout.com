@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import { useSiteMetadata } from "@/hooks";
-import { toKebabCase } from "../../utils";
 import { CookieBar } from "../Cookiebar/CookieBar";
 import * as styles from "./Layout.module.scss";
 
@@ -36,12 +35,6 @@ const Layout: React.FC<Props> = ({
         <meta property="og:description" content={description} />
         <meta property="og:site_name" content={title} />
         <meta property="og:image" content={metaImageUrl} />
-        {slug && (
-          <meta
-            property="og:url"
-            content={`${url}/tag/${toKebabCase(slug.replace("/tag/", ""))}`}
-          />
-        )}
         <meta property="og:title" content={title} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />

@@ -164,13 +164,6 @@ export default {
         start_url: "/",
       },
     },
-    {
-      resolve: "gatsby-plugin-react-helmet-canonical-urls",
-      options: {
-        siteUrl: config.url,
-        stripQueryString: true,
-      },
-    },
     // remove the old service worker if it is available.
     "gatsby-plugin-remove-serviceworker",
     "gatsby-plugin-image",
