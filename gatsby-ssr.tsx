@@ -26,9 +26,9 @@ export const onRenderBody = ({
   const currentUrl = `https://rickvanlieshout.com${pathname}`;
 
   setHeadComponents([
-    <meta key="og:url" property="og:url" content={currentUrl} />,
-    <link key="canonical" rel="canonical" href={currentUrl} />,
-    <meta property="test:rick" key="test:rick" content={currentUrl} />,
+    <meta data-url="currentUrl" key="og:url" property="og:url" content={currentUrl} />,
+    <link data-url="currentUrl" key="canonical" rel="canonical" href={currentUrl} />,
+    <meta data-url="currentUrl" property="test:rick" key="test:rick" content={currentUrl} />,
   ]);
 
   setPreBodyComponents([
