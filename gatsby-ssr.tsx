@@ -23,7 +23,7 @@ export const onRenderBody = ({
   setHeadComponents,
   pathname,
 }: RenderBodyArgs) => {
-  const currentUrl = `https://rickvanlieshout.com${pathname}`;
+  const currentUrl = `https://www.rickvanlieshout.com${pathname}`;
 
   setHeadComponents([
     <meta data-url="currentUrl" key="og:url" property="og:url" content={currentUrl} />,
