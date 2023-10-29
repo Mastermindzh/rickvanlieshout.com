@@ -9,7 +9,7 @@ const Author = () => {
     <div className={styles.author}>
       <p className={styles.bio}>
         Written by:{" "}
-        <a href="/pages/about">
+        <a href="/pages/about/">
           <strong>{author.name}</strong>
         </a>
         {typeof window !== "undefined" ? (

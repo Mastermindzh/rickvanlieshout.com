@@ -9,7 +9,7 @@ tags:
   - "pi"
 description: "Today's blog post will be about expanding the cluster with more nodes."
 disqusId: "6"
-socialImage: "./media/pidark_full.JPG"
+socialImage: "./media/pidark.jpg"
 ---
 
 In today's post we'll have a look at expanding the cluster with more nodes! We will have a look at how to clone them and how we can set up a universal login using ssh keys.
@@ -40,7 +40,7 @@ sudo nano /etc/network/interfaces
 
 After setting up all 4 pi's and plugging it all in you should see all 4 led's light up on the pi's. If this is not the case you might've forgotten to change either the ip address or the hostname. (which will lead to a conflict resulting in one of them not having internet access). Mine now looks like this (note the dramatic night picture taken at 10 past 12 am):
 
-![picture of 4 Raspberry pi's stacked on a network switch serving as a cluster](./media/pidark_full.JPG "It's not quite RGB but it's beautiful!")
+![picture of 4 Raspberry pi's stacked on a network switch serving as a cluster](./media/pidark.jpg "It's not quite RGB but it's beautiful!")
 
 ## Logging in to the nodes with ssh keys
 

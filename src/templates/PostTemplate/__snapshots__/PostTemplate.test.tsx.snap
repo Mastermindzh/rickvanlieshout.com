@@ -166,7 +166,7 @@ exports[`PostTemplate renders correctly 1`] = `
           Written by:
            
           <a
-            href="/pages/about"
+            href="/pages/about/"
           >
             <strong>
               Rick van Lieshout
