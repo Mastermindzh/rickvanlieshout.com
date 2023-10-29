@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.3.0...v1.3.1) (2023-10-29)
+
+
+### Bug Fixes
+
+* fixed tags and categories in several blog posts ([7019f34](https://github.com/mastermindzh/rickvanlieshout.com/commits/7019f340050c04eed6065c4ddd4582d6b2d22b9b))
+* now setting og:url correctly as well as the canonical url ([e065f16](https://github.com/mastermindzh/rickvanlieshout.com/commits/e065f16fb505eb8f9e5acef6f92c5a016e276ebc))
+* set current url tags in both ssr and browser space ([1c4c9d0](https://github.com/mastermindzh/rickvanlieshout.com/commits/1c4c9d058a7382ebe52dd1b188b22ca8d7a185c3))
+* several fixes to improve ahrefs site score ([8245e1f](https://github.com/mastermindzh/rickvanlieshout.com/commits/8245e1f0d8854cd6a727a8b837ee3259ee040d48))
+* upgrade gatsby from 5.12.1 to 5.12.3 ([043d08e](https://github.com/mastermindzh/rickvanlieshout.com/commits/043d08e58f9962688bd615b8e8d535e4111e7aa2))
+* upgrade gatsby from 5.12.3 to 5.12.4 ([f13f40d](https://github.com/mastermindzh/rickvanlieshout.com/commits/f13f40df35cc0230ddcf7766a7b2e73477696439))
+
 ## [1.3.0](https://github.com/mastermindzh/rickvanlieshout.com/compare/v1.2.3...v1.3.0) (2023-09-23)
 
 
