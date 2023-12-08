@@ -20,14 +20,14 @@ template: "page"
 _Always_<br />
 A fair share of my private work is done through open-source media. I don't have a portfolio but I have a [Github](https://github.com/mastermindzh) where I share most things.
 
-**Tech lead / CTO at INFORIT**<br />
+**CTO at Frontliners (previously INFORIT)**<br />
 _2018 - Now_<br />
-At INFORIT I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages such as dotnetcore and React.
+At Frontliners I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages such as dotnetcore and React.
 
 The other main responsibility I have is creating and maintaining a coherent team of lead developers by sharing knowledge, making decisions, and empowering leads to explore technologies outside of their comfort zone.
 
-At INFORIT I also help with the recruitment of new employees, setting up and maintaining agile strategies including proper test management, and general software development.
-During my time at INFORIT, we've grown from 5-7 in-house developers to 10, full-sized, SCRUM teams.
+At Frontliners I also help with the recruitment of new employees, setting up and maintaining agile strategies including proper test management, and general software development.
+During my time at Frontliners, we've grown from 5-7 in-house developers to 10, full-sized, SCRUM teams.
 
 Most relevant technologies used: dotnetcore, React, Angular, Kafka, RabbitMQ, Mongo, PostgreSQL, Growthbook, Docker & Kubernetes
 
