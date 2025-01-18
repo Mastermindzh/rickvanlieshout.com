@@ -340,7 +340,7 @@ Now, let's add a Husky git hook to combat future commits that are unconventional
 npx husky-init && npm install
 ```
 
-This will automatically create the `.husky/pre-commit` file. Let's edit it and add commitlint:
+This will automatically create the `.husky/` directory. Let's create a file in it called `commit-msg` and add commitlint:
 
 ```sh
 #!/usr/bin/env sh
