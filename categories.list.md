@@ -12,3 +12,4 @@ A list of categories used in the blog
 | exploits    | blogs about exploits and bugs in open-source software    |
 | lego        | blogs about Lego                                         |
 | house       | Content about the place I live                           |
+| life        | Posts about life                                         |
