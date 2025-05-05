@@ -5,12 +5,16 @@
         "fontawesome",
         "fortawesome",
         "frontmatter",
+        "gitops",
+        "homelab",
+        "Jellyfin",
         "Lieshoutt",
         "Rickvan",
         "rickvanlieshoutcom",
         "slsw",
         "soundcloud",
         "todos",
+        "unraid",
         "weibo"
     ],
     "grammarly.selectors": [
