@@ -5,14 +5,14 @@ date: 2025-05-04
 template: "post"
 category: "life"
 tags:
-- life
-- grief
-- memory
-- loss
-- trauma
-- healing
-- personal
-- poetry
+  - life
+  - grief
+  - memory
+  - loss
+  - trauma
+  - healing
+  - personal
+  - poetry
 coverImage: ./media/cover.png
 ---
 
@@ -31,7 +31,7 @@ But then there's another kind.
 
 The kind that settles into your bones. The kind that haunts you during the quiet hours. The kind that never finds a conclusion.
 
-That kind is not absence. It's ***gone***. Irrevocable, final, cruel. A door slammed shut that you still find yourself knocking on, long after you’ve forgotten why you started.
+That kind is not absence. It's **_gone_**. Irrevocable, final, cruel. A door slammed shut that you still find yourself knocking on, long after you’ve forgotten why you started.
 
 It never opens. And still, you try the handle every now and then.
 
@@ -39,13 +39,13 @@ It never opens. And still, you try the handle every now and then.
 
 Losing a loved one doesn’t stay in one room of your house though, it isn't one door that is locked. It leaks under doors and through cracks. You find it in the most unexpected places.
 
-You're sipping coffee with someone, and they mention a trip they took. Suddenly, you're remembering the trip *you* never took. The one you'd planned. The one that cancer took from you.
+You're sipping coffee with someone, and they mention a trip they took. Suddenly, you're remembering the trip _you_ never took. The one you'd planned. The one that cancer took from you.
 
 They talk about a shared playlist. You remember the song you danced to in the rain, soaking wet but laughing anyway. The same song you now skip every time it comes on because it hurts too much
 
 Someone laughs about chipped mugs. You think of the one she cracked and called "vintage," and how it's still at the back of your cabinet. Untouched. Sacred.
 
-It’s like walking through a museum where only *you* know what’s behind the glass.
+It’s like walking through a museum where only _you_ know what’s behind the glass.
 
 > They talk, they laugh, the world goes on,<br />
 > Yet I sit with shadows, from dusk to dawn. <br />
@@ -56,9 +56,9 @@ It’s like walking through a museum where only *you* know what’s behind the g
  <img src="/media/the-flashback-no-one-sees.png" alt="A foggy bathroom mirror with a red lipstick kiss at the center, surrounded by a shadowy, intimate atmosphere.">
 </figure>
 
-These are what I call *mind pops*. Short for Involuntary Autobiographical Memory Chains. I wrote a journal-like book once, and later a smaller one. I wanted to share them. I tried. But I was never brave enough to.
+These are what I call _mind pops_. Short for Involuntary Autobiographical Memory Chains. I wrote a journal-like book once, and later a smaller one. I wanted to share them. I tried. But I was never brave enough to.
 
-Mind pops come uninvited. And they come *hard*.
+Mind pops come uninvited. And they come _hard_.
 Here are some examples from my book:
 
 - The eyeliner she never quite got even.
@@ -77,7 +77,7 @@ They’re not just memories. They’re grenades. Quiet ones. You never know when
 
 ## Unfair doesn’t even begin to cover it
 
-We grow up believing that the world has some kind of order to it. That bad things happen, sure—but not *this* bad. Not *this* unfair.
+We grow up believing that the world has some kind of order to it. That bad things happen, sure—but not _this_ bad. Not _this_ unfair.
 You lose someone who made life feel infinite. You watch them disappear into the haze of hospital lights and soft-spoken specialists.
 
 Cancer doesn’t care if you’re young. Or kind.<br />
@@ -99,18 +99,18 @@ For a long time, no one knew. Most don't, still.
 
 People see the version of you they expect: Smiling. Joking. Coping. Existing.<br />
 But behind the eyes, you’re unraveling. Constantly. Because grief doesn’t pause.<br />
-Not ***really***.
+Not **_really_**.
 
 Sharing this is hard. Not because I don’t want to, but because it makes you so vulnerable. Because as you're writing or speaking, memories pop up uninvited. They derail your words. They choke your sentences. They just pop in... bastards...
 
-And even when you manage to share, others often don’t understand. They compare. They say things like “I lost someone too,” but it’s different. This kind of grief? This kind of loss? It’s heavier. It cuts deeper. And hearing it treated like it’s the same as all the rest—*that* makes you angry.
+And even when you manage to share, others often don’t understand. They compare. They say things like “I lost someone too,” but it’s different. This kind of grief? This kind of loss? It’s heavier. It cuts deeper. And hearing it treated like it’s the same as all the rest—_that_ makes you angry.
 
 Here’s something I once wrote, when I thought no one would ever read it:
 
 > I'm surrounded by many figures, but still alone...<br />
->No one sees me, nor the pain behind my mask.<br />
->They see the smiling, happy guy I show them.<br />
->You can't blame them though, how can I let them see the darkness in my heart? <br />
+> No one sees me, nor the pain behind my mask.<br />
+> They see the smiling, happy guy I show them.<br />
+> You can't blame them though, how can I let them see the darkness in my heart? <br />
 > It would scare them, for it has been torn apart.
 
 I didn’t want to scare people. Or burden them. So I said nothing.<br />
@@ -135,19 +135,19 @@ If I eat alone, at a restaurant, I order what she would’ve. (who do I kid, I s
 And I wrote a song. It’s unfinished though—like she was.
 
 **🎵 (Refrain)**<br />
-*A strand of blonde hair, as delicate as sun,*<br />
-*A mystery found, in silence it's spun.*<br />
-*But memory, like a fleeting breeze,*<br />
-*Fades away as a haze, in the time we seize.*<br /><br />
+_A strand of blonde hair, as delicate as sun,_<br />
+_A mystery found, in silence it's spun._<br />
+_But memory, like a fleeting breeze,_<br />
+_Fades away as a haze, in the time we seize._<br /><br />
 
 **🎶(Verse)**<br />
-*Days pass like rustling leaves,*<br />
-*Stories fade, like quiet thieves.*<br />
-*How swiftly memory slips away,*<br />
-*Like an old melody, lost in the fray.*<br />
+_Days pass like rustling leaves,_<br />
+_Stories fade, like quiet thieves._<br />
+_How swiftly memory slips away,_<br />
+_Like an old melody, lost in the fray._<br />
 
-*A mysterious gate, in the labyrinth of the mind,*<br />
-*Locked and hidden, what secrets behind?*
+_A mysterious gate, in the labyrinth of the mind,_<br />
+_Locked and hidden, what secrets behind?_
 
 As I'm writing this blog however, I have a sudden urge to add sound to the lyrics, it'll still be unfinished, but a little farther along.
 I used both a piano and a viola to give it a more interesting sound than just the piano.
@@ -175,7 +175,7 @@ She once told me something that still echoes today:
 > "You have to grieve me, for a while... and then you move on. <br />
 > You find someone else to love. Someone who makes you feel something again. <br /> You deserve that."
 
-I shook my head. *"I can’t. I **won’t**. Not because I don’t want to feel again. But because abstinence, to me, feels like remembering you as you are. Eternal."* <br />
+I shook my head. _"I can’t. I **won’t**. Not because I don’t want to feel again. But because abstinence, to me, feels like remembering you as you are. Eternal."_ <br />
 We both cried after that. For different reasons, I think.
 
 ### My words weren't true though
@@ -192,7 +192,7 @@ I know grief isn’t rational. It doesn’t follow clean lines.<br />
 And maybe that’s what hurts most of all—knowing I tried, and still came back to the same place. <br />
 Alone, but full of someone who isn’t here.
 
-One day... *maybe*.
+One day... _maybe_.
 
 ## Why I’m finally speaking
 
@@ -227,12 +227,12 @@ I’ve met people over the years who’ve carried this same grief. And some of t
 On the edge.
 
 Wondering if there’s peace on the other side of absence.<br />
-Let me say this clearly: I have never thought of taking that road for myself. If anything, I would *ask* for eternal life. Even with the grief.<br />
+Let me say this clearly: I have never thought of taking that road for myself. If anything, I would _ask_ for eternal life. Even with the grief.<br />
 But if you are someone who has stood on that edge:
 
 **Don’t. Please.**
 
-The pain is real. The grief is heavy. But life—*even broken life*—has light in it still. And sometimes, all you need is one person willing to sit with you in the dark.
+The pain is real. The grief is heavy. But life—_even broken life_—has light in it still. And sometimes, all you need is one person willing to sit with you in the dark.
 
 Let me be that person for a moment. Just long enough to remind you: the door might be closed, but the room isn’t empty.
 
@@ -241,7 +241,7 @@ Whatever you do, don't pass on the pain.
 
 ## What help looks like
 
-Over the past two years, I’ve slowly—*achingly*—learned to live with it.
+Over the past two years, I’ve slowly—_achingly_—learned to live with it.
 And honestly, I'm happier now than I've ever been since.
 
 I’ve had friends. Real ones. Some with the training to guide me through the murk. Others who simply sat there while I unraveled, trying their best.
@@ -252,7 +252,7 @@ They had always been there, I just didn't allow them to be there for me before.
 I’ve learned that grief isn’t a wall to climb or a puzzle to solve. It’s a landscape.
 
 You don’t conquer it.<br />
-You *walk it*. One aching step at a time.<br />
+You _walk it_. One aching step at a time.<br />
 And if you're lucky... you don’t walk it alone.
 
 ### To those who held me together
@@ -287,7 +287,7 @@ Still holding her memory, but not drowning in it.
 ## Before I finally sign off
 
 This entire blog was something I never thought I could write.
-And what comes next,this next part, is something I swore I *never* would share.
+And what comes next,this next part, is something I swore I _never_ would share.
 
 But here we are.
 
@@ -311,7 +311,7 @@ We, humans, perceive the vast majority of other humans we encounter as bystander
 
 This book will give you a small glimpse into my life. By the end, you might find that I'm more complex than you've thought till now. That there's another side to the happy, carefree guy I show the world for the majority of my time.
 
-Truth is, that life hasn't always been easy. In fact, I'd say that after the turning point my life has never felt easy anymore. In fact,  for at least 10 years now I've been living with prodigious amounts of a single emotion: bereavement.
+Truth is, that life hasn't always been easy. In fact, I'd say that after the turning point my life has never felt easy anymore. In fact, for at least 10 years now I've been living with prodigious amounts of a single emotion: bereavement.
 
 And though I've tried not to let the bereavement take over my life, or in fact make it known to others. it's always been there. I've effectively come to think of it as a zit. Constantly there, constantly annoying and once it's gone away it's only a matter of time before it shows up again somewhere else on your body.
 
@@ -353,4 +353,4 @@ A happy one">
 If you’ve read this far—thank you.
 That alone means more than you know.
 
-*- Rick, mastermindzh, lycan, xxxroosjexxx, and other alias' you might know me from.*
+_- Rick, mastermindzh, lycan, xxxroosjexxx, and other alias' you might know me from._

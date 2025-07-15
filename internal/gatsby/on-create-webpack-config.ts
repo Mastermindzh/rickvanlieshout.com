@@ -15,7 +15,7 @@ const onCreateWebpackConfig = (
             ...aliases,
             [name]: path.resolve(target),
           }),
-          {},
+          {}
         ),
       },
     });

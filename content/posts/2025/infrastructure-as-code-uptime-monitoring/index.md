@@ -44,7 +44,7 @@ One of the most satisfying aspects of IaC is the ability to automate even the sm
 
 Setting up UptimeKuma is straightforward, you can simply use our old friend Docker:
 
-```docker run -d --name uptime-kuma -v ./data/uptimekuma:/app/data -p 3001:3001 louislam/uptime-kuma```
+`docker run -d --name uptime-kuma -v ./data/uptimekuma:/app/data -p 3001:3001 louislam/uptime-kuma`
 
 And access the Dashboard by navigating to <http://localhost:3001> to configure your monitors.
 But that isn't automatic enough for me, I like to put my things in compose files for home usage.
@@ -65,8 +65,8 @@ labels:
 
 This actually does 2 things:
 
-- creates a group with the *key/id* `monitoring` and the name `Monitoring`
-- Adds a monitor with the *key/id* `uptime_kuma` to UptimeKuma with the type `http`, name `Kuma status monitoring`, and url `http://${HOST_IP}:3001`
+- creates a group with the _key/id_ `monitoring` and the name `Monitoring`
+- Adds a monitor with the _key/id_ `uptime_kuma` to UptimeKuma with the type `http`, name `Kuma status monitoring`, and url `http://${HOST_IP}:3001`
 
 Adding these labels, whilst AutoKuma is running and configured to pick up labels starting with `kuma` is enough for monitors to show up (after restarting the containers).
 All in all, my `docker-compose.yml` file for both UptimeKuma and AutoKuma now looks like this:

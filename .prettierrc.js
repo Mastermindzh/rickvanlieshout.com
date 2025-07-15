@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("@mastermindzh/prettier-config")
+  ...require("@mastermindzh/prettier-config"),
 };

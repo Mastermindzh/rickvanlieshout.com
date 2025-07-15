@@ -1,9 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
 
-import { useSiteMetadata } from "@/hooks";
 import { CookieBar } from "../Cookiebar/CookieBar";
 import * as styles from "./Layout.module.scss";
+import { useSiteMetadata } from "@/hooks";
 
 interface Props {
   title: string;
@@ -20,7 +20,6 @@ const Layout: React.FC<Props> = ({
   description,
   socialImage = "",
   noIndex = false,
-  slug,
 }: Props) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;

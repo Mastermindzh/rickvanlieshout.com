@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "ignoreDeps": [
+    "react",
+    "react-dom",
+    "@types/react",
+    "@types/react-dom",
+    "@types/react-test-renderer",
+    "react-test-renderer"
+  ]
+}

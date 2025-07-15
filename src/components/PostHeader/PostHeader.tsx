@@ -1,8 +1,8 @@
-import { Image } from "@/components/Image";
 import { Link, navigate } from "gatsby";
 import React, { FunctionComponent } from "react";
 import { ThemeSwitcher } from "../ThemeSwitcher/ThemeSwitcher";
 import * as styles from "./PostHeader.module.scss";
+import { Image } from "@/components/Image";
 
 type Props = { author: { name: string; photo: string } };
 

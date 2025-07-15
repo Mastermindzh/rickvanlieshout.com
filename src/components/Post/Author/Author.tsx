@@ -1,6 +1,6 @@
-import { useSiteMetadata } from "@/hooks";
 import React from "react";
 import * as styles from "./Author.module.scss";
+import { useSiteMetadata } from "@/hooks";
 
 const Author = () => {
   const { author } = useSiteMetadata();
@@ -13,6 +13,7 @@ const Author = () => {
           <strong>{author.name}</strong>
         </a>
         {typeof window !== "undefined" ? (
+          // eslint-disable-next-line no-undef
           <span className="showInPrintView"> {window ? `@ ${window.location}` : ""}</span>
         ) : (
           ""

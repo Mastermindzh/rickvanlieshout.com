@@ -5,7 +5,6 @@ import { Link } from "gatsby";
 import * as styles from "./Author.module.scss";
 import { Image } from "@/components/Image";
 
-
 type Props = {
   author: {
     name: string;
