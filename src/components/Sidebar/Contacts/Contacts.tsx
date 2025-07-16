@@ -25,7 +25,7 @@ const Contacts: React.FC<Props> = ({ contacts }: Props) => (
               <Icon name={name} icon={getIcon(name)} />
             </a>
           </li>
-        ) : null
+        ) : null,
       )}
       <li className={styles.item} key="keys">
         <a className={styles.link} href="/keys.json" rel="noopener noreferrer" target="_blank">

@@ -1,8 +1,8 @@
-import { PAGINATION } from "@/constants";
 import classNames from "classnames";
 import { Link } from "gatsby";
 import React from "react";
 import * as styles from "./Pagination.module.scss";
+import { PAGINATION } from "@/constants";
 
 type Props = {
   prevPagePath: string;

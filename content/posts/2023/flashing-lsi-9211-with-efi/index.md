@@ -14,7 +14,6 @@ description: "Flashing the LSI-9211 used to be way more difficult, luckily the E
 socialImage: ./media/flash-result.jpg
 ---
 
-
 I've been building a new storage-oriented server for a while now and have yet again decided to go with (3 +1 backup) LSI 9211 raid controllers.
 
 The reason I keep going for these specific raid controllers is quite simple. The card can theoretically support (8x500MB) 4GB/s in throughput divided over 8 drives (2x SFF-8087) which is near the maximum for consumer hard drives.

@@ -95,11 +95,11 @@ Below you'll find a list of some of the biggest things I've changed.
 - I added a Dark mode with a little [react-toggle](https://github.com/aaronshaf/react-toggle) to switch between light/dark.
 - Blog posts now show a header that includes the "back to articles" button and my name.
 - Added code block theming for both light and dark mode
-!["A block of code in both the dark and light themes"](/media/prism_styles.png)
+  !["A block of code in both the dark and light themes"](/media/prism_styles.png)
 - I added support for tables with a bit of styling around them (slight indent and row styling)
-![a table](/media/table.png)
+  ![a table](/media/table.png)
 - I added the ability to quote others in a beautiful way
-![a quote](/media/quote.png)
+  ![a quote](/media/quote.png)
 - Medium like image zooming (click any of the images above)
 
 #### The posts query bug

@@ -1,4 +1,3 @@
-import { useSiteMetadata } from "@/hooks";
 import React from "react";
 import { ThemeSwitcher } from "../ThemeSwitcher/ThemeSwitcher";
 import { Author } from "./Author";
@@ -6,6 +5,7 @@ import { Contacts } from "./Contacts";
 import { Copyright } from "./Copyright";
 import { Menu } from "./Menu";
 import * as styles from "./Sidebar.module.scss";
+import { useSiteMetadata } from "@/hooks";
 
 type Props = {
   isIndex?: boolean;

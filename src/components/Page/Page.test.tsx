@@ -11,9 +11,7 @@ describe("Page", () => {
       title: mocks.markdownRemark.frontmatter.title,
     };
 
-    const tree = renderer
-      .create(<Page {...props}>{props.children}</Page>)
-      .toJSON();
+    const tree = renderer.create(<Page {...props}>{props.children}</Page>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

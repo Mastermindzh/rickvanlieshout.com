@@ -1,11 +1,7 @@
 import React, { FC } from "react";
 
 import { graphql, StaticQuery } from "gatsby";
-import {
-  GatsbyImage,
-  GatsbyImageProps,
-  IGatsbyImageData,
-} from "gatsby-plugin-image";
+import { GatsbyImage, GatsbyImageProps, IGatsbyImageData } from "gatsby-plugin-image";
 import { FileSystemNode } from "gatsby-source-filesystem";
 
 interface Props extends Omit<GatsbyImageProps, "image"> {
@@ -28,9 +24,7 @@ const Image: FC<Props> = ({ path, ...rest }: Props) => (
   <StaticQuery
     query={graphql`
       query {
-        images: allFile(
-          filter: { ext: { regex: "/png|jpg|jpeg|webp|tif|tiff/" } }
-        ) {
+        images: allFile(filter: { ext: { regex: "/png|jpg|jpeg|webp|tif|tiff/" } }) {
           edges {
             node {
               absolutePath

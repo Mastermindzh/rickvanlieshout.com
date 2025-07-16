@@ -1,8 +1,8 @@
-import { Content } from "@/components/Post/Content";
-import * as mocks from "@/mocks";
 import { StaticQuery, useStaticQuery } from "gatsby";
 import React from "react";
 import renderer from "react-test-renderer";
+import * as mocks from "@/mocks";
+import { Content } from "@/components/Post/Content";
 
 const mockedStaticQuery = StaticQuery as jest.Mock;
 const mockedUseStaticQuery = useStaticQuery as jest.Mock;

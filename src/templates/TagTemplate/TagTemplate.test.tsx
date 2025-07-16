@@ -9,9 +9,7 @@ const mockedUseStaticQuery = useStaticQuery as jest.Mock;
 
 describe("TagTemplate", () => {
   beforeEach(() => {
-    mockedStaticQuery.mockImplementationOnce(({ render }) =>
-      render(mocks.siteMetadata),
-    );
+    mockedStaticQuery.mockImplementationOnce(({ render }) => render(mocks.siteMetadata));
     mockedUseStaticQuery.mockReturnValue(mocks.siteMetadata);
   });
 

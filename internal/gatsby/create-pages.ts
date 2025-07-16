@@ -99,7 +99,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     const path = utils.concat(
       constants.routes.categoryRoute,
       "/",
-      utils.toKebabCase(category.fieldValue)
+      utils.toKebabCase(category.fieldValue),
     );
 
     for (let page = 0; page < total; page += 1) {

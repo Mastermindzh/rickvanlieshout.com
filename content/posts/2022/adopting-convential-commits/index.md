@@ -102,7 +102,7 @@ First, let's add a script to the `package.json` that will do our commit for us:
 ```json
 {
   "scripts": {
-    "commit": "git-cz",
+    "commit": "git-cz"
   }
 }
 ```
@@ -138,14 +138,7 @@ module.exports = {
     "subject-full-stop": [2, "never", "."],
     "type-case": [2, "always", "lower-case"],
     "type-empty": [2, "never"],
-    "type-enum": [
-      2,
-      "always",
-      [
-        "first type",
-        "second type",
-      ],
-    ],
+    "type-enum": [2, "always", ["first type", "second type"]],
   },
   prompt: {
     questions: {
@@ -155,7 +148,6 @@ module.exports = {
     },
   },
 };
-
 ```
 
 As you can see we have configured a whole bunch of things, but there are 2 things that matter for now:
@@ -234,8 +226,7 @@ module.exports = {
             emoji: "💎",
           },
           refactor: {
-            description:
-              "A code change that neither fixes a bug nor adds a feature",
+            description: "A code change that neither fixes a bug nor adds a feature",
             title: "Code Refactoring",
             emoji: "📦",
           },
@@ -274,12 +265,10 @@ module.exports = {
         },
       },
       scope: {
-        description:
-          "What is the scope of this change (e.g. component or file name)",
+        description: "What is the scope of this change (e.g. component or file name)",
       },
       subject: {
-        description:
-          "Write a short, imperative tense description of the change",
+        description: "Write a short, imperative tense description of the change",
       },
       body: {
         description: "Provide a longer description of the change",
@@ -377,7 +366,7 @@ First, let's add some npm scripts again:
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major",
+    "release:major": "standard-version --release-as major"
   }
 }
 ```

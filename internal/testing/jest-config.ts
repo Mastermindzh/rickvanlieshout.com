@@ -22,10 +22,7 @@ const jestConfig: Config.InitialOptions = {
       "identity-obj-proxy",
     "^gatsby-page-utils/(.*)$": "gatsby-page-utils/$1",
     "^gatsby-core-utils/(.*)$": "gatsby-core-utils/dist/$1",
-    "^gatsby-plugin-utils/(.*)$": [
-      "gatsby-plugin-utils/dist/$1",
-      "gatsby-plugin-utils/$1",
-    ],
+    "^gatsby-plugin-utils/(.*)$": ["gatsby-plugin-utils/dist/$1", "gatsby-plugin-utils/$1"],
   },
   transform: { "^.+\\.[jt]sx?$": ["@swc/jest", swc] },
   setupFiles: ["<rootDir>/internal/testing/jest-setup.ts"],
