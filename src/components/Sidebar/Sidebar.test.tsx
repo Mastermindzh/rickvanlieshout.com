@@ -11,9 +11,7 @@ const mockedUseStaticQuery = useStaticQuery as jest.Mock;
 
 describe("Sidebar", () => {
   beforeEach(() => {
-    mockedStaticQuery.mockImplementationOnce(({ render }) =>
-      render(mocks.siteMetadata),
-    );
+    mockedStaticQuery.mockImplementationOnce(({ render }) => render(mocks.siteMetadata));
     mockedUseStaticQuery.mockReturnValue(mocks.siteMetadata);
   });
 

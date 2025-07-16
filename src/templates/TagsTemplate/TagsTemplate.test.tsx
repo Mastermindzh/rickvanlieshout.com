@@ -6,7 +6,6 @@ import TagsTemplate from "./TagsTemplate";
 
 import * as mocks from "@/mocks";
 
-
 const mockedStaticQuery = StaticQuery as jest.Mock;
 const mockedUseStaticQuery = useStaticQuery as jest.Mock;
 
