@@ -18,18 +18,26 @@ template: "page"
 
 **Open-source aficionado**<br />
 _Always_<br />
-A fair share of my private work is done through open-source media. I don't have a portfolio but I have a [Github](https://github.com/mastermindzh) where I share most things.
+A fair share of my private work is done through open-source media. I don't have a portfolio but I have a [Github](https://github.com/mastermindzh) where I share most things. If you're interested in what else I do, or why, let me know and I'll share a detailed description.
 
 **CTO at Frontliners (previously INFORIT)**<br />
 _2018 - Now_<br />
-At Frontliners I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages such as dotnetcore and React.
+At Frontliners I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages such as dotnetcore, Supabase and React. We've delivered a few smaller pieces of software but mainly focus on building a next-gen Transport Management System called TFX.
 
-The other main responsibility I have is creating and maintaining a coherent team of lead developers by sharing knowledge, making decisions, and empowering leads to explore technologies outside of their comfort zone.
+The other main responsibility I have is creating and maintaining, and hiring, a coherent team of (lead) engineers by sharing knowledge, making decisions, and empowering them to explore technologies outside of their comfort zone.
+This includes everything from platform to e2e engineering.
+During my time at Frontliners, the company has grown from 5-7 in-house developers on a single product to 35-40 technical engineers on multiple projects.
 
-At Frontliners I also help with the recruitment of new employees, setting up and maintaining agile strategies including proper test management, and general software development.
-During my time at Frontliners, we've grown from 5-7 in-house developers to 10, full-sized, SCRUM teams.
+The teams I manage will be listed below. Some of the core concepts they work with will also be listed.
+Apart from the last one I also play an active role in them:
 
-Most relevant technologies used: dotnetcore, React, Angular, Kafka, RabbitMQ, Mongo, PostgreSQL, Growthbook, Docker & Kubernetes
+- 4 Full-fledged (6-8 people) Scrum development teams working on the latest product.
+  - day-to-day management of people done by "Chapter leads"
+  - React, Docker, .NET 9+ (core), Mongo, Kafka, Debezium, DDD, CQRS
+- Business Integration team (Supabase, Kysely, PostgreSQL)
+- Platform team (Kubernetes, Terraform, ArgoCD, CI/CD pipelines, Vault, Keycloak, etc...)
+- Legacy team (ASP.NET, MSSQL, MongoDB, Elasticsearch)
+- Legacy team (Clarion, SQL-Sybase)
 
 **Hanflex employee**<br />
 _September 2015 - July 2018_<br />
@@ -64,6 +72,7 @@ Building an interactive and fully customizable dashboard on top of VAA's existin
 I'll list some of the training courses I've had whilst working.
 Some of these have (official) certificates, some don't, but all have brought value and knowledge.
 
+- Doamin Driven Design [Vijfhart](./DDD-vijfhart.pdf)
 - Young Executive Program (YEP) - [De Baak](https://debaak.nl/trainingen/young-executives-program)
 - Hiring & interview training ([icm.nl](https://www.icm.nl/opleidingen-en-trainingen/hrm/selectiegesprekken-voeren/))
 - Conversation techniques & de-escalation ([TIJDwinst.com](https://gesprekstechnieken.com/cursus-gesprekstechnieken/)](<https://gesprekstechnieken.com/cursus-gesprekstechnieken/>)).
