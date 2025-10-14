@@ -1,6 +1,6 @@
 ---
 title: What is Software Architecture (Really)?
-date: "2025-10-08"
+date: "2025-10-14"
 template: "post"
 category: "software-architecture"
 tags:
