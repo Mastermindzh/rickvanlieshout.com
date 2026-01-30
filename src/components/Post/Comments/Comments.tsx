@@ -1,7 +1,5 @@
-import React from "react";
-
 import { DiscussionEmbed } from "disqus-react";
-
+import React from "react";
 import { useSiteMetadata } from "@/hooks";
 
 interface Props {

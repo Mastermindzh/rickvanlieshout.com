@@ -1,5 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import type { Node } from "@/types";
+
 import { useSiteMetadata } from "../../hooks";
 import { Author } from "./Author";
 import { Comments } from "./Comments";
@@ -7,7 +9,6 @@ import { Content } from "./Content";
 import { Meta } from "./Meta";
 import * as styles from "./Post.module.scss";
 import { Tags } from "./Tags";
-import type { Node } from "@/types";
 
 interface Props {
   post: Node;

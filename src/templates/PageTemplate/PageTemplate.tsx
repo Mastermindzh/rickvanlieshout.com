@@ -1,7 +1,5 @@
-import React from "react";
-
 import { graphql } from "gatsby";
-
+import React from "react";
 import { Layout } from "@/components/Layout";
 import { Page } from "@/components/Page";
 import { Sidebar } from "@/components/Sidebar";
@@ -30,6 +28,7 @@ const PageTemplate: React.FC<Props> = ({ data }: Props) => {
     >
       <Sidebar />
       <Page title={title}>
+        {/** biome-ignore lint/security/noDangerouslySetInnerHtml: static rendering */}
         <div dangerouslySetInnerHTML={{ __html: body }} />
       </Page>
     </Layout>

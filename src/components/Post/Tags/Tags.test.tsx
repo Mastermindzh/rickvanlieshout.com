@@ -1,6 +1,5 @@
 import React from "react";
 import renderer from "react-test-renderer";
-
 import { Tags } from "@/components/Post/Tags";
 import * as mocks from "@/mocks";
 

@@ -1,6 +1,5 @@
 import React from "react";
 import renderer from "react-test-renderer";
-
 import { Meta } from "@/components/Post/Meta";
 import * as mocks from "@/mocks";
 

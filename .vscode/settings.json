@@ -1,31 +1,31 @@
 {
-    "cSpell.words": [
-        "codepen",
-        "disqus",
-        "fontawesome",
-        "fortawesome",
-        "frontliners",
-        "frontmatter",
-        "gitops",
-        "homelab",
-        "Jellyfin",
-        "Lieshoutt",
-        "Rickvan",
-        "rickvanlieshoutcom",
-        "slsw",
-        "soundcloud",
-        "todos",
-        "unraid",
-        "weibo"
-    ],
-    "grammarly.selectors": [
-        {
-            "language": "markdown",
-            "scheme": "file"
-        }
-    ],
-    "sonarlint.connectedMode.project": {
-      "connectionId": "public-sonarcloud",
-      "projectKey": "Mastermindzh_rickvanlieshout.com"
+  "cSpell.words": [
+    "codepen",
+    "disqus",
+    "fontawesome",
+    "fortawesome",
+    "frontliners",
+    "frontmatter",
+    "gitops",
+    "homelab",
+    "Jellyfin",
+    "Lieshoutt",
+    "Rickvan",
+    "rickvanlieshoutcom",
+    "slsw",
+    "soundcloud",
+    "todos",
+    "unraid",
+    "weibo"
+  ],
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file"
     }
+  ],
+  "sonarlint.connectedMode.project": {
+    "connectionId": "public-sonarcloud",
+    "projectKey": "Mastermindzh_rickvanlieshout.com"
+  }
 }

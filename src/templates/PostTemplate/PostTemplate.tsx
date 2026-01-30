@@ -1,7 +1,5 @@
-import React from "react";
-
 import { graphql } from "gatsby";
-
+import React from "react";
 import { Layout } from "@/components/Layout";
 import { Post } from "@/components/Post";
 import { useSiteMetadata } from "@/hooks";

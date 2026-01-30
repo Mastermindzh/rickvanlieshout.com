@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import CookieConsent from "react-cookie-consent";
+
 import * as styles from "./CookieBar.module.scss";
 
 export const CookieBar = () => {

@@ -1,8 +1,7 @@
-import React, { FC } from "react";
-
 import { graphql, StaticQuery } from "gatsby";
 import { GatsbyImage, GatsbyImageProps, IGatsbyImageData } from "gatsby-plugin-image";
 import { FileSystemNode } from "gatsby-source-filesystem";
+import React, { FC } from "react";
 
 interface Props extends Omit<GatsbyImageProps, "image"> {
   path: string;

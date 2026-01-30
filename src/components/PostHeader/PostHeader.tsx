@@ -1,8 +1,9 @@
 import { Link, navigate } from "gatsby";
 import React, { FunctionComponent } from "react";
+import { Image } from "@/components/Image";
+
 import { ThemeSwitcher } from "../ThemeSwitcher/ThemeSwitcher";
 import * as styles from "./PostHeader.module.scss";
-import { Image } from "@/components/Image";
 
 type Props = { author: { name: string; photo: string } };
 
@@ -24,7 +25,9 @@ export const PostHeader: FunctionComponent<Props> = ({ author }) => {
       </span>
 
       <span className="hideInPrintView">
+        {/** biome-ignore lint/a11y/noStaticElementInteractions: old sass */}
         <a
+          // biome-ignore lint/a11y/useValidAnchor: old sass
           onClick={() => navigate("/")}
           style={{ lineHeight: "50px", marginRight: "10px", cursor: "pointer" }}
         >

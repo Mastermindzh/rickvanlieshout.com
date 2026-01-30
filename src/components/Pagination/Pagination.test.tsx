@@ -1,6 +1,5 @@
 import React from "react";
 import renderer from "react-test-renderer";
-
 import { Pagination } from "@/components/Pagination";
 import * as mocks from "@/mocks";
 

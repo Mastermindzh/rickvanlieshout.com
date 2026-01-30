@@ -1,9 +1,12 @@
 /* eslint-disable no-undef */
+/** biome-ignore-all lint/correctness/useHookAtTopLevel: ssr rendering needs different hook setup */
 import React, { FunctionComponent, useEffect, useState } from "react";
 import Toggle from "react-toggle";
+
 import { Moon } from "./components/Moon";
 import { Sun } from "./components/Sun";
 import "./theme.scss";
+
 import { Themes } from "./Themes";
 
 type Props = { showLabel: boolean };

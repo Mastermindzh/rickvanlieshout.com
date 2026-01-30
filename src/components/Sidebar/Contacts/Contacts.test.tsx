@@ -1,6 +1,5 @@
 import React from "react";
 import renderer from "react-test-renderer";
-
 import { Contacts } from "@/components/Sidebar/Contacts";
 import * as mocks from "@/mocks";
 

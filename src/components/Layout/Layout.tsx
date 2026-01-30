@@ -1,9 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { useSiteMetadata } from "@/hooks";
 
 import { CookieBar } from "../Cookiebar/CookieBar";
 import * as styles from "./Layout.module.scss";
-import { useSiteMetadata } from "@/hooks";
 
 interface Props {
   title: string;

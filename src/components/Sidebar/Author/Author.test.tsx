@@ -1,8 +1,6 @@
+import { StaticQuery } from "gatsby";
 import React from "react";
 import renderer from "react-test-renderer";
-
-import { StaticQuery } from "gatsby";
-
 import { Author } from "@/components/Sidebar/Author";
 import * as mocks from "@/mocks";
 

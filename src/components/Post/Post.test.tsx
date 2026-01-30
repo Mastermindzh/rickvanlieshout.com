@@ -1,8 +1,6 @@
+import { StaticQuery, useStaticQuery } from "gatsby";
 import React from "react";
 import renderer from "react-test-renderer";
-
-import { StaticQuery, useStaticQuery } from "gatsby";
-
 import { Post } from "@/components/Post";
 import * as mocks from "@/mocks";
 

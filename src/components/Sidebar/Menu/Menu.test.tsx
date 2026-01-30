@@ -1,6 +1,5 @@
 import React from "react";
 import renderer from "react-test-renderer";
-
 import { Menu } from "@/components/Sidebar/Menu";
 import * as mocks from "@/mocks";
 
