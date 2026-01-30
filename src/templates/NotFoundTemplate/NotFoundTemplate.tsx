@@ -1,6 +1,5 @@
-import React from "react";
-
 import { Link } from "gatsby";
+import React from "react";
 import { Layout } from "@/components/Layout";
 import { Page } from "@/components/Page";
 import { Sidebar } from "@/components/Sidebar";
@@ -14,7 +13,7 @@ const NotFoundTemplate: React.FC = () => {
       <Sidebar />
       <Page title="Oh no! page be lost">
         <p>
-          You've stumbled upon a link that doesn't work anymore {":("}
+          You've stumbled upon a link that doesn't work anymore :(
           <br />
           Use the menu to navigate around or click <Link to="/">here</Link> to go to the main page.
         </p>

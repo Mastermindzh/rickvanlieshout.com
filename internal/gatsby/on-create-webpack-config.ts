@@ -1,5 +1,4 @@
-import path from "path";
-
+import path from "node:path";
 import { CreateWebpackConfigArgs } from "gatsby";
 import { CompilerOptions } from "typescript";
 
@@ -13,6 +12,7 @@ const onCreateWebpackConfig = (
       resolve: {
         alias: Object.entries(options.paths || []).reduce(
           (aliases, [name, [target]]) => ({
+            // biome-ignore lint/performance/noAccumulatingSpread: old code
             ...aliases,
             [name]: path.resolve(target),
           }),

@@ -1,6 +1,5 @@
 import React from "react";
 import renderer from "react-test-renderer";
-
 import { Feed } from "@/components/Feed";
 import * as mocks from "@/mocks";
 

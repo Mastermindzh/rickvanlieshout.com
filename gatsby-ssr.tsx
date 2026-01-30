@@ -1,4 +1,4 @@
-import { RenderBodyArgs } from "gatsby";
+import type { RenderBodyArgs } from "gatsby";
 import React from "react";
 
 const setColorTheme = `
@@ -34,6 +34,7 @@ export const onRenderBody = ({
   setPreBodyComponents([
     React.createElement("script", {
       key: "theme",
+      // biome-ignore lint/security/noDangerouslySetInnerHtml: required for static rendering
       dangerouslySetInnerHTML: {
         __html: setColorTheme,
       },

@@ -263,8 +263,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
       </h1>
       <div>
         <p>
-          You've stumbled upon a link that doesn't work anymore 
-          :(
+          You've stumbled upon a link that doesn't work anymore :(
           <br />
           Use the menu to navigate around or click 
           <a

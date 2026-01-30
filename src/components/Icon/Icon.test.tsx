@@ -1,6 +1,5 @@
 import React from "react";
 import renderer from "react-test-renderer";
-
 import { Icon } from "@/components/Icon";
 import { ICONS } from "@/constants";
 import { getIcon } from "@/utils";

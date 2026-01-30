@@ -1,10 +1,9 @@
+import { StaticQuery, useStaticQuery } from "gatsby";
 import React from "react";
 import renderer from "react-test-renderer";
-
-import { StaticQuery, useStaticQuery } from "gatsby";
-import PageTemplate from "./PageTemplate";
-
 import * as mocks from "@/mocks";
+
+import PageTemplate from "./PageTemplate";
 
 const mockedStaticQuery = StaticQuery as jest.Mock;
 const mockedUseStaticQuery = useStaticQuery as jest.Mock;

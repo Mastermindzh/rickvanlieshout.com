@@ -1,4 +1,4 @@
-import path from "path";
+import path from "node:path";
 
 const templates = Object.freeze({
   indexTemplate: path.resolve("./src/templates/IndexTemplate/IndexTemplate.tsx"),
