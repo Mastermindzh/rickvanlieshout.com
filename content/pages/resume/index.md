@@ -4,15 +4,15 @@ template: "page"
 ---
 
 <!-- prettier-ignore -->
-|     |     |
-| --- | --- |
-| Name    | Rick van Lieshout    |
-| Date of birth    | 13 december 1992    |
-| Address    | Oss - Noord-Brabant    |
-| website    | [rickvanlieshout.com](https://www.rickvanlieshout.com)    |
-| phone    |  [06 - 144 36 56 2](tel:+31614436562)   |
-| email    |  [info@rickvanlieshout.com](mailto:info@rickvanlieshout.com)   |
-| Hobbies    |  Technology & cooking (especially BBQ)   |
+|               |                                                             |
+| ------------- | ----------------------------------------------------------- |
+| Name          | Rick van Lieshout                                           |
+| Date of birth | 13 december 1992                                            |
+| Address       | Oss - Noord-Brabant                                         |
+| website       | [rickvanlieshout.com](https://www.rickvanlieshout.com)      |
+| phone         | [06 - 144 36 56 2](tel:+31614436562)                        |
+| email         | [info@rickvanlieshout.com](mailto:info@rickvanlieshout.com) |
+| Hobbies       | Technology & cooking (especially BBQ)                       |
 
 ## Work experience
 
@@ -22,19 +22,21 @@ A fair share of my private work is done through open-source media. I don't have 
 
 **CTO at Frontliners (previously INFORIT)**<br />
 _2018 - Now_<br />
-At Frontliners I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages such as dotnetcore, Supabase and React. We've delivered a few smaller pieces of software but mainly focus on building a next-gen Transport Management System called TFX.
+At Frontliners I am responsible for the entire technical architecture of the new TFX stack that I launched shortly after 2018. This involves setting up and maintaining a modern event-based microservice architecture on a Kubernetes-based SaaS cloud solution and migrating to modern programming languages and platforms such as dotnetcore, Supabase and React. We've delivered a few smaller pieces of software but mainly focus on building a next-gen Transport Management System called TFX.
 
-The other main responsibility I have is creating and maintaining, and hiring, a coherent team of (lead) engineers by sharing knowledge, making decisions, and empowering them to explore technologies outside of their comfort zone.
+The other main responsibility I have is creating and maintaining, a coherent team of (lead) engineers by sharing knowledge, making decisions, and empowering them to explore technologies outside of their comfort zone.
 This includes everything from platform to e2e engineering.
-During my time at Frontliners, the company has grown from 5-7 in-house developers on a single product to 35-40 technical engineers on multiple projects.
+During my time at Frontliners, the company has grown from 5-7 in-house developers on a single product to 30+ engineers on multiple projects.
 
 The teams I manage will be listed below. Some of the core concepts they work with will also be listed.
-Apart from the last one I also play an active role in them:
+Apart from the last two I also play an active role in them:
 
-- 4 Full-fledged (6-8 people) Scrum development teams working on the latest product.
+- 3 Full-fledged (6-8 people) Scrum development teams working on the latest product.
   - day-to-day management of people done by "Chapter leads"
-  - React, Docker, .NET 9+ (core), Mongo, Kafka, Debezium, DDD, CQRS
+  - React, Docker, .NET (core), Mongo, Kafka, DDD, CQRS
 - Business Integration team (Supabase, Kysely, PostgreSQL)
+  - Initial architecture, db-first to function first mindset, hiring senior to lead the team.
+  - Business goal: Upskilling 2 "legacy" engineers into modern typescript based tooling
 - Platform team (Kubernetes, Terraform, ArgoCD, CI/CD pipelines, Vault, Keycloak, etc...)
 - Legacy team (ASP.NET, MSSQL, MongoDB, Elasticsearch)
 - Legacy team (Clarion, SQL-Sybase)
@@ -108,11 +110,12 @@ The list below is far from complete and unordered but focuses on the skills & te
 - Docker, Kubernetes & CI/CD
 - Event-based architecture
 - Reactive architecture
+- Modular monolith to microservices architectures
 - Typescript (Javascript)
-- dotnetcore
+- .NET (core)
 - React, Angular
 - Linux & Shell scripting
 - NoSQL (Mongo, Postgre)
-- SQL (MSSQL, Postgre, sqlite, mariadb)
+- SQL (Postgre, sqlite, mariadb)
 - Elasticsearch & Kibana
 - Kafka / RabbitMQ

@@ -7,5 +7,16 @@
     "@types/react-dom",
     "@types/react-test-renderer",
     "react-test-renderer"
+  ],
+  "extends": ["customManagers:biomeVersions"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^@fortawesome/"],
+      "postUpgradeTasks": {
+        "commands": ["npm run test -- -u"],
+        "fileFilters": ["**/*.snap"],
+        "executionMode": "branch"
+      }
+    }
   ]
 }
