@@ -11,12 +11,12 @@
   "extends": ["customManagers:biomeVersions"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@fortawesome/"],
       "postUpgradeTasks": {
         "commands": ["npm run test -- -u"],
         "fileFilters": ["**/*.snap"],
         "executionMode": "branch"
-      }
+      },
+      "matchPackageNames": ["/^@fortawesome//"]
     }
   ]
 }
