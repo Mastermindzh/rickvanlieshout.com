@@ -7,7 +7,7 @@ Some people are bookworms, I am a bitworm.
 I fell in love with computing a long time ago and the virus could, fortunately, never be cured.
 Little by little, I gained experience in Computer Technology, Programming and IT design.
 
-For the past 17 years I've been using Linux which made me appreciate well-written cross-platform software.
+For the past 20+ years I've been using Linux which made me appreciate well-written cross-platform software.
 Years later I strive to provide a seamless experience by doing just that... creating well-written cross-platform and web software.
 My language of choice to do this is Javascript, hated by many, loved by some, adored by me.
 

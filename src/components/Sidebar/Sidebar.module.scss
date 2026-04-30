@@ -46,3 +46,12 @@
     }
   }
 }
+
+// Hide sidebar entirely when printing the resume so the page can use full width.
+@media print {
+  :global(body.page-resume) {
+    .sidebar {
+      display: none;
+    }
+  }
+}

@@ -42,3 +42,20 @@
     }
   }
 }
+
+// When printing the resume, give the page full width (sidebar is hidden)
+// and tighten the inner padding so we get more usable space on paper.
+@media print {
+  :global(body.page-resume) {
+    .page {
+      lost-column: 1/1;
+      width: 100%;
+      float: none;
+      @include margin-bottom(0);
+
+      .inner {
+        @include padding(0, 0, 0);
+      }
+    }
+  }
+}

@@ -7,9 +7,10 @@ import * as styles from "./Page.module.scss";
 interface Props {
   title?: string;
   children: React.ReactNode;
+  bodyClassName?: string;
 }
 
-const Page: React.FC<Props> = ({ title, children }: Props) => {
+const Page: React.FC<Props> = ({ title, children, bodyClassName }: Props) => {
   const pageRef = useRef<Nullable<HTMLDivElement>>(null);
 
   useEffect(() => {
@@ -17,6 +18,8 @@ const Page: React.FC<Props> = ({ title, children }: Props) => {
       pageRef.current.scrollIntoView();
     }
   }, []);
+
+  const bodyClasses = [styles.body, bodyClassName].filter(Boolean).join(" ");
 
   return (
     <>
@@ -26,7 +29,7 @@ const Page: React.FC<Props> = ({ title, children }: Props) => {
       <div ref={pageRef} className={styles.page}>
         <div className={styles.inner}>
           {title && <h1 className={styles.title}>{title}</h1>}
-          <div className={styles.body}>{children}</div>
+          <div className={bodyClasses || undefined}>{children}</div>
         </div>
       </div>
     </>

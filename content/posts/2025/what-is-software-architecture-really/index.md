@@ -13,6 +13,7 @@ tags:
 - "team maturity"
 - "frontliners"
 - "adaptability"
+- "what is software architecture"
 description: "Software architecture isn’t a fixed design or a set of diagrams, it’s the evolving set of decisions that guide how a system behaves and grows with its team."
 socialImage: ./media/compass.png
 ---

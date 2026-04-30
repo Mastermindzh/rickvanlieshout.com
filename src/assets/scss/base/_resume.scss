@@ -1,0 +1,215 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+// Page-resume: tighten the gap between role/section headings
+// and the date line that follows (rendered as <strong><em>...</em></strong><br />),
+// and give the date a subtle, secondary appearance.
+.page-resume {
+  // The personal-info table is written in markdown without real headers,
+  // which produces an empty <thead> with bordered <th>s. Hide it.
+  table thead {
+    display: none;
+  }
+
+  // Section headings (## Work experience, ## Education, ## Projects, ...)
+  // get a subtle underline so they read as clear section breaks.
+  h2 {
+    @include margin-top(2);
+    @include margin-bottom(0.75);
+    border-bottom: 1px solid $color-gray-border;
+    padding-bottom: 0.25rem;
+  }
+
+  // Role/entry titles get the period (date range) right-aligned on the
+  // same line as the title, using flexbox. Period text comes from an
+  // inline <span class="period">...</span> at the end of the heading.
+  h3,
+  h4 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+    @include margin-bottom(0.4);
+  }
+
+  h3 {
+    @include margin-top(1.75);
+    color: $color-primary;
+  }
+
+  h4 {
+    @include margin-top(1.25);
+  }
+
+  // The period label sitting on the right edge of an entry heading.
+  .period {
+    color: $color-gray;
+    font-family: $typographic-font-family;
+    font-size: $typographic-small-font-size;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    // On mobile, always drop the period onto its own line so behaviour
+    // is consistent regardless of title length.
+    flex: 0 0 100%;
+  }
+
+  // From the small breakpoint up there's plenty of room to keep the
+  // period inline on the right edge of the heading.
+  @include breakpoint-sm {
+    .period {
+      flex: 0 1 auto;
+    }
+  }
+
+  // Print-only header (avatar + name + bio) shown at the top of the
+  // resume page when printing. Hidden on screen.
+  .resume-print-header {
+    display: none;
+  }
+}
+
+@media print {
+  // Sensible page margins + page numbers in the bottom-right corner.
+  // Note: @page named margin boxes are honoured by Firefox and paged-media
+  // tools (e.g. Paged.js, weasyprint). Chromium ignores them silently, so
+  // this is a progressive enhancement.
+  @page {
+    margin: 1.5cm 1.6cm;
+
+    @bottom-right {
+      content: "Page " counter(page) " of " counter(pages);
+      font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", sans-serif;
+      font-size: 9pt;
+      color: #666;
+    }
+
+    @top-left {
+      content: "Rick van Lieshout — Resume";
+      font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", sans-serif;
+      font-size: 9pt;
+      color: #666;
+    }
+  }
+
+  .page-resume {
+    // Print-only header at the top of the resume.
+    .resume-print-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      @include margin-bottom(2);
+      padding-bottom: 0.85rem;
+      border-bottom: 1px solid $color-gray-border;
+
+      img {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        margin: 0;
+        flex: 0 0 auto;
+      }
+
+      .resume-print-header__name {
+        font-size: $typographic-base-font-size * 1.25;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      .resume-print-header__bio {
+        color: $color-gray;
+        font-size: $typographic-small-font-size;
+        line-height: 1.3;
+      }
+    }
+
+    // Compact the "Resume" page title so it doesn't eat half a page
+    h1 {
+      font-size: $typographic-base-font-size * 1.6;
+      @include margin-top(0);
+      @include margin-bottom(0.5);
+    }
+
+    h2 {
+      @include margin-top(1);
+      @include margin-bottom(0.25);
+      // Start each major section on a new page break boundary if needed,
+      // but never split the heading from its content.
+      break-after: avoid-page;
+      page-break-after: avoid;
+      // Slightly thinner underline on paper
+      border-bottom-width: 0.5pt;
+      padding-bottom: 0.15rem;
+    }
+
+    h3 {
+      @include margin-top(0.75);
+      break-after: avoid-page;
+      page-break-after: avoid;
+      // In print, drop the brand color in favor of plain ink
+      color: inherit;
+    }
+
+    h4 {
+      @include margin-top(0.5);
+      break-after: avoid-page;
+      page-break-after: avoid;
+    }
+
+    p,
+    li {
+      orphans: 3;
+      widows: 3;
+    }
+
+    ul,
+    ol {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    // Tighten the personal-info table
+    table {
+      width: 100%;
+      @include margin-top(0.5);
+      @include margin-bottom(0.5);
+
+      td {
+        padding: 0.15rem 0.5rem;
+      }
+    }
+
+    // In print, the personal-info table links are redundant with the
+    // labels (website, phone, email) — render them as plain ink.
+    table a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    // Body links print as plain text — labels and surrounding context
+    // make the destination clear; underlines add visual noise.
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    // Force the Skills & Technologies section onto a new page so the
+    // long bullet list never gets split (or pushed onto a half-empty
+    // continuation page).
+    h2[id*="skills" i] {
+      break-before: page;
+      page-break-before: always;
+    }
+
+    // Work experience is the longest section and currently spills over
+    // a half-page after Skills. Start it on a fresh page so it gets
+    // a clean run.
+    h2[id*="work-experience" i] {
+      break-before: page;
+      page-break-before: always;
+    }
+  }
+}
+

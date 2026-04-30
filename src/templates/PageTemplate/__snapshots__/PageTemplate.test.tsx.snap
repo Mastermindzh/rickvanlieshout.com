@@ -261,7 +261,9 @@ exports[`PageTemplate renders correctly 1`] = `
       <h1>
         Perfecting the Art of Perfection
       </h1>
-      <div>
+      <div
+        className="page-perfecting-the-art-of-perfection"
+      >
         <div
           dangerouslySetInnerHTML={
             {
