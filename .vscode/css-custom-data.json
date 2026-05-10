@@ -1,0 +1,27 @@
+{
+  "version": 1.1,
+  "properties": [
+    {
+      "name": "lost-column",
+      "description": "Lost Grid: creates a column. Syntax: <fraction> [<cycle>] [<gutter>] [flex|no-flex]."
+    },
+    { "name": "lost-row", "description": "Lost Grid: creates a row." },
+    {
+      "name": "lost-center",
+      "description": "Lost Grid: horizontally centers a container with a max-width."
+    },
+    {
+      "name": "lost-align",
+      "description": "Lost Grid: aligns nested elements within a container."
+    },
+    { "name": "lost-offset", "description": "Lost Grid: offsets a column by a fraction." },
+    { "name": "lost-move", "description": "Lost Grid: moves a column using relative positioning." },
+    { "name": "lost-masonry-wrap", "description": "Lost Grid: wraps masonry-style columns." },
+    { "name": "lost-masonry-column", "description": "Lost Grid: defines a masonry column." },
+    {
+      "name": "lost-flex-container",
+      "description": "Lost Grid: declares a flex-based grid container."
+    },
+    { "name": "lost-utility", "description": "Lost Grid: utility helpers (clearfix, edit)." }
+  ]
+}

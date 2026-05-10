@@ -27,5 +27,11 @@
   "sonarlint.connectedMode.project": {
     "connectionId": "public-sonarcloud",
     "projectKey": "Mastermindzh_rickvanlieshout.com"
-  }
+  },
+  "css.customData": [
+    ".vscode/css-custom-data.json"
+  ],
+  "scss.customData": [
+    ".vscode/css-custom-data.json"
+  ]
 }
