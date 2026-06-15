@@ -1,21 +1,45 @@
 ---
-title: "Hello, I am Rick van Lieshout!"
+
+title: "Hello, I am Rick van Lieshout"
 template: "page"
 ---
 
-Some people are bookworms, I am a bitworm.
-I fell in love with computing a long time ago and the virus could, fortunately, never be cured.
-Little by little, I gained experience in Computer Technology, Programming and IT design.
+A CTO, software architect and engineering leader based in the Netherlands.
 
-For the past 20+ years I've been using Linux which made me appreciate well-written cross-platform software.
-Years later I strive to provide a seamless experience by doing just that... creating well-written cross-platform and web software.
-My language of choice to do this is Javascript, hated by many, loved by some, adored by me.
+Technology has been a constant throughout my life. What started as curiosity about computers eventually grew into a career focused on software engineering, architecture and leadership. Over the years I've worked across many different areas of technology, from building websites and custom software to designing distributed systems and leading engineering organisations.
 
-Over the years I've seen (and/or tried) a lot of programming languages, technologies, techniques and software products which only made me more eager to progress in this field.
-Change is inevitable and I aim to be one of its driving forces.
+Today I spend most of my time operating at the intersection of technology, people and business. I enjoy translating complex technical challenges into practical solutions, helping teams grow, and creating environments where engineers can do their best work. While I still enjoy being close to technology and architecture, I have found that building strong teams and helping people develop their careers can be just as rewarding as building software itself.
 
-I've made a habit of openly challenging assumptions / solutions (even though people don't usually like their assumptions challenged).
-This mentality drives me to not only get the best out of myself but others too, I like to cooperate with fellow developers to work towards a common goal.
+A recurring theme throughout my career has been modernisation and continuous improvement. Whether that means helping organisations move away from legacy systems, introducing new engineering practices, improving software quality or supporting teams through change, I enjoy solving problems that have both technical and organisational dimensions.
 
-Even though software development is my main area of interest I am also passionate about Linux and DevOps.
-Besides the two major interests I also love to dabble in hardware, Hi-Fi and home automation.
+My leadership style is built around trust, pragmatism and ownership. I believe engineers do their best work when they understand the bigger picture, are given room to make decisions and are encouraged to keep learning. As a result, I tend to focus less on process for the sake of process and more on creating clarity, alignment and sustainable ways of working.
+
+## What I enjoy working on
+
+Throughout my career I've found myself gravitating towards organisations that are undergoing change, growth or modernisation. I enjoy environments where technology, people and business strategy intersect, and where engineering can have a meaningful impact on the direction of the company.
+
+I'm particularly interested in helping organisations modernise legacy systems, scale engineering teams, improve software delivery and establish sustainable technical foundations. While I enjoy building new platforms from scratch, I am equally motivated by guiding existing organisations through technical and organisational transformation.
+
+The challenges I find most rewarding are rarely purely technical. They usually involve a combination of architecture, leadership, communication and long-term thinking, and requiring alignment between engineers, stakeholders.
+
+Outside of work I remain interested in technology. I enjoy experimenting with new tools, architectures and software, and I regularly contribute to open-source projects. Apart from that I have my own overgrown homelab which I spent many an hour in. Many of my personal projects are available publicly and often serve as a playground for ideas that later influence my professional work.
+
+When I'm not behind a keyboard you'll usually find me spending time with friends and family, playing board games, cooking or enjoying a good barbecue.
+
+## Current interests
+
+- Engineering leadership
+- Platform engineering
+- Distributed systems
+- Developer productivity
+- AI-assisted software development
+
+## Get in touch
+
+I'm always happy to connect with fellow engineers, technology leaders and people interested in software architecture, engineering culture or developer productivity.
+
+The easiest way to reach me is through one of the channels below:
+
+- Email: [info@rickvanlieshout.com](mailto:info@rickvanlieshout.com)
+- LinkedIn: [linkedin.com/in/rickvanlieshout](https://www.linkedin.com/in/rickvanlieshout/)
+- GitHub: [github.com/mastermindzh](https://github.com/mastermindzh)

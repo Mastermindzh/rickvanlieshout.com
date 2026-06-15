@@ -17,7 +17,14 @@ const getPaginationPath = (basePath: string, page: number): string =>
   [basePath === "/" ? "" : basePath, "page", page].join("/");
 
 const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
+
+  createRedirect({
+    fromPath: "/pages/contacts/",
+    toPath: "/pages/about/",
+    isPermanent: true,
+    redirectInBrowser: true,
+  });
 
   createPage({
     path: constants.routes.notFoundRoute,

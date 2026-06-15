@@ -25,11 +25,11 @@
   // inline <span class="period">...</span> at the end of the heading.
   h3,
   h4 {
-    display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    display: flex;
     flex-wrap: wrap;
     gap: 0 1rem;
+    justify-content: space-between;
     @include margin-bottom(0.4);
   }
 
@@ -45,15 +45,15 @@
   // The period label sitting on the right edge of an entry heading.
   .period {
     color: $color-gray;
+    // On mobile, always drop the period onto its own line so behaviour
+    // is consistent regardless of title length.
+    flex: 0 0 100%;
     font-family: $typographic-font-family;
     font-size: $typographic-small-font-size;
     font-weight: 500;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     white-space: nowrap;
-    // On mobile, always drop the period onto its own line so behaviour
-    // is consistent regardless of title length.
-    flex: 0 0 100%;
   }
 
   // From the small breakpoint up there's plenty of room to keep the
@@ -62,6 +62,102 @@
     .period {
       flex: 0 1 auto;
     }
+  }
+
+  // -------------------------------------------------------------------
+  // Timeline: each .entry inside a .timeline gets its own short segment
+  // with a start dot (top) and an end dot (bottom). The line and end dot
+  // belong to .entry; the start dot is rendered by h3::before so it sits
+  // on the heading's baseline. Wrap each role/project in markdown as
+  // <div class="entry">...</div>.
+  // -------------------------------------------------------------------
+  .timeline {
+    padding-left: 1.75rem;
+    position: relative;
+    @include margin-top(1);
+  }
+
+  .entry {
+    padding-bottom: 0.65rem;
+    position: relative;
+    @include margin-bottom(1.25);
+
+    // Vertical line connecting this entry's start dot to its end dot.
+    // Rendered as a repeating linear-gradient so dash + gap length are
+    // explicit (browser's native `border-style: dashed` doesn't let you
+    // control either). 6px dash, 4px gap reads as a clear "duration"
+    // cue without becoming a wall of ink. Bottom is offset so the line
+    // terminates exactly at the top of the end dot below.
+    &::before {
+      background-image: linear-gradient(to bottom, $color-base 0, $color-base 6px, transparent 6px, transparent 10px);
+      background-repeat: repeat-y;
+      background-size: 1px 10px;
+      bottom: calc(0.6rem + 6px);
+      content: "";
+      left: calc(-1.75rem + 5px);
+      opacity: 0.25;
+      position: absolute;
+      top: 0.9rem;
+      width: 1px;
+    }
+
+    // End marker at the bottom of the entry. Smaller, filled, and muted
+    // so it reads as "end of segment" — clearly subordinate to the
+    // primary-blue start dot — rather than competing with it. Lifted
+    // off the baseline so it sits inside the entry and visually caps
+    // the line above it.
+    &::after {
+      background: $color-base;
+      border-radius: 50%;
+      bottom: 0.6rem;
+      content: "";
+      height: 6px;
+      left: calc(-1.75rem + 3px);
+      opacity: 0.35;
+      position: absolute;
+      width: 6px;
+    }
+
+    &:last-child {
+      @include margin-bottom(0);
+    }
+  }
+
+  // Inside a timeline the role title is the dominant element, so drop
+  // it back to the base text colour. The company line underneath then
+  // carries the primary-blue accent.
+  .timeline h3 {
+    color: $color-base;
+    position: relative;
+
+    // The dot marking the start of an entry. Positioned near cap-height
+    // so it sits visually centred on the heading text, not on the
+    // baseline (which would push it below the letters).
+    &::before {
+      background: $color-bg;
+      border: 2px solid $color-primary;
+      border-radius: 50%;
+      box-sizing: border-box;
+      content: "";
+      height: 12px;
+      left: -1.75rem;
+      position: absolute;
+      top: 0.3em;
+      width: 12px;
+    }
+  }
+
+  // The company / institution name shown directly below a role title.
+  // The accent that distinguishes "what I did" (h3) from "where I did it".
+  .company {
+    color: $color-primary;
+    font-family: $typographic-font-family;
+    font-size: $typographic-small-font-size;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    margin-top: -0.25rem;
+    text-transform: uppercase;
+    @include margin-bottom(0.6);
   }
 
   // Print-only header (avatar + name + bio) shown at the top of the
@@ -80,36 +176,36 @@
     margin: 1.5cm 1.6cm;
 
     @bottom-right {
-      content: "Page " counter(page) " of " counter(pages);
-      font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", sans-serif;
-      font-size: 9pt;
       color: #666;
+      content: "Page " counter(page) " of " counter(pages);
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+      font-size: 9pt;
     }
 
     @top-left {
-      content: "Rick van Lieshout — Resume";
-      font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", sans-serif;
-      font-size: 9pt;
       color: #666;
+      content: "Rick van Lieshout — Resume";
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+      font-size: 9pt;
     }
   }
 
   .page-resume {
     // Print-only header at the top of the resume.
     .resume-print-header {
-      display: flex;
       align-items: center;
-      gap: 0.75rem;
-      @include margin-bottom(2);
-      padding-bottom: 0.85rem;
       border-bottom: 1px solid $color-gray-border;
+      display: flex;
+      gap: 0.75rem;
+      padding-bottom: 0.85rem;
+      @include margin-bottom(2);
 
       img {
-        width: 56px;
-        height: 56px;
         border-radius: 50%;
-        margin: 0;
         flex: 0 0 auto;
+        height: 56px;
+        margin: 0;
+        width: 56px;
       }
 
       .resume-print-header__name {
@@ -135,27 +231,27 @@
     h2 {
       @include margin-top(1);
       @include margin-bottom(0.25);
+      // Slightly thinner underline on paper
+      border-bottom-width: 0.5pt;
       // Start each major section on a new page break boundary if needed,
       // but never split the heading from its content.
       break-after: avoid-page;
-      page-break-after: avoid;
-      // Slightly thinner underline on paper
-      border-bottom-width: 0.5pt;
       padding-bottom: 0.15rem;
+      break-after: avoid;
     }
 
     h3 {
       @include margin-top(0.75);
       break-after: avoid-page;
-      page-break-after: avoid;
       // In print, drop the brand color in favor of plain ink
       color: inherit;
+      break-after: avoid;
     }
 
     h4 {
       @include margin-top(0.5);
       break-after: avoid-page;
-      page-break-after: avoid;
+      break-after: avoid;
     }
 
     p,
@@ -209,6 +305,59 @@
     h2[id*="work-experience" i] {
       break-before: page;
       page-break-before: always;
+    }
+
+    // Timeline on paper: browsers strip background-image from print
+    // (`print-color-adjust: economy`), so the screen line vanishes.
+    // Switch to a real dashed border-left, which always prints, and
+    // turn the dots into small filled circles so they read as ruler
+    // ticks rather than hollow rings that lose their blue "pop".
+    .timeline {
+      padding-left: 1.25rem;
+    }
+
+    .entry {
+      padding-bottom: 0.45rem;
+
+      // Replace the gradient line with a printable dashed border.
+      &::before {
+        background: none;
+        border-left: 1px dashed #888;
+        left: calc(-1.25rem + 4px);
+        opacity: 1;
+        print-color-adjust: exact;
+        width: 0;
+      }
+
+      // End tick: tiny filled grey dot, same idea as on screen.
+      // print-color-adjust forces the background to actually ink —
+      // browsers strip backgrounds from print by default.
+      &::after {
+        background: #888;
+        border: 0;
+        bottom: 0.55rem;
+        height: 5px;
+        left: calc(-1.25rem + 2px);
+        opacity: 1;
+        print-color-adjust: exact;
+        width: 5px;
+      }
+    }
+
+    // Start tick: small filled ink dot — confident on paper without
+    // relying on the blue ring's colour.
+    .timeline h3::before {
+      background: #333;
+      border: 0;
+      height: 7px;
+      left: calc(-1.25rem + 1px);
+      print-color-adjust: exact;
+      width: 7px;
+    }
+
+    // Company line on paper: plain ink, same weight to keep hierarchy.
+    .company {
+      color: inherit;
     }
   }
 }

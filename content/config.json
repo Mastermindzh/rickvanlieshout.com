@@ -13,16 +13,12 @@
       "path": "/"
     },
     {
-      "label": "About me",
+      "label": "About",
       "path": "/pages/about/"
     },
     {
       "label": "Resume",
       "path": "/pages/resume/"
-    },
-    {
-      "label": "Contact me",
-      "path": "/pages/contacts/"
     }
   ],
   "legalMenu": [
@@ -46,7 +42,7 @@
   "author": {
     "name": "Rick van Lieshout",
     "photo": "/content/me.png",
-    "bio": "I'm a passionate CTO who bifurcates his love between great software development and leading others in their continuous improvement journeys",
+    "bio": "CTO, software architect and engineering leader focused on building great software, growing teams and solving complex technical challenges.",
     "contacts": {
       "email": "info@rickvanlieshout.com",
       "github": "mastermindzh",
