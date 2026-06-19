@@ -235,14 +235,12 @@
       border-bottom-width: 0.5pt;
       // Start each major section on a new page break boundary if needed,
       // but never split the heading from its content.
-      break-after: avoid-page;
       padding-bottom: 0.15rem;
       break-after: avoid;
     }
 
     h3 {
       @include margin-top(0.75);
-      break-after: avoid-page;
       // In print, drop the brand color in favor of plain ink
       color: inherit;
       break-after: avoid;
@@ -250,7 +248,6 @@
 
     h4 {
       @include margin-top(0.5);
-      break-after: avoid-page;
       break-after: avoid;
     }
 
