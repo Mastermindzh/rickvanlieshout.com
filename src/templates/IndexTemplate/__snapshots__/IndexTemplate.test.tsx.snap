@@ -259,6 +259,107 @@ exports[`IndexTemplate renders correctly 1`] = `
   <div>
     <div>
       <div>
+        <section
+          aria-labelledby="open-source-highlights"
+        >
+          <div>
+            <div>
+              <h2
+                id="open-source-highlights"
+              >
+                Featured Work
+              </h2>
+              <p>
+                A few open-source projects and tools I've built or maintained over the years.
+              </p>
+            </div>
+            <div>
+              <button
+                aria-label="Previous open-source projects"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+              >
+                &lt;
+              </button>
+              <button
+                aria-label="Next open-source projects"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                &gt;
+              </button>
+            </div>
+          </div>
+          <div>
+            <article>
+              <h3>
+                Skillful
+              </h3>
+              <p>
+                Local-first platform for managing reusable AI workflows and organisational knowledge.
+              </p>
+              <div>
+                <a
+                  href="https://github.com/Mastermindzh/skillful"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://skillful.md"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Website
+                </a>
+                <a
+                  href="/posts/2026/introducing-skillful/"
+                >
+                  Article
+                </a>
+              </div>
+            </article>
+            <article>
+              <h3>
+                react-cookie-consent
+              </h3>
+              <p>
+                React cookie consent library installed over 20 million times
+              </p>
+              <div>
+                <a
+                  href="https://github.com/Mastermindzh/react-cookie-consent"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://www.npmjs.com/package/react-cookie-consent"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  npm
+                </a>
+                <a
+                  href="https://npm-stat.com/charts.html?package=react-cookie-consent&from=2017-01-15&to=2026-06-15"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  npm-stat
+                </a>
+              </div>
+            </article>
+          </div>
+          <div>
+            <span>
+              Latest Articles
+            </span>
+          </div>
+        </section>
         <div>
           <div>
             <div>

@@ -2,6 +2,7 @@ import { graphql } from "gatsby";
 import React from "react";
 import { Feed } from "@/components/Feed";
 import { Layout } from "@/components/Layout";
+import { OpenSourceHighlights } from "@/components/OpenSourceHighlights";
 import { Page } from "@/components/Page";
 import { Pagination } from "@/components/Pagination";
 import { Sidebar } from "@/components/Sidebar";
@@ -27,6 +28,7 @@ const IndexTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle} slug="">
       <Sidebar isIndex />
       <Page>
+        <OpenSourceHighlights />
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
