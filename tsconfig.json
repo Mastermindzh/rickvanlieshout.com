@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "jsx": "react",
     "target": "es2019",
-    "module": "commonjs",
+    "module": "esnext",
     "lib": ["esnext", "dom"],
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "paths": {
       "@/utils": ["./src/utils"],
       "@/types": ["./src/types"],

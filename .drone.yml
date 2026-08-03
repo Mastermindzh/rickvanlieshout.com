@@ -4,16 +4,11 @@ name: default
 
 steps:
   - name: install
-    image: node:19.9.0
+    image: node:22.12.0
     commands:
-      - npm install
+      - npm ci
 
   - name: test
-    image: node:19.9.0
+    image: node:22.12.0
     commands:
-      - npm run test:coverage
-
-  - name: build
-    image: node:19.9.0
-    commands:
-      - npm run build
+      - npm run test

@@ -9,7 +9,16 @@
     "react-test-renderer"
   ],
   "extends": ["customManagers:biomeVersions"],
+  "schedule": ["after 10pm on friday"],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "packageRules": [
+    {
+      "matchUpdateTypes": ["major", "minor", "patch", "pin", "digest"],
+      "groupName": "weekly dependency updates",
+      "groupSlug": "weekly-deps",
+      "schedule": ["after 10pm on friday"]
+    },
     {
       "postUpgradeTasks": {
         "commands": ["npm run test -- -u"],
