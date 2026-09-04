@@ -35,9 +35,9 @@
     "semantic-release": "semantic-release",
     "serve": "gatsby serve",
     "start": "npm run clean && gatsby develop",
-    "test": "jest --config ./internal/testing/jest-config.ts",
-    "test:coverage": "jest --coverage --config ./internal/testing/jest-config.ts",
-    "test:watch": "jest --watch --config ./internal/testing/jest-config.ts"
+    "test": "NODE_OPTIONS='--experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON' jest --config ./internal/testing/jest-config.ts",
+    "test:coverage": "NODE_OPTIONS='--experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON' jest --coverage --config ./internal/testing/jest-config.ts",
+    "test:watch": "NODE_OPTIONS='--experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON' jest --watch --config ./internal/testing/jest-config.ts"
   },
   "lint-staged": {
     "*.tsx?": [
@@ -92,10 +92,10 @@
     "reading-time": "^1.5.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.13",
+    "@biomejs/biome": "^2.5.12",
     "@commitlint/config-conventional": "^21.0.0",
     "@commitlint/cz-commitlint": "^21.0.0",
-    "@eslint/compat": "^2.0.5",
+    "@eslint/compat": "^2.1.1",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
     "@jest/globals": "^30.3.0",
@@ -112,8 +112,9 @@
     "@typescript-eslint/eslint-plugin": "^8.59.1",
     "@typescript-eslint/parser": "^8.59.1",
     "autoprefixer": "^10.5.0",
-    "browserslist": "^4.28.2",
+    "browserslist": "^4.28.8",
     "codecov": "^3.8.3",
+    "commit-and-tag-version": "^13.0.0",
     "commitizen": "^4.3.1",
     "commitlint": "^21.0.0",
     "concurrently": "^10.0.0",
@@ -126,20 +127,19 @@
     "jest-svg-transformer": "^1.0.0",
     "lint-staged": "^17.0.0",
     "lost": "9.0.2",
-    "postcss": "^8.5.12",
+    "postcss": "^8.5.14",
     "postcss-scss": "^4.0.9",
     "react-test-renderer": "^18.3.1",
     "rimraf": "^6.1.3",
     "sass": "^1.99.0",
     "sass-embedded": "^1.99.0",
     "source-map-support": "^0.5.21",
-    "commit-and-tag-version": "^13.0.0",
     "stylelint": "^17.9.1",
     "stylelint-config-recommended-scss": "^17.0.1",
     "stylelint-order": "^8.1.1",
     "stylelint-scss": "^7.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "unist-util-find": "3.0.0"
   }
 }

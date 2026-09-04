@@ -19,6 +19,7 @@
     "noEmit": true,
     "strict": true,
     "allowJs": false,
+    "allowImportingTsExtensions": true,
     "sourceMap": true,
     "skipLibCheck": true,
     "noUnusedLocals": true,

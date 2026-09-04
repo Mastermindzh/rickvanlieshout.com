@@ -31,7 +31,7 @@ exports[`Post renders correctly 1`] = `
         className="hideInPrintView"
       >
         <a
-          onClick={[Function]}
+          href="/"
           style={
             {
               "cursor": "pointer",

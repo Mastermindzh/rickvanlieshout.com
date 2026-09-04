@@ -1,4 +1,4 @@
-import { Link, navigate } from "gatsby";
+import { Link } from "gatsby";
 import React, { FunctionComponent } from "react";
 import { Image } from "@/components/Image";
 
@@ -25,14 +25,9 @@ export const PostHeader: FunctionComponent<Props> = ({ author }) => {
       </span>
 
       <span className="hideInPrintView">
-        {/** biome-ignore lint/a11y/noStaticElementInteractions: old sass */}
-        <a
-          // biome-ignore lint/a11y/useValidAnchor: old sass
-          onClick={() => navigate("/")}
-          style={{ lineHeight: "50px", marginRight: "10px", cursor: "pointer" }}
-        >
+        <Link to="/" style={{ lineHeight: "50px", marginRight: "10px", cursor: "pointer" }}>
           ↩ Back to articles
-        </a>
+        </Link>
         <ThemeSwitcher showLabel={false} />
       </span>
     </div>
