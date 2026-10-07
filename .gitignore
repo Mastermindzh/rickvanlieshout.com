@@ -38,3 +38,6 @@ node_modules
 # only apps should have lockfiles
 npm-shrinkwrap.json
 yarn.lock
+
+# the toolchain uses npm (package-lock.json); bun.lock drifts out of sync
+bun.lock
