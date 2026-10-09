@@ -20,7 +20,7 @@ Strong believer in pragmatic engineering, continuous improvement and technology 
 ## Highlights
 
 - Chief Technology Officer at Frontliners
-- Grew engineering organisation from 5–7 developers to 30+ engineers
+- Grew the internal engineering organisation from 5 to over 30 engineers, while leading a broader engineering operation that at its peak involved more than 50 engineers, including offshore teams.
 - Leading development of TFX, a next-generation transport management platform for international logistics operations
   - Architectural direction independently validated through multiple external technical reviews
 - Built and scaled modern Kubernetes-based event-driven architecture
