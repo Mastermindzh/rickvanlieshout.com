@@ -4,7 +4,7 @@ template: "page"
 ---
 
 <div class="resume-print-header">
-  <img src="/content/me.png" alt="Rick van Lieshout" />
+  <img src="/content/me-real-512x512.jpg" alt="Rick van Lieshout" />
   <div>
     <div class="resume-print-header__name">Rick van Lieshout</div>
     <div class="resume-print-header__bio">CTO · Software Architect · Engineering Leader</div>

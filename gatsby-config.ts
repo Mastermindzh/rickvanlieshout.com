@@ -159,7 +159,7 @@ export default {
         short_name: config.title,
         theme_color: "hsl(31, 92%, 62%)",
         background_color: "hsl(0, 0%, 100%)",
-        icon: "content/me.png",
+        icon: "static/content/me-real-512x512.jpg",
         display: "standalone",
         start_url: "/",
       },
