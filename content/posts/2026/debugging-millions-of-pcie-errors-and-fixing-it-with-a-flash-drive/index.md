@@ -1,6 +1,6 @@
 ---
 title: "Debugging millions of PCIe errors on my Linux server with a USB stick"
-date: "2026-10-20"
+date: "2026-10-23"
 template: "post"
 category: "homelab"
 tags:
@@ -11,7 +11,6 @@ tags:
   - "thunderbolt"
   - "troubleshooting"
 description: "My Ubuntu server was generating millions of PCIe errors. A USB-C flash drive helped me trace the problem to runtime power management and find a simple workaround."
-socialImage: ./media/debugging-pcie-errors.png
 ---
 
 **TL;DR:** One of my Ubuntu servers was generating millions of PCIe AER errors involving an Intel Thunderbolt 5 controller, I found out after it hung. Plugging a USB-C flash drive into the machine stopped the errors immediately and unplugging brought them back. After some experimentation, I found that disabling runtime power management stopped the errors without the use of the USB drive. The workaround is simple, and from what I understood mainstream kernel devs are working on it so I'm considering it fixed for now.
