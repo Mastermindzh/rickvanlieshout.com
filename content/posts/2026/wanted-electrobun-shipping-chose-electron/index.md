@@ -23,16 +23,12 @@ And honestly? That attracted me.
 
 People love complaining about Electron applications shipping half a browser with every app. Personally, I’ve always thought that criticism was slightly overblown. RAM exists to be used, and modern desktop applications are expected to behave like modern applications. Still, the idea of a lightweight filesystem-first desktop app built on Bun sounded genuinely interesting.
 
-So I gave it a shot.
-
-At first, it actually went pretty well.
-
-Then I tried to ship it.
+So I gave it a shot and at first, it actually went pretty well.
+Then I tried to ship it...
 
 ## The Reality Of Desktop Applications
 
 One thing became painfully clear very quickly:
-
 Building a desktop application is not the hard part anymore. **Shipping** one is.
 
 Packaging, updating, shortcuts, desktop integration, installers, Linux distributions, release channels, runtime quirks, auto-updates, platform conventions... _that_ is the real product surface of a desktop application.
@@ -43,9 +39,10 @@ Not because it was fundamentally bad. In fact, the runtime itself was perfectly 
 The problem was that I kept ending up in runtime land instead of product land.
 
 Issues looked like product bugs but turned out to be packaging problems.
-Or updater problems.
-Or launcher problems.
-Or Linux runtime problems.
+
+- Or updater problems.
+- Or launcher problems.
+- Or Linux runtime problems.
 
 Every single one costs time, every single one is annoying.
 
@@ -65,7 +62,7 @@ Electrobun felt ideologically aligned with that.
 - Bun tooling.
 - No Chromium baggage.
 
-And architecturally, it fit extremely well. And it also delivered on speed, the filesystem was fast without me applying any efficiency standards. It truly felt well.
+And architecturally, it fit extremely well. And it also delivered on speed, the filesystem was fast without me applying any efficiency standards. It truly felt well. (spoiler: as soon as Electron entered, I had to do a bunch of performance related optimizations)
 
 One of the best decisions I made early on was separating the runtime shell from the actual application logic.<br />
 The project structure looked roughly like this:
@@ -109,6 +106,7 @@ Windows especially became a rabbit hole of custom glue code and weird packaging 
 I ended up maintaining:
 
 - custom launcher scripts
+- custom window/taskbar icons
 - bundled `bin/bun`
 - bundled runtime files
 - zstd-compressed payloads
@@ -116,10 +114,7 @@ I ended up maintaining:
 - update archive handling
 - custom extraction logic
 
-And the frustrating part is:
-
-none of this had anything to do with [Skillful](https://github.com/mastermindzh/skillful) itself.
-
+And the frustrating part is that none of this had anything to do with [Skillful](https://github.com/mastermindzh/skillful) itself.
 I wasn't building features anymore.
 I wasn't building infrastructure around the runtime.
 
@@ -132,10 +127,9 @@ That difference matters far more than people think.
 
 Eventually I switched the project back to Electron.
 
-Not because Electron was elegant.
-Not because Electron was lightweight.
+Not because Electron was elegant. <br />
+Not because Electron was lightweight. <br />
 But because Electron made the difficult parts boring again.
-
 And boring infrastructure is one of the best things you can have.
 
 Using [electron-builder](https://www.electron.build/index.html), a single configuration now produces:
@@ -190,7 +184,7 @@ Error invoking remote method 'rpc:call':
 ```
 
 Which sounds harmless.
-Except the domain-specific error transport depended on a sentinel existing at the start of `error.message`.
+Except the domain-specific error transport depended on a sentinel (known piece of text) existing at the start of `error.message`.
 So suddenly the custom `AppError` rehydration stopped working.
 
 The fix itself was hilariously small:
@@ -205,31 +199,23 @@ became:
 indexOf(...) >= 0
 ```
 
-One-line fix.
+A one-line fix. But the important part was the lesson:
 
-But the important part was the lesson:
+> runtime-specific bugs absolutely exist, and the only reason I caught this one was because I ran tests against the actual packaged runtime.
 
-runtime-specific bugs absolutely exist, and the only reason I caught this one was because I ran tests against the actual packaged runtime.
-
-Not just unit tests.
-
-Real packaged application tests.
-
+Not just unit tests. Real packaged application tests.
 Without that, I probably would have shipped it without the fix first.
 
 ## The Runtime Seam Saved me
 
 The best thing to come out of the Electrobun experiment was honestly the runtime abstraction layer.
-
 Switching runtimes ended up taking about a single evening.
 
 Not because Electron migration is inherently easy, but because the architecture isolated the runtime shell from the actual application.
 
-The domain layer stayed untouched.
-
-The renderer stayed mostly untouched.
-
-The filesystem model stayed untouched.
+- The domain layer stayed untouched.
+- The renderer stayed mostly untouched.
+- The filesystem model stayed untouched.
 
 The only things rewritten were:
 
@@ -285,7 +271,6 @@ boring started sounding really, really attractive.
 ### Would I Use Electrobun Again?
 
 Honestly?
-
 Yes, probably.
 
 Despite everything in this post, I actually still like the idea behind Electrobun a lot.
@@ -294,7 +279,7 @@ The runtime itself was not the problem. In many ways it was refreshingly straigh
 
 But desktop applications are judged on the parts _around_ the runtime.
 
-Users do not care what JavaScript engine powers your application.
+Users do not care what JavaScript engine powers your application. (just look at teams, slack, vscode)
 They care whether:
 
 - installing works
@@ -319,7 +304,7 @@ Not:
 
 That may be technically acceptable for developers, but it is not acceptable for mainstream desktop software.
 The moment your installer story becomes custom, you inherit years of operational complexity yourself.<br />
-Electron ecosystems solved this years ago.
+Electron ecosystems solved this years ago and gives users what they need whilst electron-builder makes it easy for the dev too.
 
 #### Desktop Integration Needs To Be Assumed
 
@@ -358,6 +343,8 @@ then we've effectively lost the entire original value proposition.
 The whole reason I explored Electrobun was to avoid shipping massive browser runtimes in the first place.
 
 Once we start reintroducing pieces of Chromium manually, things become very difficult to justify operationally.
+And I can simply not accept this, Linux isn't an afterthought, it's a valid platform to ship to.
+As long as Electronbun doesn't fix this, I will not use it.
 
 ### The Ecosystem Needs Time
 
@@ -376,9 +363,7 @@ Which means:
 - desktop conventions are well understood
 
 Electrobun simply has not had time to accumulate that maturity yet.
-That is normal.<br />
-I think the project has potential.
-I genuinely do.
+That is normal.<br /> But I do think the project has potential. I genuinely do.
 
 But for Skillful, where reliable releases mattered more than runtime ideology, maturity beat elegance.
 And right now, Electron is still overwhelmingly the more mature choice.
