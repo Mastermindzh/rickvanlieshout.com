@@ -13,104 +13,23 @@ description: "What Skillful is, why I built it, and how I use it to manage reusa
 socialImage: "./media/skillful.png"
 ---
 
-A few weeks ago I started building a tool called Skillful.
+A few weeks ago I started building Skillful because reusing my AI workflows had become more work than it should have been. I had prompts in ChatGPT and Cursor, notes in Obsidian, and markdown files scattered across repositories. The screenshots and helper scripts that went with them were often somewhere else entirely.
 
-It didn’t start as a product idea.
+Getting a workflow into another tool usually meant copying it, finding the supporting files and putting everything back together. After a few rounds of that, I had several slightly different versions and no easy way to tell which one contained my latest changes.
 
-It started as friction.
+I wanted a place to manage those workflows and make them available to the tools I already used. That became Skillful.
 
-## The Problem: AI Workflows are everywhere and nowhere
+## Keeping a workflow together
 
-If you use AI tools regularly, you probably recognise this:
+In Skillful, each skill or agent is a folder on disk. It holds the instructions along with whatever makes them useful: notes, examples, screenshots, scripts or metadata. Keeping those pieces together means I can work on the whole workflow without hunting through old conversations or unrelated repositories.
 
-- prompts live in ChatGPT
-- some live in Cursor
-- some are buried in Obsidian
-- some are in random `.md` files
-- screenshots live somewhere else entirely and you copy-paste them into your prompt when required
-- helper scripts are in a repo you forgot about
+Skillful manages the links between that folder and the tools where I want to use it. The folder remains the source, so an improvement to the instructions is available wherever I've linked the skill.
 
-Everything works… until you try to reuse it.
-Or worse, until you try to **share it across tools**.
+This also keeps the library independent of the app. I can edit the files in my usual editor, version them with Git and share them with someone else. If I stop using Skillful, the work I've put into those files is still available to me.
 
-That’s where things fall apart.
+## How I use it
 
-You end up copying the same workflow five times:
-
-- once for ChatGPT
-- once for Cursor
-- once for a markdown note
-- once for a repo
-- once for “just in case”
-
-And now you have five slightly different versions.
-
-None of them are “the source of truth”.
-
-## The Idea: Files as the Source Of Truth
-
-Skillful is built around a very simple idea:
-
-> Your workflows should just be files.
-
-Not a database.
-Not a SaaS backend.
-Not tied to a single tool.
-
-Just files on disk.
-
-Each “skill” or “agent” is a folder.
-
-Inside that folder you can have:
-
-- prompts
-- markdown notes
-- screenshots
-- helper scripts
-- metadata
-
-And that folder becomes the **single source of truth**.
-
-From there, Skillful handles:
-
-- installing it into tools (Cursor, VS Code, etc.)
-- linking everything together
-- keeping things in sync
-
-No copies.
-No drift.
-
-## Filesystem-First By Design
-
-This is probably the most important architectural choice.
-
-Skillful is filesystem-first.
-
-That means:
-
-- your data stays on your machine
-- no accounts
-- no sync service
-- no telemetry
-- no lock-in
-
-If Skillful disappears tomorrow, your files are still there.
-
-You can open them with any editor.
-Version them with Git.
-Move them anywhere.
-
-Skillful is just a layer on top.
-
-Not a dependency.
-
-## How I Actually Use It
-
-The easiest way to understand Skillful is through usage.
-
-### 1. Create A Skill
-
-I start with a folder:
+For an API review workflow, I might start with a folder like this:
 
 ```txt
 skills/
@@ -121,152 +40,20 @@ skills/
     scripts/
 ```
 
-Inside `SKILL.md` lives the actual prompt I use.
-`notes.md` contains context, edge cases, things I learned.
+`SKILL.md` contains the instructions I want the AI to follow. I use `notes.md` for context and edge cases I've encountered, then add sample inputs, expected outputs or helper scripts as I need them.
 
-Sometimes I add:
+Once the skill is ready, I use Skillful to install it into the tools I work with, such as Codex or Claude. That installation links back to the source folder. When a review reveals something the instructions missed, I update the original and use the revised version next time, whichever linked tool I'm working in.
 
-- sample inputs
-- expected outputs
-- helper scripts
+If an installation breaks, I can repair it in Skillful or remove the link and install it again. The source files stay in place throughout.
 
-That folder becomes a reusable unit.
+Over time, this has changed how I approach prompts. I spend more time refining workflows I've already used and less time reconstructing them from memory. Keeping them in Git also lets me review changes and share a workflow together with the examples and context behind it.
 
-### 2. Link It To Tools
+## A local library alongside my tools
 
-Skillful lets me “install” that skill into different tools.
+I still use editors, chat tools and notes for their own purposes. Skillful handles the practical work of keeping reusable workflows organised and available across those environments.
 
-Instead of copying the prompt, it links it.
+The library stays on my machine, with no cloud dependency, hidden sync or background services. I can manage it offline and choose how to back it up or share it. That suits the way I already work with code and documentation, and it keeps the setup straightforward.
 
-So:
+That's the problem I wanted Skillful to solve: making the workflows I put time into easier to use again. If you've found yourself maintaining the same prompt in several places, you can take a look at [Skillful](https://skillful.md).
 
-- Codex sees it
-- Claude sees it
-- other tools see it
-- updates propagate automatically
-
-Change the file once, everything updates.
-
-That’s the key difference.
-
-### 3. Reuse Everywhere
-
-Now the same workflow can be used:
-
-- inside editors
-- inside AI tools
-- inside scripts
-- inside repos
-
-Without duplication.
-
-Without drift.
-
-## One Source, Every Tool
-
-One thing I didn’t expect initially is how valuable this becomes over time.
-
-Once you have a growing library of skills:
-
-- you stop rewriting prompts
-- you start refining them
-- you start composing them
-- you start trusting them
-
-And because everything is file-based, it’s trivial to:
-
-- version control them
-- share them
-- review them
-- evolve them
-
-It starts feeling less like prompts and more like actual software.
-
-## Why Not Just Use Notion / ChatGPT / X?
-
-Because those tools are not designed for reuse across environments.
-
-They are designed for:
-
-- interaction
-- storage
-- sometimes collaboration
-
-But not for:
-
-- cross-tool installation
-- filesystem ownership
-- reproducibility
-- composability
-
-Skillful is not trying to replace those tools.
-
-It sits next to them.
-
-It makes the workflows portable.
-
-## Break-Proof Installs
-
-One small but important feature is how installs behave.
-
-Instead of copying files into tools, Skillful links them.
-
-That means:
-
-- no duplication
-- no stale versions
-- no mystery bugs from “which version is this?”
-
-And if something breaks?
-
-You can repair it in a click.
-
-Or just delete and re-link.
-
-Because the source is always your folder.
-
-## Your Library, Your Disk
-
-This is probably the most important part philosophically.
-
-Skillful does not own your data.
-
-You do.
-
-There is:
-
-- no cloud dependency
-- no vendor lock-in
-- no hidden sync
-- no background services
-
-Everything stays local.
-
-Which also means:
-
-- it works offline
-- it’s fast
-- it’s predictable
-
-## Final Thoughts
-
-Skillful isn’t trying to be a massive platform.
-
-It’s trying to solve one very specific problem:
-
-> How do I make AI workflows reusable without losing control over them?
-
-For me, the answer ended up being surprisingly simple:
-
-Files.
-
-Plain files.
-On disk.
-As the source of truth.
-
-Everything else builds on top of that.
-If that resonates with how you work, you can check it out here: [Skillful](https://skillful.md)
-
-And if nothing else, maybe it gives you a different way to think about managing your own workflows.
-
-![snap promotional image](./media/snapcraft.png)
+![Skillful promotional image on Snapcraft](./media/snapcraft.png)
