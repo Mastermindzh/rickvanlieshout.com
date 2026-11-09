@@ -45,3 +45,9 @@ $shadow: 0px -1px 5px rgba(50, 50, 50, 0.75);
     color: $color-primary;
   }
 }
+
+@media print {
+  .cookieBar {
+    display: none;
+  }
+}

@@ -3,28 +3,9 @@ title: "Resume"
 template: "page"
 ---
 
-<div class="resume-print-header">
-  <img src="/content/me-real-512x512.jpg" alt="Rick van Lieshout" />
-  <div>
-    <div class="resume-print-header__name">Rick van Lieshout</div>
-    <div class="resume-print-header__bio">CTO · Software Architect · Engineering Leader</div>
-  </div>
-</div>
+I build the teams and technology that help businesses move forward. As a CTO, Tech Lead, software architect or general engineering leader, I combine hands-on technical depth with a people-first leadership approach, developing engineers and engineering leaders while using technology pragmatically to solve business problems.
 
-CTO, software architect and engineering leader with a passion for building both software and the teams behind it. Experienced in growing engineering organisations, defining technical strategy and delivering business-critical platforms from concept to production.
-
-My background combines hands-on software engineering with leadership, allowing me to operate comfortably at both strategic and technical levels. I enjoy solving complex organisational and architectural challenges, coaching engineers and leaders, and creating environments where people can do their best work.
-
-Strong believer in pragmatic engineering, continuous improvement and technology as a means to solve business problems rather than an end goal in itself.
-
-## Highlights
-
-- Chief Technology Officer at Frontliners
-- Grew the internal engineering organisation from 5 to over 30 engineers, while leading a broader engineering operation that at its peak involved more than 50 engineers, including offshore teams.
-- Leading development of TFX, a next-generation transport management platform for international logistics operations
-  - Architectural direction independently validated through multiple external technical reviews
-- Built and scaled modern Kubernetes-based event-driven architecture
-- Active contributor to open-source projects and developer tooling
+In my last role as CTO at Frontliners, I built the engineering organisation into specialised product, platform and integration teams, and led the modernisation of large parts of the legacy platform. That work brought TFX into production across international Royal Den Hartogh operations and moved delivery from releases every two months to daily CI/CD. Alongside the technology, I focused on hiring, developing engineers and giving teams the direction and ownership to deliver.
 
 ## Work experience
 
@@ -32,29 +13,36 @@ Strong believer in pragmatic engineering, continuous improvement and technology 
 
 <div class="entry">
 
-### Chief Technology Officer <span class="period">*CTO since 2023 · Frontliners since 2016*</span>
+### Chief Technology Officer <span class="period">2016–2026 · CTO since 2022</span>
 
 <div class="company">Frontliners (INFORIT)</div>
 
-As CTO of Frontliners, I am responsible for technical strategy, software architecture and engineering leadership across the organisation.
+**Career progression:** Software Architect (2018) → Lead Software Architect (2019) → Tech Lead (2020) → CTO (2022).
 
-One of the key initiatives during my tenure has been the transition from a legacy platform with significant scalability and maintainability challenges to a modern cloud-native architecture built around Kubernetes, event-driven systems and domain-driven design principles. The platform is currently being rolled out internationally as the next-generation Transport Management System (TFX) for the [Royal Den Hartogh](https://www.denhartogh.com/home) organisation.
+Responsible for technical strategy, software architecture and engineering leadership. Led the transition from a legacy platform with significant scalability and maintainability challenges to a modern cloud-native, event-driven architecture built around Kubernetes, Kafka and domain-driven design.
 
-Alongside the technical transformation, I have helped grow the engineering organisation from a small team of 5 developers working on a single product into multiple specialised teams covering product development, platform engineering and business integrations. Today, the engineering organisation consists of more than 30 engineers working across several disciplines.
+TFX, the next-generation Transport Management System for [Royal Den Hartogh](https://www.denhartogh.com/home), is in production and rolling out internationally, progressively replacing legacy capabilities. Independent external technical reviews supported architectural improvement and confidence in the long-term direction.
 
-The platform and architecture have undergone multiple external & independent technical reviews, reinforcing confidence in the long-term architectural direction while helping guide continuous improvement efforts.
+#### Leadership, strategy & delivery
 
-#### Selected responsibilities
+- Owned the entire technical roadmap and partnered with the CPO on integrated planning of functional and technical priorities, balancing short-term business goals with longer-term technical investment.
+- Held responsibility for engineering budgets, vendor selection, hiring, performance reviews, salary decisions, coaching and technical strategy.
+- Grew engineering from 5 to 30 internal engineers across multiple teams, developing three chapter leads to take on direct team leadership responsibilities. At its peak, the wider operation involved more than 50 engineers including offshore teams.
+- Upskilled engineers and teams to help them adapt to the company's new technical direction and ways of working.
+- Increased delivery predictability through feature flags, rapid day-one patches and repeatable automated releases, replacing extensive manual runbooks for routine updates.
+- Coached engineers through technical and behavioural challenges, combining constructive feedback, mentoring and sustained support to achieve meaningful improvements in performance and collaboration.
+- Enabled new users to contribute meaningfully from day one through guided workflows, role-based permissions and human checks for safety-critical dangerous-goods operations; previously onboarding took weeks.
+- Embedded security in the design, with rotating penetration tests and responsibility for managing ISO 27001 certification.
 
-- Technical strategy and architecture
-- Engineering leadership and organisational growth
-- Hiring, coaching and mentoring engineers and leaders
-- Platform modernisation and cloud adoption
-- Security, operational excellence and software quality
+#### Teams & technologies
 
-#### Key technologies
+The engineering organisation included the following teams. I played an active technical role in product development, business integration and platform engineering, alongside leadership responsibility for the legacy teams.
 
-.NET, TypeScript, React, Kubernetes, Kafka, PostgreSQL, MongoDB, Elasticsearch, Supabase, ArgoCD, Terraform, Vault and Keycloak
+- **Product development:** three Scrum teams of 6–8 people, with chapter leads handling day-to-day people management. **Technologies and practices:** React, Docker, .NET, MongoDB, Kafka, domain-driven design and CQRS.
+- **Business integration:** established the initial architecture, moved from a database-first to a function-first approach and hired a senior engineer to lead the team. A key goal was to upskill two legacy engineers in modern TypeScript tooling. **Technologies:** Supabase, Deno, Node, Kysely and PostgreSQL.
+- **Platform engineering:** **Technologies:** Kubernetes, Terraform, ArgoCD, CI/CD pipelines, Vault and Keycloak.
+- **Legacy team (ASP.NET):** **Technologies:** ASP.NET, Microsoft SQL Server, MongoDB and Elasticsearch.
+- **Legacy team (Clarion):** **Technologies:** Clarion and Sybase SQL.
 
 </div>
 
@@ -62,7 +50,7 @@ The platform and architecture have undergone multiple external & independent tec
 
 ### Research & Applied Machine Learning (side initiative) <span class="period">2019</span>
 
-Alongside my role as CTO, I contributed to a research initiative focused on antisense oligonucleotide therapy. The work involved applying machine learning and data-analysis techniques to biological datasets, exploring predictive modelling and sequence-related analysis using Python and Scala.
+Alongside my work at Frontliners, I contributed to a research initiative focused on antisense oligonucleotide therapy. The work involved applying machine learning and data-analysis techniques to biological datasets, exploring predictive modelling and sequence-related analysis using Python and Scala.
 
 The project was conducted in collaboration with external researchers and focused on investigating how modern AI/ML techniques could support future developments in antisense therapy and bioinformatics-related research.
 
@@ -72,17 +60,7 @@ The project was conducted in collaboration with external researchers and focused
 
 ### Solidwinds developer <span class="period">2015 - 2016</span>
 
-Set up an architecture and started implementation for a scalable metrics collection system for windmill location scouting.
-
-This involved collecting data from windmill sensor towers on old IOT-scale equipment, aggregating the results to prove that the chosen location was profitable and sustainable enough to place a proper windmill.
-
-</div>
-
-<div class="entry">
-
-### Open-source aficionado <span class="period">Always</span>
-
-A significant portion of my personal work is published as open source. I enjoy building tools, experimenting with new technologies and sharing solutions with the wider community. Most projects can be found on [Github](https://github.com/mastermindzh), ranging from developer tooling to full applications and infrastructure-related work.
+Architected and began implementing a scalable metrics collection system for wind-turbine location scouting. Gathered data from IoT-scale sensor towers and aggregated it to assess the profitability and sustainability of potential wind-farm locations.
 
 </div>
 
@@ -94,7 +72,7 @@ A significant portion of my personal work is published as open source. I enjoy b
 
 Supported HAN University of Applied Sciences through teaching, demonstrations and student-facing events.
 
-Activities included introducing prospective students to software engineering and emerging technologies, as well as teaching introductory classes covering Java, .NET, PostgreSQL and professional English.
+Taught professional English and cloud technology (Docker), alongside introductory classes in Java, .NET and PostgreSQL. Gave demonstrations and organised student-facing events, introducing prospective students to software engineering and emerging technologies including 3D printers, IoT devices and a laser cutter.
 
 </div>
 
@@ -120,10 +98,9 @@ Several solutions remained in active use for years and were either maintained pe
 
 ### HBO ICT / software engineering <span class="period">2014 - 2018</span>
 
-<div class="company">HAN — Hogeschool van Arnhem en Nijmegen</div>
+<div class="company">HAN - Hogeschool van Arnhem en Nijmegen</div>
 
-I enrolled in college to obtain my software engineering degree.
-I finished my first year with an average of 8.3/10 and graduated in 2018 with an average of 8/10 again.
+Graduated in 2018 with an average of 8.0/10; first-year average 8.3/10.
 
 </div>
 
@@ -139,52 +116,70 @@ The dashboard itself enabled detailed insight into the vastly complex agricultur
 
 </div>
 
+<div class="entry">
+
+### Bilingual Senior General Secondary Education <span class="period">2005–2010</span>
+
+<div class="company">Maaslandcollege, Oss</div>
+
+</div>
+
 </div>
 
 ## Training
 
-I'll list some of the training courses I've had whilst working.
-Some of these have (official) certificates, some don't, but all have brought value and knowledge.
+Professional training includes both certified and non-certified courses.
 
 - Domain Driven Design [Vijfhart](./DDD-vijfhart.pdf)
 - Young Executive Program (YEP) - [De Baak](https://debaak.nl/trainingen/young-executives-program)
 - Hiring & interview training ([icm.nl](https://www.icm.nl/opleidingen-en-trainingen/hrm/selectiegesprekken-voeren/))
 - Conversation techniques & de-escalation ([TIJDwinst.com](https://gesprekstechnieken.com/cursus-gesprekstechnieken/)).
 - Kubernetes (NobleProg Certification Kubernetes on Azure (AKS), 26 August 2019 - 27 August 2019)
+- SEEBURGER B2B integration
 
 ## Skills & Technologies
 
-### Leadership & Organisation
+### Leadership & strategy
 
-- Engineering leadership
-- Team building, coaching & mentoring
-- Hiring & performance management
-- Stakeholder management
-- Technical strategy
-- Agile product development
+Engineering organisations; technical roadmaps; budgets; hiring, compensation and performance management; vendor and stakeholder management; coaching, mentoring and teaching; agile product development.
 
-### Architecture & Platforms
+### Architecture & delivery
 
-- Domain-driven design
-- Event-driven architecture
-- Distributed systems
-- Modular monoliths & microservices
-- Cloud-native platforms
-- Observability & operational excellence
+Domain-driven design; event-driven and distributed systems; modular monoliths and microservices; cloud-native modernisation; CI/CD; feature flags; observability; operational excellence; Infrastructure as Code.
 
-### Technologies
+### Languages & application development
 
-- .NET
-- TypeScript / JavaScript
-- React & Angular
-- Docker & Kubernetes
-- Kafka & RabbitMQ
-- PostgreSQL, MongoDB & Elasticsearch
-- Linux & Shell scripting
+.NET / C#; TypeScript and JavaScript; React and Angular; Python and Scala for research and data analysis; Linux and shell scripting.
 
-### AI & Developer Productivity
+### Cloud, infrastructure & security
 
-- AI-assisted software development
-- OpenAI, Claude & Codex
-- Developer tooling & automation
-- Prompt engineering & workflow design
+Docker; Kubernetes; Terraform; Atlantis; ArgoCD; Vault; Keycloak; Azure & Google Cloud;
+
+### Data, messaging & search
+
+- **Relational databases:** PostgreSQL, SQLite, MariaDB, Microsoft SQL Server, and Sybase SQL.
+- **Other databases:** MongoDB, Neo4J, and FerretDB.
+- **Messaging & event streaming:** Kafka and RabbitMQ.
+- **Search & analytics:** Elasticsearch and Kibana, Grafana, and Signoz.
+
+### AI & developer productivity
+
+AI-assisted development with Hermes, OpenAI, Claude, Copilot and Codex; developer tooling and automation; prompt engineering and workflow design with n8n and scheduled jobs.
+
+## Selected projects
+
+### Burgerszoo interactive scouting expedition <span class="period">November 2017 – January 2018</span>
+
+Designed, built and tested an interactive scouting expedition with fellow students for a zoo in the Netherlands. Six NFC scanning points played facts when scanned, with content configurable by staff through a React web interface.
+
+### han4pi <span class="period">September 2015 – July 2018</span>
+
+Designed and built a learning module for elementary school students. The code is available on [GitHub](https://github.com/Mastermindzh/han4pi).
+
+### Quintor bulk-mail <span class="period">April 2016 – June 2016</span>
+
+Worked on a Scrum project to build a bulk-mail system for Quintor customers and affiliates to reduce the administrative team's workload.
+
+## Open source & technical writing
+
+A significant portion of my personal work is published as open source. I enjoy building tools, experimenting with new technologies and sharing solutions with the wider community. My [GitHub projects](https://github.com/Mastermindzh) range from developer tooling to full applications and infrastructure-related work. I also share technical experience and discoveries in [articles on this website](/).

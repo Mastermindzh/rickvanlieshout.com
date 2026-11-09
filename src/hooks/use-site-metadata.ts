@@ -9,6 +9,8 @@ const useSiteMetadata = () => {
             bio
             name
             photo
+            location
+            phoneDisplay
             contacts {
               rss
               line

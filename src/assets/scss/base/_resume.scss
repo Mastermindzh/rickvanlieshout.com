@@ -5,12 +5,6 @@
 // and the date line that follows (rendered as <strong><em>...</em></strong><br />),
 // and give the date a subtle, secondary appearance.
 .page-resume {
-  // The personal-info table is written in markdown without real headers,
-  // which produces an empty <thead> with bordered <th>s. Hide it.
-  table thead {
-    display: none;
-  }
-
   // Section headings (## Work experience, ## Education, ## Projects, ...)
   // get a subtle underline so they read as clear section breaks.
   h2 {
@@ -53,7 +47,7 @@
     font-weight: 500;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    white-space: nowrap;
+    white-space: normal;
   }
 
   // From the small breakpoint up there's plenty of room to keep the
@@ -160,210 +154,214 @@
     @include margin-bottom(0.6);
   }
 
-  // Print-only header (avatar + name + bio) shown at the top of the
-  // resume page when printing. Hidden on screen.
-  .resume-print-header {
-    display: none;
-  }
-}
+  .resume-header {
+    border-bottom: 1px solid $color-gray-border;
+    @include margin-bottom(1);
 
-@media print {
-  // Sensible page margins + page numbers in the bottom-right corner.
-  // Note: @page named margin boxes are honoured by Firefox and paged-media
-  // tools (e.g. Paged.js, weasyprint). Chromium ignores them silently, so
-  // this is a progressive enhancement.
-  @page {
-    margin: 1.5cm 1.6cm;
-
-    @bottom-right {
-      color: #666;
-      content: "Page " counter(page) " of " counter(pages);
-      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
-      font-size: 9pt;
-    }
-
-    @top-left {
-      color: #666;
-      content: "Rick van Lieshout — Resume";
-      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
-      font-size: 9pt;
-    }
-  }
-
-  .page-resume {
-    // Print-only header at the top of the resume.
-    .resume-print-header {
+    &__identity {
       align-items: center;
-      border-bottom: 1px solid $color-gray-border;
-      display: flex;
-      gap: 1.25rem;
-      padding-bottom: 0.85rem;
-      @include margin-bottom(2);
+      display: none;
+      flex-wrap: wrap;
+      gap: 1rem;
 
       img {
         border-radius: 50%;
-        flex: 0 0 auto;
         height: 110px;
         margin: 0;
         object-fit: cover;
         width: 110px;
       }
 
-      .resume-print-header__name {
-        font-size: $typographic-base-font-size * 1.6;
-        font-weight: 600;
-        line-height: 1.2;
-      }
-
-      .resume-print-header__bio {
-        color: $color-gray;
-        font-size: $typographic-base-font-size;
-        line-height: 1.3;
+      p {
+        margin: 0;
       }
     }
 
-    // Compact the "Resume" page title so it doesn't eat half a page
-    h1 {
+    &__name {
       font-size: $typographic-base-font-size * 1.6;
-      @include margin-top(0);
-      @include margin-bottom(0.5);
+      font-weight: 600;
+    }
+
+    &__details {
+      align-items: flex-start;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      justify-content: space-between;
+      padding-bottom: 1.25rem;
+    }
+
+    &__contacts {
+      display: grid;
+      gap: 0.35rem 1rem;
+      grid-template-columns: auto minmax(0, 1fr);
+      margin: 0;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+
+      dt {
+        color: $color-gray;
+        font-weight: normal;
+      }
+
+      dd {
+        margin: 0;
+      }
+    }
+
+    &__profiles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 1rem;
+    }
+
+    &__download {
+      border: 1px solid currentcolor;
+      border-radius: 0.25rem;
+      display: inline-block;
+      font-size: $typographic-small-font-size;
+      padding: 0.5rem 0.75rem;
+
+      &:hover,
+      &:focus-visible {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+
+@media print {
+  @page {
+    margin: 15mm 16mm;
+  }
+
+  body.page-resume {
+    background: #fff;
+    color: #222;
+
+    h1 {
+      display: none;
+    }
+
+    div.page-resume {
+      font-size: 10.5pt;
+      line-height: 1.4;
     }
 
     h2 {
-      @include margin-top(1);
-      @include margin-bottom(0.25);
-      // Slightly thinner underline on paper
-      border-bottom-width: 0.5pt;
-      // Start each major section on a new page break boundary if needed,
-      // but never split the heading from its content.
-      padding-bottom: 0.15rem;
+      border-color: #aaa;
       break-after: avoid;
+      color: #222;
+      font-size: 14pt;
+      line-height: 1.2;
+      margin: 16pt 0 7pt;
+      padding-bottom: 4pt;
     }
 
-    h3 {
-      @include margin-top(0.75);
-      // In print, drop the brand color in favor of plain ink
-      color: inherit;
-      break-after: avoid;
-    }
-
+    h3,
     h4 {
-      @include margin-top(0.5);
       break-after: avoid;
+      color: #222;
+      font-size: 11.5pt;
+      line-height: 1.3;
+      margin: 12pt 0 5pt;
     }
 
-    p,
-    li {
+    p {
+      margin: 0 0 7pt;
       orphans: 3;
       widows: 3;
     }
 
+    h2 + p {
+      break-after: avoid;
+    }
+
     ul,
     ol {
-      break-inside: avoid;
-      page-break-inside: avoid;
-    }
-
-    h2#highlights + ul,
-    h2#highlights + ul ul {
       break-inside: auto;
-      page-break-inside: auto;
+      margin: 5pt 0 9pt;
+      padding-left: 15pt;
     }
 
-    // Tighten the personal-info table
-    table {
-      width: 100%;
-      @include margin-top(0.5);
-      @include margin-bottom(0.5);
-
-      td {
-        padding: 0.15rem 0.5rem;
-      }
+    li {
+      break-inside: avoid;
+      margin-bottom: 4pt;
     }
 
-    // In print, the personal-info table links are redundant with the
-    // labels (website, phone, email) — render them as plain ink.
-    table a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    // Body links print as plain text — labels and surrounding context
-    // make the destination clear; underlines add visual noise.
     a {
       color: inherit;
       text-decoration: none;
     }
 
-    // Force the Skills & Technologies section onto a new page so the
-    // long bullet list never gets split (or pushed onto a half-empty
-    // continuation page).
-    h2[id*="skills" i] {
-      break-before: page;
-      page-break-before: always;
+    .period {
+      color: #555;
+      flex-basis: auto;
+      font-size: 9pt;
+      letter-spacing: normal;
+      text-transform: none;
     }
 
-    // Work experience is the longest section and currently spills over
-    // a half-page after Skills. Start it on a fresh page so it gets
-    // a clean run.
-    h2[id*="work-experience" i],
-    h2#education {
-      break-before: page;
-      page-break-before: always;
+    .company {
+      break-after: avoid;
+      color: #444;
+      font-size: 9pt;
+      margin: 0 0 7pt;
     }
 
-    // Timeline on paper: browsers strip background-image from print
-    // (`print-color-adjust: economy`), so the screen line vanishes.
-    // Switch to a real dashed border-left, which always prints, and
-    // turn the dots into small filled circles so they read as ruler
-    // ticks rather than hollow rings that lose their blue "pop".
     .timeline {
-      padding-left: 1.25rem;
+      margin-top: 0;
+      padding-left: 0;
     }
 
     .entry {
-      padding-bottom: 0.45rem;
-
-      // Replace the gradient line with a printable dashed border.
-      &::before {
-        background: none;
-        border-left: 1px dashed #888;
-        left: calc(-1.25rem + 4px);
-        opacity: 1;
-        print-color-adjust: exact;
-        width: 0;
-      }
-
-      // End tick: tiny filled grey dot, same idea as on screen.
-      // print-color-adjust forces the background to actually ink —
-      // browsers strip backgrounds from print by default.
-      &::after {
-        background: #888;
-        border: 0;
-        bottom: 0.55rem;
-        height: 5px;
-        left: calc(-1.25rem + 2px);
-        opacity: 1;
-        print-color-adjust: exact;
-        width: 5px;
-      }
+      margin-bottom: 12pt;
+      padding-bottom: 0;
     }
 
-    // Start tick: small filled ink dot — confident on paper without
-    // relying on the blue ring's colour.
+    .entry::before,
+    .entry::after,
     .timeline h3::before {
-      background: #333;
-      border: 0;
-      height: 7px;
-      left: calc(-1.25rem + 1px);
-      print-color-adjust: exact;
-      width: 7px;
+      display: none;
     }
 
-    // Company line on paper: plain ink, same weight to keep hierarchy.
-    .company {
-      color: inherit;
+    .resume-header {
+      break-inside: avoid;
+      margin-bottom: 12pt;
+      padding-bottom: 7pt;
+
+      &__identity {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 12pt;
+
+        img {
+          height: 60pt;
+          width: 60pt;
+        }
+      }
+
+      &__name {
+        font-size: 20pt;
+        line-height: 1.2;
+      }
+
+      &__details {
+        display: block;
+        padding: 0;
+      }
+
+      &__contacts {
+        font-size: 9pt;
+        gap: 3pt 10pt;
+        margin: 9pt 0 0;
+        padding: 0;
+      }
+
+      &__download {
+        display: none;
+      }
     }
   }
 }
-

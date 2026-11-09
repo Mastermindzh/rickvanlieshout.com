@@ -45,7 +45,7 @@
     "bio": "CTO, software architect and engineering leader focused on building great software, growing teams and solving complex technical challenges.",
     "contacts": {
       "email": "info@rickvanlieshout.com",
-      "github": "mastermindzh",
+      "github": "Mastermindzh",
       "facebook": "mastermindzh",
       "rss": "/rss.xml",
       "twitter": "mastermindzh",
@@ -60,6 +60,8 @@
       "codepen": "",
       "soundcloud": "",
       "phone": "+31614436562"
-    }
+    },
+    "location": "Oss, Netherlands",
+    "phoneDisplay": "+31 6 14436562"
   }
 }
